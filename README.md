@@ -29,8 +29,8 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
 
   - [`RNASeq_Preprocessing.R`](Scripts/RNASeq_Preprocessing.R): preprocessing of gene count matrix and metadata; outputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds) and [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_Manuscript_Text.R`](Scripts/RNASeq_Manuscript_Text.R): generation of results presented in manuscript text and Table 1; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds) and [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
-  - [`RNASeq_DESeq2.R`](Scripts/RNASeq_DESeq2.R): DESeq2 models for differential expression analyses of upper respiratory and peripheral blood samples; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds) and [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
-  - [`RNASeq_Modules.R`](Scripts/RNASeq_Modules.R): gene set enrichment analyses for upper respiratory and peripheral blood samples using FGSEA; inputs: [`modules_61.gmt`](Data_Files/nCounter_Host_Response/modules_61.gmt) and DESeq2 output files
+  - [`RNASeq_DESeq2.R`](Scripts/RNASeq_DESeq2.R): DESeq2 models for differential expression analyses; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds) and [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
+  - [`RNASeq_Modules.R`](Scripts/RNASeq_Modules.R): gene set enrichment analyses using FGSEA; inputs: [`modules_61.gmt`](Data_Files/nCounter_Host_Response/modules_61.gmt) and DESeq2 output files
   - [`RNASeq_Figure1.R`](Scripts/RNASeq_Figure1.R): Figure 1; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds) and [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds) and FGSEA output files
   - [`RNASeq_Figure2.R`](Scripts/RNASeq_Figure2.R): Figure 2; inputs: DESeq2 and FGSEA output files
   - [`RNASeq_Figure3.R`](Scripts/RNASeq_Figure3.R): Figure 3; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds) and [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds) and FGSEA output files
