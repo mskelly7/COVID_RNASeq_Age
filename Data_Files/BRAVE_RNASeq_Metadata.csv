@@ -1,0 +1,330 @@
+alias_sequencing_id,alias_study_id,SampleTiming,SampleType,year,study,hospital,batch_num,RIN,age,age_cat,sex,race,hispanic,corona,group,clinical_pcr,research_pcr,vl_copies,vaccine_doses,timing_sx,timing_dx,comorbidity,obesity,asthma,pulm_oth,htn,cardiac_oth,diabetes,neuro,renal,cancer,immuno,symptoms_any,fever,cough,rhinorrhea,congestion
+025CBE.M0.PAX,025CBE,healthy,pax,2021,messi,N,6849,6,83.7,Adult,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,N,N,N,Y,Y,N,N,N,Y,N,N,N,N,N,N
+0719FA.M0.PAX,0719FA,acute,pax,2020,messi,N,7466,7.6,27.6,Adult,M,Unknown,No,Positive,POS_SX,Not Tested,Positive,528000,0,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,Y,Y,Y,N
+0BF51C.M0.PAX,0BF51C,acute,pax,2020,messi,N,6849,7.3,44.5,Adult,F,White,No,Positive,POS_SX,Not Tested,Positive,522257212,0,3,NA,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+0BF51C.M6.PAX,0BF51C,healthy,pax,2020,messi,N,6849,6.5,44.5,Adult,F,White,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+0E1ECA.M0.PAX,0E1ECA,healthy,pax,2020,messi,N,6849,8,46,Adult,M,White,Unknown,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+18EF5E.M0.PAX,18EF5E,acute,pax,2020,messi,N,7466,7.7,28.6,Adult,M,White,No,Positive,POS_SX,Not Tested,Positive,42425,0,3,NA,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+1AC6B8.M0.PAX,1AC6B8,healthy,pax,2021,messi,N,6849,7.2,60.1,Adult,M,White,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+1E06CA.M0.PAX,1E06CA,healthy,pax,2020,messi,N,6849,3.4,47.2,Adult,F,White,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+234BBF.M0.PAX,234BBF,acute,pax,2020,messi,N,7466,7.4,40.7,Adult,F,White,No,Positive,POS_SX,Not Tested,Positive,21544041,0,3,NA,Y,N,N,N,Y,N,N,N,N,N,N,Y,N,N,Y,Y
+322088.M0.PAX,322088,healthy,pax,2021,messi,N,6849,6.3,79.8,Adult,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+3B441F.M0.PAX,3B441F,acute,pax,2020,messi,N,6849,6.7,48.8,Adult,F,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,2540000,0,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,N,N,N,N,N
+496933.M0.PAX,496933,acute,pax,2020,messi,N,6849,6.8,25.8,Adult,M,White,No,Positive,POS_SX,Not Tested,Positive,537929,0,0,NA,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+58A568.M0.PAX,58A568,acute,pax,2020,messi,N,6849,8.2,18.7,14-20 years,F,White,Yes,Positive,POS_SX,Not Tested,Positive,66412028,0,3,NA,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+6AA2F7.M0.PAX,6AA2F7,acute,pax,2020,messi,N,6849,6.7,65.8,Adult,M,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,811000,0,NA,5,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N,N
+71549F.M0.PAX,71549F,acute,pax,2020,messi,N,7466,7.9,61.4,Adult,F,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,218246,0,6,NA,Y,Y,N,N,Y,N,N,N,N,N,Y,Y,N,Y,Y,Y
+72C971.M0.PAX,72C971,acute,pax,2020,messi,N,7466,6,51.1,Adult,M,White,Yes,Positive,POS_SX,Not Tested,Positive,2.49E+08,0,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,Y,Y,Y,Y
+7D880A.M0.PAX,7D880A,acute,pax,2020,messi,N,7466,7.7,45.8,Adult,M,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,24603,0,7,NA,Y,N,N,Y,N,Y,N,N,N,N,N,Y,Y,Y,Y,N
+826E5F.M0.PAX,826E5F,healthy,pax,2020,messi,N,6849,7.8,38.1,Adult,F,Asian,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,Y,NA,N,Y,N,N,N,N,N,N,N,N,N,N,N,N
+830937.M0.PAX,830937,healthy,pax,2020,messi,N,6849,7.7,53.4,Adult,M,White,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+8867DF.M0.PAX,8867DF,acute,pax,2020,messi,N,7466,7.4,59,Adult,F,White,No,Positive,POS_SX,Not Tested,Positive,7174029,0,3,NA,Y,Y,N,N,Y,Y,N,N,N,N,N,Y,N,Y,Y,Y
+88732B.M0.PAX,88732B,healthy,pax,2020,messi,N,6849,7.8,44.1,Adult,F,Black or African-American,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+88B192.M0.PAX,88B192,acute,pax,2020,messi,N,7466,7.6,34.8,Adult,F,White,No,Positive,POS_SX,Not Tested,Positive,154000,0,5,NA,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+AB9A75.M0.PAX,AB9A75,healthy,pax,2020,messi,N,6849,7.2,43.8,Adult,M,White,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ABD53F.M0.PAX,ABD53F,acute,pax,2020,messi,N,7466,7.1,42.4,Adult,F,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,1549,0,4,NA,Y,NA,N,N,Y,N,N,N,N,N,N,Y,Y,Y,Y,Y
+AC9270.M0.NSB,AC9270,acute,np,2020,brave,N,6629,6.2,6.93,6-13 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+AC9270.M0.PAX,AC9270,acute,pax,2020,brave,N,6629,7.8,6.93,6-13 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+AJ2232.M0.NSB,AJ2232,acute,np,2020,brave,N,6629,5,20.59,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,142794,0,5,4,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+AJ2232.M0.PAX,AJ2232,acute,pax,2020,brave,N,6629,7.5,20.59,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,142794,0,5,4,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+AO5787.M0.NSB,AO5787,acute,np,2020,brave,N,7466,3.1,16.37,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,17783,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+AO5787.M0.PAX,AO5787,acute,pax,2020,brave,N,7466,8.5,16.37,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,17783,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+AO9858.M0.PAX,AO9858,acute,pax,2020,brave,N,7466,8,10.52,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,224,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+AR3216.M0.NSB,AR3216,acute,np,2020,brave,N,6351,5.9,8.75,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,3271,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+AR3216.M0.PAX,AR3216,acute,pax,2020,brave,N,6351,7.2,8.75,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,3271,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+AU4133.M0.NSB,AU4133,acute,np,2020,brave,N,7466,6.4,11.41,6-13 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+AU4133.M0.PAX,AU4133,acute,pax,2020,brave,N,7466,7.8,11.41,6-13 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+AY8549.M0.NSB,AY8549,acute,np,2020,brave,N,6351,7.2,14.26,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Negative,Positive,137596,0,5,6,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,Y,N
+AY8549.M0.PAX,AY8549,acute,pax,2020,brave,N,6351,8.8,14.26,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Negative,Positive,137596,0,5,6,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,Y,N
+B1FE00.M0.PAX,B1FE00,healthy,pax,2021,messi,N,6849,9,48,Adult,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+B33581.M6.PAX,B33581,healthy,pax,2020,messi,N,6849,7.4,51.3,Adult,M,White,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,N,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+B480DD.M0.PAX,B480DD,acute,pax,2020,messi,N,7466,7.2,39.9,Adult,F,White,No,Positive,POS_SX,Not Tested,Positive,4531994,0,3,NA,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y
+BO7420.M0.NSB,BO7420,acute,np,2020,brave,N,7466,5.9,14.08,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,7498,0,5,6,Y,Y,N,N,Y,N,N,N,N,N,N,Y,Y,Y,N,N
+BO7420.M0.PAX,BO7420,acute,pax,2020,brave,N,7466,7.1,14.08,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,7498,0,5,6,Y,Y,N,N,Y,N,N,N,N,N,N,Y,Y,Y,N,N
+BO9315.M0.NSB,BO9315,acute,np,2020,brave,N,7466,7,1.91,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,4,2,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+BO9315.M0.PAX,BO9315,acute,pax,2020,brave,N,7466,8.3,1.91,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,4,2,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+BT4345.M0.NSB,BT4345,acute,np,2020,brave,N,6351,5,17.13,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,0,1,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N
+BT4345.M0.PAX,BT4345,acute,pax,2020,brave,N,6351,8.3,17.13,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,0,1,Y,Y,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N
+C1F457.M0.PAX,C1F457,acute,pax,2020,messi,N,6849,5.3,60.7,Adult,M,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,170952,0,NA,0,Y,N,N,Y,N,N,N,N,N,N,Y,N,N,N,N,N
+C5190E.M0.PAX,C5190E,healthy,pax,2020,messi,N,6849,8,32.2,Adult,M,Black or African-American,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+C6A33E.M0.PAX,C6A33E,acute,pax,2020,messi,N,7466,7.9,34.1,Adult,M,White,No,Positive,POS_SX,Not Tested,Positive,34091,0,3,NA,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,Y
+CC8448.M0.NSB,CC8448,acute,np,2020,brave,N,7845,8.5,6.77,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Not Tested,NA,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+CC8448.M0.PAX,CC8448,acute,pax,2020,brave,N,7845,8.2,6.77,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Not Tested,NA,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+CN2955.M0.PAX,CN2955,acute,pax,2020,brave,N,6629,7.5,18.86,14-20 years,F,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,341254760,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CN8830.M0.NSB,CN8830,acute,np,2021,brave,N,7845,6.9,10.45,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Not Tested,NA,0,NA,NA,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CN8830.M0.PAX,CN8830,acute,pax,2021,brave,N,7845,8.8,10.45,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Not Tested,NA,0,NA,NA,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CP6021.M0.NSB,CP6021,acute,np,2020,brave,N,7845,8.3,16.66,14-20 years,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CP6021.M0.PAX,CP6021,acute,pax,2020,brave,N,7845,8.4,16.66,14-20 years,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CQ0962.M0.NSB,CQ0962,acute,np,2020,brave,N,6629,4.9,2.26,0-5 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CQ0962.M0.PAX,CQ0962,acute,pax,2020,brave,N,6629,1.6,2.26,0-5 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CW9613.M0.NSB,CW9613,acute,np,2020,brave,N,6629,4.6,0.8,0-5 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+CW9613.M0.PAX,CW9613,acute,pax,2020,brave,N,6629,8.8,0.8,0-5 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+D11595.M0.PAX,D11595,acute,pax,2020,messi,N,7466,7.5,35.5,Adult,F,Asian,No,Positive,POS_SX,Not Tested,Positive,1370000,0,4,NA,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+D30537.M0.PAX,D30537,acute,pax,2020,messi,N,6849,7.8,46.1,Adult,F,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,14065111,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+D47359.M0.PAX,D47359,acute,pax,2020,messi,N,7466,7.4,28.3,Adult,F,More than one race,Yes,Positive,POS_SX,Not Tested,Positive,20500,0,6,NA,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+D48DAF.M0.PAX,D48DAF,acute,pax,2020,messi,N,6849,6.9,19,14-20 years,M,White,No,Positive,POS_SX,Not Tested,Positive,6361145,0,2,NA,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+D95609.M0.PAX,D95609,acute,pax,2020,messi,N,7466,7.6,50,Adult,M,White,No,Positive,POS_SX,Not Tested,Positive,5380000,0,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Y,Y,Y,N,Y
+DA8A0E.M0.PAX,DA8A0E,healthy,pax,2021,messi,N,6849,7.3,53.6,Adult,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,NA,N,N,N,N,N,N,N,N,Y,N,N,N,N,N
+DD1781.M0.PAX,DD1781,acute,pax,2020,brave,N,6629,NA,20.36,14-20 years,M,White,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+DH5958.M0.NSB,DH5958,acute,np,2020,brave,N,6351,7,8.39,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+DH5958.M0.PAX,DH5958,acute,pax,2020,brave,N,6351,8.3,8.39,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+DK2656.M0.PAX,DK2656,acute,pax,2020,brave,N,7466,8.3,20.81,14-20 years,F,White,No,Positive,POS_SX,Positive,Positive,4281,0,1,3,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y
+DN4608.M0.NSB,DN4608,acute,np,2020,brave,N,7466,6.2,16.98,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,4,0,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+DN4608.M0.PAX,DN4608,acute,pax,2020,brave,N,7466,7.9,16.98,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,4,0,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y
+DU0506.M0.PAX,DU0506,acute,pax,2020,brave,N,7466,8.5,4.75,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,7404209,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+DU3535.M0.NSB,DU3535,acute,np,2020,brave,N,6351,6,18.11,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+DU3535.M0.PAX,DU3535,acute,pax,2020,brave,N,6351,8.2,18.11,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+DW7012.M0.NSB,DW7012,acute,np,2020,brave,N,7466,8.2,15,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,2,1,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+DW7012.M0.PAX,DW7012,acute,pax,2020,brave,N,7466,8.9,15,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,2,1,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+DY4620.M0.NSB,DY4620,acute,np,2020,brave,N,6629,5.4,17.25,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,9560836,0,1,1,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+DY4620.M0.PAX,DY4620,acute,pax,2020,brave,N,6629,8.2,17.25,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,9560836,0,1,1,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+E24969.M0.PAX,E24969,acute,pax,2020,messi,N,7466,7,56.8,Adult,M,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,98988,0,0,NA,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+E410D2.M0.PAX,E410D2,acute,pax,2020,messi,N,7466,7.5,50.3,Adult,M,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,5863021,0,0,NA,Y,Y,N,N,Y,N,N,N,N,N,N,Y,Y,Y,N,Y
+E48FF4.M0.PAX,E48FF4,acute,pax,2020,messi,N,7845,5.7,53.9,Adult,M,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,NA,0,NA,NA,Y,Y,N,Y,Y,Y,N,N,N,N,N,Y,N,Y,N,N
+ED1053.M0.NSB,ED1053,acute,np,2020,brave,N,6629,8.2,13.49,6-13 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ED1053.M0.PAX,ED1053,acute,pax,2020,brave,N,6629,NA,13.49,6-13 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+EE8681.M0.PAX,EE8681,acute,pax,2020,brave,N,7466,7.6,19.49,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,36464268,0,3,3,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+EF9688.M0.NSB,EF9688,acute,np,2020,brave,N,6351,3.7,4.49,0-5 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+EF9688.M0.PAX,EF9688,acute,pax,2020,brave,N,6351,8.2,4.49,0-5 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+EL1974.M0.NSB,EL1974,acute,np,2020,brave,N,7845,8.5,11.44,6-13 years,M,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+EL1974.M0.PAX,EL1974,acute,pax,2020,brave,N,7845,8.3,11.44,6-13 years,M,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+ET5122.M0.PAX,ET5122,acute,pax,2020,brave,N,7466,8.4,5.44,0-5 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+EW5232.M0.NSB,EW5232,acute,np,2020,brave,N,7845,7.3,14.88,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+EW5232.M0.PAX,EW5232,acute,pax,2020,brave,N,7845,8.4,14.88,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+EY5612.M0.NSB,EY5612,acute,np,2020,brave,N,6351,2.8,1.79,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,35,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+EY5612.M0.PAX,EY5612,acute,pax,2020,brave,N,6351,8.3,1.79,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,35,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+F126CE.M0.PAX,F126CE,acute,pax,2020,messi,N,7466,7.3,67.8,Adult,M,American Indian-Alaska Native,No,Positive,POS_SX,Not Tested,Positive,20308,0,0,NA,Y,N,N,Y,N,N,N,N,N,N,N,Y,N,N,N,N
+F9170E.M0.PAX,F9170E,acute,pax,2020,messi,N,7466,6.9,28.2,Adult,F,White,Yes,Positive,POS_SX,Not Tested,Positive,1.36E+08,0,3,NA,Y,N,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y
+FB7566.M0.NSB,FB7566,acute,np,2020,brave,N,6629,5.9,11.87,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FB7566.M0.PAX,FB7566,acute,pax,2020,brave,N,6629,8.2,11.87,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FC0633.M0.NSB,FC0633,acute,np,2020,brave,N,6629,6.8,4.96,0-5 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FC0633.M0.PAX,FC0633,acute,pax,2020,brave,N,6629,7.1,4.96,0-5 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FE81C5.M0.PAX,FE81C5,healthy,pax,2020,messi,N,6849,7.9,45,Adult,F,Asian,No,Negative,NEG_ASX,Not Tested,Not Tested,NA,0,NA,NA,Y,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N
+FF8FCF.M0.PAX,FF8FCF,acute,pax,2020,messi,N,7845,6.5,55.1,Adult,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FW9252.M0.NSB,FW9252,acute,np,2020,brave,N,6629,6.7,12.29,6-13 years,F,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,3241,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FW9252.M0.PAX,FW9252,acute,pax,2020,brave,N,6629,7.4,12.29,6-13 years,F,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,3241,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FX0877.M0.PAX,FX0877,acute,pax,2020,brave,N,6849,8.6,14.7,14-20 years,F,White,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N,N,N
+FX9488.M0.NSB,FX9488,acute,np,2020,brave,N,6629,6.3,17.93,14-20 years,F,White,No,Positive,POS_ASX,Not Tested,Positive,152153511,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+FX9488.M0.PAX,FX9488,acute,pax,2020,brave,N,6629,8.1,17.93,14-20 years,F,White,No,Positive,POS_ASX,Not Tested,Positive,152153511,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+GN5032.M0.NSB,GN5032,acute,np,2020,brave,N,6629,7.5,0.59,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,60432493,0,6,7,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+GN5032.M0.PAX,GN5032,acute,pax,2020,brave,N,6629,8.1,0.59,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,60432493,0,6,7,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+GS1960.M0.NSB,GS1960,acute,np,2020,brave,N,7466,7.5,15.64,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,195,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+GS1960.M0.PAX,GS1960,acute,pax,2020,brave,N,7466,8.2,15.64,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,195,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+GT7397.M0.NSB,GT7397,acute,np,2020,brave,N,6351,6.7,0.02,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,562917297,0,NA,1,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+GT7397.M0.PAX,GT7397,acute,pax,2020,brave,N,6351,8.6,0.02,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,562917297,0,NA,1,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+GW5371.M0.NSB,GW5371,acute,np,2020,brave,N,6629,5.7,15.32,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,1402162,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+GW5371.M0.PAX,GW5371,acute,pax,2020,brave,N,6629,8,15.32,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,1402162,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+HE8769.M0.NSB,HE8769,acute,np,2020,brave,N,7466,8.8,1.44,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Negative,Positive,688637,0,NA,2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+HE8769.M0.PAX,HE8769,acute,pax,2020,brave,N,7466,6.1,1.44,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Negative,Positive,688637,0,NA,2,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+HF2521.M0.PAX,HF2521,acute,pax,2020,brave,N,6629,NA,5.39,0-5 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+HP1718.M0.NSB,HP1718,acute,np,2020,brave,N,6629,5.9,12.1,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,364307273,0,0,0,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+HP1718.M0.PAX,HP1718,acute,pax,2020,brave,N,6629,8.3,12.1,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,364307273,0,0,0,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+HR2557.M0.NSB,HR2557,acute,np,2020,brave,N,6351,5.8,16.9,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,130084,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+HR2557.M0.PAX,HR2557,acute,pax,2020,brave,N,6351,8.6,16.9,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,130084,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+HU8221.M0.PAX,HU8221,acute,pax,2020,brave,N,6849,7.9,12.51,6-13 years,F,Black or African-American,No,Positive,POS_ASX,Positive,Positive,6767,0,NA,5,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+HY4957.M0.NSB,HY4957,acute,np,2020,brave,N,6629,7.4,16.02,14-20 years,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+IG7453.M0.PAX,IG7453,acute,pax,2021,brave,N,7845,8.2,6.51,6-13 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+IJ0554.M0.NSB,IJ0554,acute,np,2020,brave,N,6351,4.4,5.83,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,85,0,NA,7,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+IJ0554.M0.PAX,IJ0554,acute,pax,2020,brave,N,6351,9.1,5.83,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,85,0,NA,7,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+IM4862.M0.NSB,IM4862,acute,np,2020,brave,N,6351,4.4,18.73,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,2817,0,10,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+IM4862.M0.PAX,IM4862,acute,pax,2020,brave,N,6351,8.6,18.73,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,2817,0,10,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+IO2962.M0.NSB,IO2962,acute,np,2020,brave,N,7845,6.2,13.79,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+IO2962.M0.PAX,IO2962,acute,pax,2020,brave,N,7845,8.3,13.79,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+IR5536.M0.NSB,IR5536,acute,np,2020,brave,N,6629,8.1,17.82,14-20 years,M,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,10649378,0,1,0,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y
+IR5536.M0.PAX,IR5536,acute,pax,2020,brave,N,6629,7.9,17.82,14-20 years,M,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,10649378,0,1,0,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y
+IT0931.M0.PAX,IT0931,acute,pax,2020,brave,N,7466,7.5,13.78,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,1722,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+IT4990.M0.NSB,IT4990,acute,np,2020,brave,N,7466,6.3,18.49,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,414,0,4,2,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+IT4990.M0.PAX,IT4990,acute,pax,2020,brave,N,7466,8.3,18.49,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,414,0,4,2,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+JI3265.M0.NSB,JI3265,acute,np,2020,brave,N,6351,7,3.46,0-5 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+JI3265.M0.PAX,JI3265,acute,pax,2020,brave,N,6351,8.5,3.46,0-5 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+JV7184.M0.NSB,JV7184,acute,np,2020,brave,N,6629,8.1,12.29,6-13 years,F,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,2794270,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+JV7184.M0.PAX,JV7184,acute,pax,2020,brave,N,6629,8.5,12.29,6-13 years,F,Black or African-American,No,Positive,POS_ASX,Not Tested,Positive,2794270,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KA9831.M0.NSB,KA9831,acute,np,2020,brave,N,6351,5,3.89,0-5 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+KA9831.M0.PAX,KA9831,acute,pax,2020,brave,N,6351,8.5,3.89,0-5 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+KI0978.M0.PAX,KI0978,acute,pax,2020,brave,N,6629,7.3,20.18,14-20 years,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KL0666.M0.NSB,KL0666,acute,np,2020,brave,N,7845,8.1,9.4,6-13 years,F,Black or African-American,No,Positive,POS_SX,Not Tested,Positive,306166598,0,0,0,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,Y,Y
+KN1525.M0.NSB,KN1525,acute,np,2020,brave,N,6351,2.3,7.86,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KN1525.M0.PAX,KN1525,acute,pax,2020,brave,N,6351,8.2,7.86,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KQ7168.M0.NSB,KQ7168,acute,np,2020,brave,N,6629,5.6,9.28,6-13 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KQ7168.M0.PAX,KQ7168,acute,pax,2020,brave,N,6629,7.9,9.28,6-13 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KR3482.M0.NSB,KR3482,acute,np,2020,brave,N,6351,5,19.48,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,4345,0,7,8,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N
+KR3482.M0.PAX,KR3482,acute,pax,2020,brave,N,6351,7.9,19.48,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,4345,0,7,8,Y,N,Y,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N
+KV1465.M0.NSB,KV1465,acute,np,2020,brave,N,7466,5.8,8.9,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KV1465.M0.PAX,KV1465,acute,pax,2020,brave,N,7466,7.3,8.9,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+KZ6310.M0.NSB,KZ6310,acute,np,2020,brave,N,6351,6.7,17.57,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,1,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+KZ6310.M0.PAX,KZ6310,acute,pax,2020,brave,N,6351,8.9,17.57,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,1,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+LB8121.M0.NSB,LB8121,acute,np,2020,brave,N,6351,7,15.75,14-20 years,M,Black or African-American,No,Positive,POS_SX,Positive,Positive,272615,0,5,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+LB8121.M0.PAX,LB8121,acute,pax,2020,brave,N,6351,7.5,15.75,14-20 years,M,Black or African-American,No,Positive,POS_SX,Positive,Positive,272615,0,5,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+LF3604.M0.NSB,LF3604,acute,np,2020,brave,N,6351,5,14.72,14-20 years,F,Black or African-American,No,Positive,POS_SX,Positive,Positive,885,0,11,5,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+LF3604.M0.PAX,LF3604,acute,pax,2020,brave,N,6351,7.9,14.72,14-20 years,F,Black or African-American,No,Positive,POS_SX,Positive,Positive,885,0,11,5,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+LG0250.M0.NSB,LG0250,acute,np,2020,brave,N,6629,3.4,11.54,6-13 years,M,White,No,Positive,POS_SX,Positive,Positive,11550,0,5,5,Y,N,N,N,N,N,N,N,Y,N,N,Y,Y,N,N,N
+LG0250.M0.PAX,LG0250,acute,pax,2020,brave,N,6629,8.7,11.54,6-13 years,M,White,No,Positive,POS_SX,Positive,Positive,11550,0,5,5,Y,N,N,N,N,N,N,N,Y,N,N,Y,Y,N,N,N
+LG1702.M0.NSB,LG1702,acute,np,2020,brave,N,6351,7,3.98,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Negative,Positive,745,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+LG1702.M0.PAX,LG1702,acute,pax,2020,brave,N,6351,8.2,3.98,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Negative,Positive,745,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+LH4091.M0.NSB,LH4091,acute,np,2020,brave,N,6629,7.9,10.67,6-13 years,F,White,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N
+LH4091.M0.PAX,LH4091,acute,pax,2020,brave,N,6629,7.8,10.67,6-13 years,F,White,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,Y,N,N,N,N,N,N,N,N
+LL792.M0.NSB,LB7792,acute,np,2020,brave,N,6629,7.9,13.49,6-13 years,M,White,No,Positive,POS_ASX,Not Tested,Positive,228155,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+LL792.M0.PAX,LB7792,acute,pax,2020,brave,N,6629,8.1,13.49,6-13 years,M,White,No,Positive,POS_ASX,Not Tested,Positive,228155,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+LO7091.M0.PAX,LO7091,acute,pax,2020,brave,N,7466,8.2,10.61,6-13 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MB0117.M0.NSB,MB0117,acute,np,2020,brave,N,6351,7.6,12.77,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Negative,0,0,NA,13,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+MB0117.M0.PAX,MB0117,acute,pax,2020,brave,N,6351,8.2,12.77,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Negative,0,0,NA,13,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+MC2708.M0.NSB,MC2708,acute,np,2020,brave,N,7466,5,18.51,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,4982,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MC2708.M0.PAX,MC2708,acute,pax,2020,brave,N,7466,7.3,18.51,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,4982,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MH6120.M0.NSB,MH6120,acute,np,2020,brave,N,6351,6.8,7.48,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,6,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+MH6120.M0.PAX,MH6120,acute,pax,2020,brave,N,6351,8.5,7.48,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,6,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+MI4012.M0.NSB,MI4012,acute,np,2020,brave,N,6629,8.1,14.08,14-20 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MI4012.M0.PAX,MI4012,acute,pax,2020,brave,N,6629,7.1,14.08,14-20 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MK4460.M0.NSB,MK4460,acute,np,2020,brave,N,6351,4.2,16.53,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,62,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MK4460.M0.PAX,MK4460,acute,pax,2020,brave,N,6351,8.4,16.53,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,62,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ML5199.M0.NSB,ML5199,acute,np,2020,brave,N,7466,9,14.06,14-20 years,F,White,No,Positive,POS_ASX,Negative,Positive,132082447,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ML5199.M0.PAX,ML5199,acute,pax,2020,brave,N,6849,8.3,14.06,14-20 years,F,White,No,Positive,POS_ASX,Negative,Positive,132082447,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MS0072.M0.NSB,MS0072,acute,np,2020,brave,N,6629,3.6,13.9,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,4307166,0,5,2,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+MS0072.M0.PAX,MS0072,acute,pax,2020,brave,N,6629,8.5,13.9,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,4307166,0,5,2,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+MT0776.M0.NSB,MT0776,acute,np,2020,brave,N,7466,5.4,2.72,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,4841,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MT0776.M0.PAX,MT0776,acute,pax,2020,brave,N,7466,6.1,2.72,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,4841,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MW3235.M0.NSB,MW3235,acute,np,2020,brave,N,7466,6.6,14.02,14-20 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N
+MW3235.M0.PAX,MW3235,acute,pax,2020,brave,N,7466,7.5,14.02,14-20 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,Y,N,N,N,N,N,N,N,N
+MZ2666.M0.NSB,MZ2666,acute,np,2020,brave,N,6351,5,18.26,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,5980,0,NA,5,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+MZ2666.M0.PAX,MZ2666,acute,pax,2020,brave,N,6351,8.7,18.26,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,5980,0,NA,5,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+NH5340.M0.NSB,NH5340,acute,np,2020,brave,N,7845,7.3,15.07,14-20 years,M,Black or African-American,No,Positive,POS_SX,Positive,Positive,145604,0,3,5,Y,N,Y,N,Y,N,N,N,N,N,N,Y,N,Y,N,N
+NK1464.M0.NSB,NK1464,acute,np,2020,brave,N,7466,7.2,11.54,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,81045,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+NK1464.M0.PAX,NK1464,acute,pax,2020,brave,N,7466,8.5,11.54,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,81045,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+NM9596.M0.NSB,NM9596,acute,np,2020,brave,N,6351,1.8,5.23,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1069136,0,4,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+NM9596.M0.PAX,NM9596,acute,pax,2020,brave,N,6351,8.6,5.23,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1069136,0,4,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+NO7567.M0.NSB,NO7567,acute,np,2020,brave,N,6351,7.9,8.07,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,12282116,0,5,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+NO7567.M0.PAX,NO7567,acute,pax,2020,brave,N,6351,8.6,8.07,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,12282116,0,5,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+NT0329.M0.NSB,NT0329,acute,np,2020,brave,N,6629,2.5,0.78,0-5 years,F,White,No,Positive,POS_SX,Positive,Positive,110,0,5,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N
+NT0329.M0.PAX,NT0329,acute,pax,2020,brave,N,6629,8.8,0.78,0-5 years,F,White,No,Positive,POS_SX,Positive,Positive,110,0,5,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N
+NY5696.M0.NSB,NY5696,acute,np,2020,brave,N,7466,7.1,9.75,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,80027,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+NY5696.M0.PAX,NY5696,acute,pax,2020,brave,N,7466,8.4,9.75,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,80027,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+NZ1261.M0.NSB,NZ1261,acute,np,2020,brave,N,6351,6.6,8.6,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,12,8,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+NZ1261.M0.PAX,NZ1261,acute,pax,2020,brave,N,6351,9.4,8.6,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,12,8,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+OB1593.M0.NSB,OB1593,acute,np,2020,brave,N,6351,5.5,5.33,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Negative,0,0,NA,14,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+OB1593.M0.PAX,OB1593,acute,pax,2020,brave,N,6351,8.6,5.33,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Negative,0,0,NA,14,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+OE2132.M0.PAX,OE2132,acute,pax,2020,brave,N,7466,8.2,12.69,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,4,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+OF4658.M0.NSB,OF4658,acute,np,2020,brave,N,6351,4.6,8.14,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,9759862,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+OF4658.M0.PAX,OF4658,acute,pax,2020,brave,N,6351,8.1,8.14,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,9759862,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+OF7032.M0.NSB,OF7032,acute,np,2020,brave,N,7845,6.5,7.47,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+OF7032.M0.PAX,OF7032,acute,pax,2020,brave,N,7845,8,7.47,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+OH5644.M0.PAX,OH5644,acute,pax,2020,brave,N,7466,8.4,13.19,6-13 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+OK7852.M0.NSB,OK7852,acute,np,2020,brave,N,6351,5.2,1.3,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1101154,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N
+OK7852.M0.PAX,OK7852,acute,pax,2020,brave,N,6351,8.8,1.3,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1101154,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,N
+OM8987.M0.NSB,OM8987,acute,np,2020,brave,N,6629,7.4,18.77,14-20 years,M,Black or African-American,No,Positive,POS_SX,Positive,Positive,882871,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+OM8987.M0.PAX,OM8987,acute,pax,2020,brave,N,6629,7.7,18.77,14-20 years,M,Black or African-American,No,Positive,POS_SX,Positive,Positive,882871,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+ON7836.M0.NSB,ON7836,acute,np,2020,brave,N,6351,6.6,1.79,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,25537111,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ON7836.M0.PAX,ON7836,acute,pax,2020,brave,N,6351,7.5,1.79,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,25537111,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+OQ9062.M0.PAX,OQ9062,acute,pax,2020,brave,N,7845,8.2,46.3,Adult,F,White,No,Positive,POS_SX,Positive,Positive,17546,0,7,3,Y,N,N,N,N,Y,N,N,N,N,N,Y,N,Y,Y,Y
+OT9187.M0.NSB,OT9187,acute,np,2020,brave,N,7466,7.9,11.91,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Not Tested,Positive,2703,0,4,0,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+OT9187.M0.PAX,OT9187,acute,pax,2020,brave,N,7466,7.8,11.91,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Not Tested,Positive,2703,0,4,0,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+OY8888.M0.NSB,OY8888,acute,np,2020,brave,N,6629,4.3,19.81,14-20 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+OY8888.M0.PAX,OY8888,acute,pax,2020,brave,N,6629,6.7,19.81,14-20 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+PA8841.M0.NSB,PA8841,acute,np,2020,brave,N,6351,7.2,6.57,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,115600,0,-2,5,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+PJ4720.M0.NSB,PJ4720,acute,np,2020,brave,N,7466,4.2,3.56,0-5 years,F,Other,No,Positive,POS_SX,Positive,Positive,353229,0,2,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,Y
+PJ4720.M0.PAX,PJ4720,acute,pax,2020,brave,N,7466,7.8,3.56,0-5 years,F,Other,No,Positive,POS_SX,Positive,Positive,353229,0,2,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,Y
+PN6346.M0.NSB,PN6346,acute,np,2020,brave,N,6351,4.3,9.95,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,1,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+PN6346.M0.PAX,PN6346,acute,pax,2020,brave,N,6351,8,9.95,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,1,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+PZ1823.M0.NSB,PZ1823,acute,np,2020,brave,N,7466,4.3,3.04,0-5 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+PZ1823.M0.PAX,PZ1823,acute,pax,2020,brave,N,7466,7.7,3.04,0-5 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+QD5866.M0.PAX,QD5866,acute,pax,2020,brave,N,7466,7.7,8.15,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,12438363,0,NA,2,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+QH3620.M0.NSB,QH3620,acute,np,2020,brave,N,6629,2.7,1.27,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,10925630,0,NA,3,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+QH3620.M0.PAX,QH3620,acute,pax,2020,brave,N,6629,7.9,1.27,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,10925630,0,NA,3,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+QK2775.M0.PAX,QK2775,acute,pax,2020,brave,N,7466,8.1,8.91,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,13869123,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+QR5656.M0.NSB,QR5656,acute,np,2020,brave,N,7466,8.4,17.6,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,1760,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+QR5656.M0.PAX,QR5656,acute,pax,2020,brave,N,7466,8,17.6,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,1760,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+QS9335.M0.NSB,QS9335,acute,np,2020,brave,N,6351,8.7,7.18,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,7,3,Y,Y,Y,N,N,N,N,N,N,N,N,Y,N,N,N,Y
+QS9335.M0.PAX,QS9335,acute,pax,2020,brave,N,6351,9,7.18,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,7,3,Y,Y,Y,N,N,N,N,N,N,N,N,Y,N,N,N,Y
+QW4655.M0.NSB,QW4655,acute,np,2020,brave,N,7466,7.5,11.56,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,0,1,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+QW4655.M0.PAX,QW4655,acute,pax,2020,brave,N,7466,8.1,11.56,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,0,1,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+RF0171.M0.NSB,RF0171,acute,np,2020,brave,N,6351,5.2,17.93,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,19797845,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+RF0171.M0.PAX,RF0171,acute,pax,2020,brave,N,6351,8.2,17.93,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,19797845,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+RI8890.M0.NSB,RI8890,acute,np,2020,brave,N,6351,1.8,19.35,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,105489,0,NA,4,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+RI8890.M0.PAX,RI8890,acute,pax,2020,brave,N,6351,8.4,19.35,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,105489,0,NA,4,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+RK7680.M0.NSB,RK7680,acute,np,2020,brave,N,7845,4,10.58,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+RK7680.M0.PAX,RK7680,acute,pax,2020,brave,N,7845,NA,10.58,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+RU6817.M0.NSB,RU6817,acute,np,2020,brave,N,6351,4.6,13.35,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,10440325,0,4,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+RU6817.M0.PAX,RU6817,acute,pax,2020,brave,N,6351,8.4,13.35,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,10440325,0,4,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,Y
+RX1597.M0.NSB,RX1597,acute,np,2020,brave,N,6351,3.6,5.74,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,2829550767,0,-3,0,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+RX1597.M0.PAX,RX1597,acute,pax,2020,brave,N,6351,9.2,5.74,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,2829550767,0,-3,0,N,N,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+RX3601.M0.NSB,RX3601,acute,np,2020,brave,N,6351,4.2,8.2,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,701,0,NA,7,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+RX3601.M0.PAX,RX3601,acute,pax,2020,brave,N,6351,8.3,8.2,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,701,0,NA,7,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+RX6352.M0.NSB,RX6352,acute,np,2020,brave,N,6629,4.7,9.24,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+RX6352.M0.PAX,RX6352,acute,pax,2020,brave,N,6629,7.6,9.24,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+SC1834.M0.NSB,SC1834,acute,np,2020,brave,N,6629,6.4,14.34,14-20 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+SC1834.M0.PAX,SC1834,acute,pax,2020,brave,N,6629,8.5,14.34,14-20 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+SD0040.M0.NSB,SD0040,acute,np,2020,brave,N,6351,2.9,13.22,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,13216735,0,5,3,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+SD0040.M0.PAX,SD0040,acute,pax,2020,brave,N,6351,8.6,13.22,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,13216735,0,5,3,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+SD2421.M0.NSB,SD2421,acute,np,2020,brave,N,7466,3.6,2.68,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,3520069,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+SD2421.M0.PAX,SD2421,acute,pax,2020,brave,N,7466,7.4,2.68,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,3520069,0,NA,0,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+SE3356.M0.PAX,SE3356,acute,pax,2020,brave,N,7466,8.3,14.35,14-20 years,F,White,No,Positive,POS_SX,Positive,Positive,40392,0,4,4,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N
+SG4756.M0.PAX,SG4756,acute,pax,2020,brave,N,7466,8.3,5.37,0-5 years,M,White,No,Positive,POS_ASX,Positive,Positive,15447260,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TC6050.M0.NSB,TC6050,acute,np,2020,brave,N,7466,4.7,15.64,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TC6050.M0.PAX,TC6050,acute,pax,2020,brave,N,7466,6.7,15.64,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TE7914.M0.NSB,TE7914,acute,np,2020,brave,N,7466,7.5,8.84,6-13 years,F,Black or African-American,No,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,4,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TE7914.M0.PAX,TE7914,acute,pax,2020,brave,N,6849,9,8.84,6-13 years,F,Black or African-American,No,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,4,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TH1406.M0.NSB,TH1406,acute,np,2020,brave,N,7466,4.9,9.27,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,334,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TH1406.M0.PAX,TH1406,acute,pax,2020,brave,N,7466,8.3,9.27,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,334,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TH8758.M0.NSB,TH8758,acute,np,2020,brave,N,7466,4.5,2.82,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1791,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+TH8758.M0.PAX,TH8758,acute,pax,2020,brave,N,7466,8,2.82,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1791,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+TN6246.M0.NSB,TN6246,acute,np,2020,brave,N,6351,5.6,16.76,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,98934,0,9,7,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y
+TN6246.M0.PAX,TN6246,acute,pax,2020,brave,N,6351,8.2,16.76,14-20 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,98934,0,9,7,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,Y
+TV4923.M0.NSB,TV4923,acute,np,2020,brave,N,7466,7.8,11.56,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,5152,0,6,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+TV4923.M0.PAX,TV4923,acute,pax,2020,brave,N,7466,8.5,11.56,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,5152,0,4,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+TW5706.M0.NSB,TW5706,acute,np,2020,brave,N,6351,6.4,12.54,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,20,0,8,7,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+TW5706.M0.PAX,TW5706,acute,pax,2020,brave,N,6351,8.7,12.54,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,20,0,8,7,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+TX5656.M0.NSB,TX5656,acute,np,2020,brave,N,6351,7,11.52,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,2,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+TX5656.M0.PAX,TX5656,acute,pax,2020,brave,N,6351,7.9,11.52,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,2,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+UD7001.M0.NSB,UD7001,acute,np,2020,brave,N,7466,4.6,17.85,14-20 years,M,White,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+UD7001.M0.PAX,UD7001,acute,pax,2020,brave,N,7466,8.4,17.85,14-20 years,M,White,No,Negative,NEG_ASX,Negative,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+UE4555.M0.NSB,UE4555,acute,np,2020,brave,N,6351,5.3,8.48,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,7,9,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+UE4555.M0.PAX,UE4555,acute,pax,2020,brave,N,6351,7.6,8.48,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Negative,0,0,7,9,Y,N,Y,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+UI9611.M0.NSB,UI9611,acute,np,2020,brave,N,6351,8.2,0.57,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,269798,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+UI9611.M0.PAX,UI9611,acute,pax,2020,brave,N,6351,9.2,0.57,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,269798,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+UO2994.M0.NSB,UO2994,acute,np,2020,brave,N,6351,7.2,12.48,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,33,0,9,4,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+UO2994.M0.PAX,UO2994,acute,pax,2020,brave,N,6351,7.7,12.48,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,33,0,9,4,Y,Y,Y,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+UP6626.M0.PAX,UP6626,acute,pax,2020,brave,N,7466,8.1,4.08,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,1057,0,NA,6,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+UY0636.M0.PAX,UY0636,acute,pax,2020,brave,N,6849,8.6,1.09,0-5 years,M,Black or African-American,No,Positive,POS_SX,Positive,Positive,24267181,0,3,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+VA0735.M0.NSB,VA0735,acute,np,2020,brave,N,6351,2,4.99,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,2,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+VA0735.M0.PAX,VA0735,acute,pax,2020,brave,N,6351,8.2,4.99,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,2,2,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+VB2611.M0.NSB,VB2611,acute,np,2020,brave,N,6629,7.4,7.37,6-13 years,M,White,No,Positive,POS_SX,Positive,Positive,181001,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+VB2611.M0.PAX,VB2611,acute,pax,2020,brave,N,6629,8.4,7.37,6-13 years,M,White,No,Positive,POS_SX,Positive,Positive,181001,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+VF7018.M0.NSB,VF7018,acute,np,2020,brave,N,6629,5.6,15.9,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,151744,0,4,6,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N
+VF7018.M0.PAX,VF7018,acute,pax,2020,brave,N,6629,7.6,15.9,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,151744,0,6,6,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N
+VI0592.M0.NSB,VI0592,acute,np,2020,brave,N,6629,5.4,3.58,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,121966,0,4,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+VI0592.M0.PAX,VI0592,acute,pax,2020,brave,N,6629,8.8,3.58,0-5 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,121966,0,4,3,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+VT3754.M0.NSB,VT3754,acute,np,2020,brave,N,7466,4.7,18.33,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,3,1,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+VT3754.M0.PAX,VT3754,acute,pax,2020,brave,N,7466,8.3,18.33,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,3,1,Y,Y,N,N,N,N,N,N,N,N,N,Y,N,Y,N,N
+VV9796.M0.NSB,VV9796,acute,np,2020,brave,N,7466,6.1,16.78,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,141706,0,3,1,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+VV9796.M0.PAX,VV9796,acute,pax,2020,brave,N,7466,7.9,16.78,14-20 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,141706,0,3,1,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,Y,N,N
+VZ0734.M0.NSB,VZ0734,acute,np,2020,brave,N,6351,3.6,10.11,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Negative,Positive,78,0,NA,9,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+VZ0734.M0.PAX,VZ0734,acute,pax,2020,brave,N,6351,8.2,10.11,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Negative,Positive,78,0,NA,9,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+WM7261.M0.NSB,WM7261,acute,np,2020,brave,N,7466,4.9,5.73,0-5 years,M,Black or African-American,No,Positive,POS_ASX,Positive,Positive,535160,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+WM7261.M0.PAX,WM7261,acute,pax,2020,brave,N,7466,7.9,5.73,0-5 years,M,Black or African-American,No,Positive,POS_ASX,Positive,Positive,535160,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+WQ9247.M0.NSB,WQ9247,acute,np,2020,brave,N,6629,5.1,3.03,0-5 years,M,White,No,Positive,POS_SX,Not Tested,Positive,121607,0,4,0,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+WQ9247.M0.PAX,WQ9247,acute,pax,2020,brave,N,6629,7.8,3.03,0-5 years,M,White,No,Positive,POS_SX,Not Tested,Positive,121607,0,4,0,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+XI2762.M0.NSB,XI2762,acute,np,2020,brave,N,6629,1.8,2.82,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Negative,Positive,307410,0,5,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N
+XI2762.M0.PAX,XI2762,acute,pax,2020,brave,N,6629,7.8,2.82,0-5 years,F,Hispanic or Latino,Yes,Positive,POS_SX,Negative,Positive,307410,0,5,6,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,Y,N
+XU1619.M0.NSB,XU1619,acute,np,2020,brave,N,6351,4.6,7.05,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Negative,0,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+XU1619.M0.PAX,XU1619,acute,pax,2020,brave,N,6351,7.8,7.05,6-13 years,F,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Negative,0,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+XW2354.M0.PAX,XW2354,acute,pax,2020,brave,N,7466,8.6,3.62,0-5 years,F,Black or African-American,No,Positive,POS_SX,Positive,Positive,12587693,0,3,4,N,N,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+YD8439.M0.NSB,YD8439,acute,np,2020,brave,N,6629,4.3,16.47,14-20 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+YD8439.M0.PAX,YD8439,acute,pax,2020,brave,N,6629,7.5,16.47,14-20 years,M,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+YH1847.M0.NSB,YH1847,acute,np,2020,brave,N,7845,7.9,9.79,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Not Tested,NA,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+YH1847.M0.PAX,YH1847,acute,pax,2020,brave,N,7845,8.5,9.79,6-13 years,F,Black or African-American,No,Negative,NEG_ASX,Negative,Not Tested,NA,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+YH5235.M0.PAX,YH5235,acute,pax,2020,brave,N,7466,8.2,17.63,14-20 years,F,Black or African-American,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N
+YO0894.M0.NSB,YO0894,acute,np,2020,brave,N,7466,8.1,10.46,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,452812800,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+YO0894.M0.PAX,YO0894,acute,pax,2020,brave,N,7466,8.7,10.46,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Positive,Positive,452812800,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+YX3199.M0.NSB,YX3199,acute,np,2020,brave,N,7845,8.5,14.98,14-20 years,M,Black or African-American,No,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+YX3199.M0.PAX,YX3199,acute,pax,2020,brave,N,7845,8.1,14.98,14-20 years,M,Black or African-American,No,Positive,POS_ASX,Positive,Not Tested,NA,0,NA,5,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZA8926.M0.NSB,ZA8926,acute,np,2020,brave,N,7466,7.8,7.06,6-13 years,M,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZC8626.M0.PAX,ZC8626,acute,pax,2020,brave,N,7466,8.5,9.18,6-13 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZD3287.M0.NSB,ZD3287,acute,np,2020,brave,N,6629,3,0.66,0-5 years,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZD3287.M0.PAX,ZD3287,acute,pax,2020,brave,N,6629,8.5,0.66,0-5 years,F,White,No,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZF0029.M0.NSB,ZF0029,acute,np,2020,brave,N,7466,6.5,6.81,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,982171,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZF0029.M0.PAX,ZF0029,acute,pax,2020,brave,N,7466,8.4,6.81,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_ASX,Not Tested,Positive,982171,0,NA,0,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZO9902.M0.NSB,ZO9902,acute,np,2020,brave,N,6351,7.1,12.41,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1417510,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+ZO9902.M0.PAX,ZO9902,acute,pax,2020,brave,N,6351,9.9,12.41,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Positive,1417510,0,5,5,N,N,N,N,N,N,N,N,N,N,N,Y,N,N,N,N
+ZQ3518.M0.NSB,ZQ3518,acute,np,2020,brave,N,6629,4.9,15.89,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZQ3518.M0.PAX,ZQ3518,acute,pax,2020,brave,N,6629,4.3,15.89,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZQ4859.M0.PAX,ZQ4859,acute,pax,2020,brave,N,7466,7.3,17.8,14-20 years,F,Hispanic or Latino,Yes,Negative,NEG_ASX,Not Tested,Negative,0,0,NA,NA,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+ZY4788.M0.NSB,ZY4788,acute,np,2020,brave,N,6351,6.2,9.38,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,6,2,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
+ZY4788.M0.PAX,ZY4788,acute,pax,2020,brave,N,6351,8.4,9.38,6-13 years,M,Hispanic or Latino,Yes,Positive,POS_SX,Positive,Not Tested,NA,0,6,2,Y,Y,N,N,N,N,N,N,N,N,N,Y,Y,N,N,N
