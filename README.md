@@ -30,3 +30,20 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
 - [`Scripts`](Scripts/)/
 
   - [`RNASeq_Preprocessing.R`](Scripts/RNASeq_Preprocessing.R): preprocessing of gene count matrix and metadata; outputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds) and [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
+  - [`RNASeq_Manuscript_Text.R`](Scripts/RNASeq_Manuscript_Text.R): generation of results presented in manuscript text and Table 1
+  - [`RNASeq_DESeq2.R`](Scripts/RNASeq_DESeq2.R): DESeq2 models for differential expression analyses of upper respiratory and peripheral blood samples
+  - [`RNASeq_Modules.R`](Scripts/RNASeq_Modules.R): gene set enrichment analyses for upper respiratory and peripheral blood samples using FGSEA
+  - [`RNASeq_Figure1.R`](Scripts/RNASeq_Figure1.R): Figure 1
+  - [`RNASeq_Figure2.R`](Scripts/RNASeq_Figure2.R): Figure 2
+  - [`RNASeq_Figure3.R`](Scripts/RNASeq_Figure3.R): Figure 3
+  - [`RNASeq_Figure4.R`](Scripts/RNASeq_Figure4.R): Figure 4
+  - [`RNASeq_Figures5_&_S5.R`](Scripts/RNASeq_Figures5_&_S5.R): Figure 5 and Supplemental Figure 5
+  - [`RNASeq_FigureS1.R`](Scripts/RNASeq_FigureS1.R): Supplemental Figure 1
+  - [`RNASeq_FigureS2.R`](Scripts/RNASeq_FigureS2.R): Supplemental Figure 2
+  - [`RNASeq_FigureS3.R`](Scripts/RNASeq_FigureS3.R): Supplemental Figure 3
+  - [`RNASeq_FigureS4.R`](Scripts/RNASeq_FigureS4.R): Supplemental Figure 4
+
+- [`Output_Files`](Output_Files/)/
+
+  - [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/): results from DESeq2 and FGSEA for analyses of upper respiratory and peripheral blood samples among SARS-CoV-2-uninfected subjects
+  
