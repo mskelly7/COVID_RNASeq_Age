@@ -45,5 +45,8 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
 
 - [`Output_Files`](Output_Files/)/
 
-  - [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/): results from DESeq2 and FGSEA for analyses of upper respiratory and peripheral blood samples among SARS-CoV-2-uninfected subjects
-  
+  - [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/): analyses of SARS-CoV-2-uninfected subjects by age category
+  - [`2_COVID_Pos_vs_Neg`](Output_Files/2_COVID_Pos_vs_Neg/): analyses comparing SARS-CoV-2-infected and uninfected subjects
+  - [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/): analyses of SARS-CoV-2-infected subjects by age
+  - [`4_Symptoms`](Output_Files/4_Symptoms/): analyses of comorbidities and symptoms among SARS-CoV-2-infected subjects
+  - [`5_NP_vs_PAX_Correlations`](Output_Files/5_NP_vs_PAX_Correlations/): analyses for determining correlations between upper respiratory and peripheral blood gene set expression
