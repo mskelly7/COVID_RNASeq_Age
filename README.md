@@ -18,9 +18,9 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
   - [`BRAVE_RNASeq_Data_Dictionary.xlsx`](Data_Files/BRAVE_RNASeq_Data_Dictionary.xlsx): data dictionary defining variables contained in metadata file
   - [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds): phyloseq object containing metadata, gene count matrix, and gene annotations for upper respiratory samples included in manuscript analyses
   - [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds): phyloseq object containing metadata, gene count matrix, and gene annotations for peripheral blood samples included in manuscript analyses
-  - [`LM22.txt`](Data_Files/CIBERSORTx/LM22.txt): LM22 signature matrix
-  - [`LM22_source_GEPs.txt`](Data_Files/CIBERSORTx/LM22_source_GEPs.txt): source GEPs for LM22
-  - [`CIBERSORTx_Results.txt`](Data_Files/CIBERSORTx/CIBERSORTx_Results.txt): output from CIBERSORTx containing imputed immune cell populations
+  - [`LM22.txt`](Data_Files/CIBERSORTx/LM22.txt): LM22 signature matrix (required for CIBERSORTx submission)
+  - [`LM22_source_GEPs.txt`](Data_Files/CIBERSORTx/LM22_source_GEPs.txt): source GEPs for LM22 (required for CIBERSORTx submission)
+  - [`CIBERSORTx_Results.txt`](Data_Files/CIBERSORTx/CIBERSORTx_Results.txt): CIBERSORTx output containing imputed immune cell populations for upper respiratory and peripheral blood samples included in manuscript analyses
   - [`nCounter_Host_Response_Gene_List.xlsx`](Data_Files/nCounter_Host_Response/nCounter_Host_Response_Gene_List.xlsx): nanoString Host Response Panel genes and annotations
   - [`modules_61.gmt`](Data_Files/nCounter_Host_Response/modules_61.gmt): list of genes for nanoString Host Response Panel modules (.gmt file)
   - [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx): list of genes for nanoString Host Response Panel modules (.xlsx file)
