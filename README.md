@@ -11,7 +11,7 @@ The manuscript demonstrates that age is associated with distinct upper respirato
 
 This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts, and results for each of the RNA sequencing analyses presented in this manuscript. The overall objective of this manuscript was to evaluate associations between age and both local and systemic host responses to SARS-CoV-2. 
 
-The raw RNA sequencing files and final gene count matrix (BRAVE_RNASeq_counts.csv) are publicly available Gene Expression Omnibus ([GSE231409](______________________________)) 
+The raw RNA sequencing files and final gene count matrix (BRAVE_RNASeq_counts.csv) are publicly available in the Gene Expression Omnibus ([GSE231409](______________________________)) 
 
 ## File description
 
