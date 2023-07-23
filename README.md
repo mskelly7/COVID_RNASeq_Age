@@ -15,7 +15,7 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
 
   - [`BRAVE_RNASeq_counts.csv.gz`](Data_Files/BRAVE_RNASeq_counts.csv.gz): compressed file containing gene count matrix (all samples)
   - [`BRAVE_RNASeq_Metadata.csv`](Data_Files/BRAVE_RNASeq_Metadata.csv): metadata file (all samples)
-  - [`BRAVE_RNASeq_Data_Dictionary.xlsx`](Data_Files/BRAVE_RNASeq_Data_Dictionary.xlsx): data dictionary
+  - [`BRAVE_RNASeq_Data_Dictionary.xlsx`](Data_Files/BRAVE_RNASeq_Data_Dictionary.xlsx): data dictionary defining variables contained in metadata file
   - [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds): phyloseq object containing metadata, gene count matrix, and gene annotations for upper respiratory samples included in manuscript analyses
   - [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds): phyloseq object containing metadata, gene count matrix, and gene annotations for peripheral blood samples included in manuscript analyses
   - [`LM22.txt`](Data_Files/CIBERSORTx/LM22.txt): LM22 signature matrix
