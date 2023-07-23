@@ -13,9 +13,9 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
 
 - [`Data_Files`](Data_Files/)/
 
-  ◦ [`BRAVE_RNASeq_counts.csv.gz`](Data_Files/BRAVE_RNASeq_counts.csv.gz): compressed file containing final gene count matrix
-  ◦ [`BRAVE_RNASeq_Metadata.csv`](Data_Files/BRAVE_RNASeq_Metadata.csv): metadata file
-  ◦ [`BRAVE_RNASeq_Data_Dictionary.xlsx`](Data_Files/BRAVE_RNASeq_Data_Dictionary.xlsx): data dictionary 
+  - [`BRAVE_RNASeq_counts.csv.gz`](Data_Files/BRAVE_RNASeq_counts.csv.gz): compressed file containing final gene count matrix
+  - [`BRAVE_RNASeq_Metadata.csv`](Data_Files/BRAVE_RNASeq_Metadata.csv): metadata file
+  - [`BRAVE_RNASeq_Data_Dictionary.xlsx`](Data_Files/BRAVE_RNASeq_Data_Dictionary.xlsx): data dictionary 
   - [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds): phyloseq object containing metadata, gene count matrix, and gene annotations for NP samples included in analyses
   - [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds): phyloseq object containing metadata, gene count matrix, and gene annotations for peripheral blood samples included in analyses
 
