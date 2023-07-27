@@ -35,11 +35,12 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
   - [`RNASeq_Figure2.R`](Scripts/RNASeq_Figure2.R): Figure 2; inputs: DESeq2, FGSEA output files
   - [`RNASeq_Figure3.R`](Scripts/RNASeq_Figure3.R): Figure 3; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), FGSEA output files
   - [`RNASeq_Figure4.R`](Scripts/RNASeq_Figure4.R): Figure 4; inputs: FGSEA output files
-  - [`RNASeq_Figures5_&_S5.R`](Scripts/RNASeq_Figures5_&_S5.R): Figure 5 and Supplemental Figure 5; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
+  - [`RNASeq_Figures5.R`](Scripts/RNASeq_Figure5.R): Figure 5; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
   - [`RNASeq_FigureS1.R`](Scripts/RNASeq_FigureS1.R): Supplemental Figure 1; inputs: DESeq2 output files
   - [`RNASeq_FigureS2.R`](Scripts/RNASeq_FigureS2.R): Supplemental Figure 2; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_FigureS3.R`](Scripts/RNASeq_FigureS3.R): Supplemental Figure 3; inputs: DESeq2 output files
   - [`RNASeq_FigureS4.R`](Scripts/RNASeq_FigureS4.R): Supplemental Figure 4; inputs: DESeq2 output files
+  - [`RNASeq_Figures5.R`](Scripts/RNASeq_FigureS5.R): Supplemental Figure 5; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
 
 - [`Output_Files`](Output_Files/)/
 
