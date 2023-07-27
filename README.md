@@ -27,7 +27,7 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
 
 - [`Scripts`](Scripts/)/
 
-  - [`RNASeq_Preprocessing.R`](Scripts/RNASeq_Preprocessing.R): preprocessing of gene count matrix and metadata; outputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
+  - [`RNASeq_Preprocessing.R`](Scripts/RNASeq_Preprocessing.R): processing of raw gene count matrix and metadata; outputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_Manuscript_Text.R`](Scripts/RNASeq_Manuscript_Text.R): results presented in manuscript text and Table 1; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_DESeq2.R`](Scripts/RNASeq_DESeq2.R): DESeq2 models for differential expression analyses; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_Modules.R`](Scripts/RNASeq_Modules.R): gene set enrichment analyses using FGSEA; inputs: [`modules_61.gmt`](Data_Files/nCounter_Host_Response/modules_61.gmt), DESeq2 output files
@@ -43,6 +43,9 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
   - [`RNASeq_FigureS5.R`](Scripts/RNASeq_FigureS5.R): Supplemental Figure 5; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
 
 - [`Output_Files`](Output_Files/)/
+
+DESeq2 outputs ("genes")
+FGSEA outputs ("modules")
 
   - [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/): output files from analyses of SARS-CoV-2-uninfected subjects by age category
   - [`2_COVID_Pos_vs_Neg`](Output_Files/2_COVID_Pos_vs_Neg/): output files from analyses comparing SARS-CoV-2-infected and uninfected subjects
