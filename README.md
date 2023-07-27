@@ -31,15 +31,15 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
   - [`RNASeq_Manuscript_Text.R`](Scripts/RNASeq_Manuscript_Text.R): results presented in manuscript text and Table 1; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_DESeq2.R`](Scripts/RNASeq_DESeq2.R): DESeq2 models for differential expression analyses; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_Modules.R`](Scripts/RNASeq_Modules.R): gene set enrichment analyses using FGSEA; inputs: [`modules_61.gmt`](Data_Files/nCounter_Host_Response/modules_61.gmt), DESeq2 output files
-  - [`RNASeq_Figure1.R`](Scripts/RNASeq_Figure1.R): Figure 1; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), FGSEA output files located in [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/)
-  - [`RNASeq_Figure2.R`](Scripts/RNASeq_Figure2.R): Figure 2; inputs: DESeq2 and FGSEA output files located in [`2_COVID_Pos_vs_Neg`](Output_Files/2_COVID_Pos_vs_Neg/)
-  - [`RNASeq_Figure3.R`](Scripts/RNASeq_Figure3.R): Figure 3; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), FGSEA output files located in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
-  - [`RNASeq_Figure4.R`](Scripts/RNASeq_Figure4.R): Figure 4; inputs: FGSEA output files located in [`4_Symptoms`](Output_Files/4_Symptoms/)
+  - [`RNASeq_Figure1.R`](Scripts/RNASeq_Figure1.R): Figure 1; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), output files in [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/)
+  - [`RNASeq_Figure2.R`](Scripts/RNASeq_Figure2.R): Figure 2; inputs: output files in [`2_COVID_Pos_vs_Neg`](Output_Files/2_COVID_Pos_vs_Neg/)
+  - [`RNASeq_Figure3.R`](Scripts/RNASeq_Figure3.R): Figure 3; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), output files in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
+  - [`RNASeq_Figure4.R`](Scripts/RNASeq_Figure4.R): Figure 4; inputs: output files in [`4_Symptoms`](Output_Files/4_Symptoms/)
   - [`RNASeq_Figure5.R`](Scripts/RNASeq_Figure5.R): Figure 5; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
-  - [`RNASeq_FigureS1.R`](Scripts/RNASeq_FigureS1.R): Supplemental Figure 1; inputs: DESeq2 output files located in [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/)
+  - [`RNASeq_FigureS1.R`](Scripts/RNASeq_FigureS1.R): Supplemental Figure 1; inputs: output files located in [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/)
   - [`RNASeq_FigureS2.R`](Scripts/RNASeq_FigureS2.R): Supplemental Figure 2; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
-  - [`RNASeq_FigureS3.R`](Scripts/RNASeq_FigureS3.R): Supplemental Figure 3; inputs: DESeq2 output files located in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
-  - [`RNASeq_FigureS4.R`](Scripts/RNASeq_FigureS4.R): Supplemental Figure 4; inputs: DESeq2 output files located in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
+  - [`RNASeq_FigureS3.R`](Scripts/RNASeq_FigureS3.R): Supplemental Figure 3; inputs: output files located in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
+  - [`RNASeq_FigureS4.R`](Scripts/RNASeq_FigureS4.R): Supplemental Figure 4; inputs: output files located in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
   - [`RNASeq_FigureS5.R`](Scripts/RNASeq_FigureS5.R): Supplemental Figure 5; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
 
 - [`Output_Files`](Output_Files/)/
