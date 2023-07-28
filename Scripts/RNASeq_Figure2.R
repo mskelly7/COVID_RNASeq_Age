@@ -4,8 +4,8 @@
 # Last update: July 28, 2023
 
 remove(list=ls())
-setwd("_______________________") 
-set.seed(2341)
+setwd("G:/My Drive/Research/BRAVE_Kids/RNA_Sequencing/Statistical_Analyses/") 
+set.seed(123434)
 version
 
 if(any(grepl("package:plyr", search()))) detach("package:plyr") else message("plyr not loaded")
