@@ -1,10 +1,10 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure 2
-# Last update: July 26, 2023
+# Last update: July 28, 2023
 
 remove(list=ls())
-setwd("______________________") 
+setwd("_______________________") 
 set.seed(2341)
 version
 
@@ -27,6 +27,7 @@ library(tibble)
 library(msigdbr)
 library(reshape2)
 library(data.table)
+library(stringr)
 
 # Specify expressions for figures
 label_log2FC <- expression(bold(log[2] ~ fold ~ change))
@@ -39,7 +40,21 @@ dds_np_Pos_Neg <- read.csv("2_COVID_Pos_vs_Neg/genes_np_Pos_Neg.csv")
 dds_pax_Pos_Neg <- read.csv("2_COVID_Pos_vs_Neg/genes_pax_Pos_Neg.csv")
 # Upload FGSEA output files
 fgsea_np_Pos_Neg <- data.frame(read_excel("2_COVID_Pos_vs_Neg/modules_np_Pos_Neg.xlsx"))
+fgsea_np_Pos_Neg$pathway <- as.character(str_to_sentence(fgsea_np_Pos_Neg$pathway))
+fgsea_np_Pos_Neg$pathway[fgsea_np_Pos_Neg$pathway=="Type i interferon signaling"] <- "Type I interferon signaling"
+fgsea_np_Pos_Neg$pathway[fgsea_np_Pos_Neg$pathway=="Type ii interferon signaling"] <- "Type II interferon signaling"
+fgsea_np_Pos_Neg$pathway[fgsea_np_Pos_Neg$pathway=="Tcr signaling"] <- "T cell receptor signaling"
+fgsea_np_Pos_Neg$pathway[fgsea_np_Pos_Neg$pathway=="Nf-kappab signaling"] <- "NF-kappaB signaling"
+fgsea_np_Pos_Neg$pathway[fgsea_np_Pos_Neg$pathway=="Mhc class i antigen presentation"] <- "MHC class I presentation"
 fgsea_pax_Pos_Neg <- data.frame(read_excel("2_COVID_Pos_vs_Neg/modules_pax_Pos_Neg.xlsx"))
+fgsea_pax_Pos_Neg$pathway <- as.character(str_to_sentence(fgsea_pax_Pos_Neg$pathway))
+fgsea_pax_Pos_Neg$pathway[fgsea_pax_Pos_Neg$pathway=="Type i interferon signaling"] <- "Type I interferon signaling"
+fgsea_pax_Pos_Neg$pathway[fgsea_pax_Pos_Neg$pathway=="Type ii interferon signaling"] <- "Type II interferon signaling"
+fgsea_pax_Pos_Neg$pathway[fgsea_pax_Pos_Neg$pathway=="Tcr signaling"] <- "T cell receptor signaling"
+fgsea_pax_Pos_Neg$pathway[fgsea_pax_Pos_Neg$pathway=="Nlr signaling"] <- "Nod-like receptor signaling"
+fgsea_pax_Pos_Neg$pathway[fgsea_pax_Pos_Neg$pathway=="Mhc class i antigen presentation"] <- "MHC class I presentation"
+fgsea_pax_Pos_Neg$pathway[fgsea_pax_Pos_Neg$pathway=="Dna sensing"] <- "DNA sensing"
+fgsea_pax_Pos_Neg$pathway[fgsea_pax_Pos_Neg$pathway=="Rna sensing"] <- "RNA sensing"
 
 # Volcano plots of differentially expressed genes
 
@@ -89,6 +104,7 @@ volcano_pax_Pos_Neg
 
 top_pathways <- bind_rows(fgsea_np_Pos_Neg %>% filter(Expression == 'Up-regulated') %>% arrange(desc(abs(NES))) %>% head(10),
   fgsea_np_Pos_Neg %>% filter(Expression == 'Down-regulated') %>% arrange(desc(abs(NES))) %>% head(10))
+
 module_np_Pos_Neg <- ggplot(fgsea_np_Pos_Neg, aes(x=NES, y=-log10(padj))) + theme_bw() +
   geom_point(aes(color = Expression), size = (fgsea_np_Pos_Neg$GeneRatio*4)^2, alpha=0.4)+
   xlab("Normalized enrichment score") + ylab(label_adjp) +  
@@ -107,6 +123,7 @@ module_np_Pos_Neg
 
 top_pathways <- bind_rows(fgsea_pax_Pos_Neg %>% filter(Expression == 'Up-regulated') %>% arrange(desc(abs(NES))) %>% head(10),
                           fgsea_pax_Pos_Neg %>% filter(Expression == 'Down-regulated') %>% arrange(desc(abs(NES))) %>% head(10))
+
 module_pax_Pos_Neg <- ggplot(fgsea_pax_Pos_Neg, aes(x=NES, y=-log10(padj))) + theme_bw() +
   geom_point(aes(color = Expression), size = (fgsea_pax_Pos_Neg$GeneRatio*4)^2, alpha=0.4)+
   xlab("Normalized enrichment score") + ylab(label_adjp) + ggtitle("Peripheral blood") +
