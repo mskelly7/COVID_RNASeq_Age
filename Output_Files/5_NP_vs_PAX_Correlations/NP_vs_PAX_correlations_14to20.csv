@@ -1,0 +1,901 @@
+"","row","column","cor","p"
+"1","Innate immune cell activation.NSB","Innate immune cell activation.PAX",-0.134089310206522,0.464376617654849
+"2","Interferon response.NSB","Innate immune cell activation.PAX",0.0245041733806872,0.894097431550821
+"3","Type I interferon signaling.NSB","Innate immune cell activation.PAX",0.21349515342266,0.240696241031407
+"4","Type II interferon signaling.NSB","Innate immune cell activation.PAX",0.0664029079613342,0.718035407595797
+"5","Type III interferon signaling.NSB","Innate immune cell activation.PAX",0.141341198372557,0.440338535941066
+"6","TNF signaling.NSB","Innate immune cell activation.PAX",-0.0854926777068353,0.64176551160387
+"7","Toll-like receptor signaling.NSB","Innate immune cell activation.PAX",-0.0743063956834278,0.686083017721147
+"8","Nod-like receptor signaling.NSB","Innate immune cell activation.PAX",-0.0401727455350736,0.827197023709882
+"9","Chemokine signaling.NSB","Innate immune cell activation.PAX",-0.137203737417452,0.453969231243814
+"10","RNA sensing.NSB","Innate immune cell activation.PAX",0.147070625180332,0.421836719079698
+"11","Phagocytosis.NSB","Innate immune cell activation.PAX",-0.165909469700854,0.364143865405214
+"12","Myeloid inflammation.NSB","Innate immune cell activation.PAX",-0.0825646921052789,0.653256692904406
+"13","Myeloid activation.NSB","Innate immune cell activation.PAX",-0.18288359260057,0.316407476870677
+"14","Inflammasomes.NSB","Innate immune cell activation.PAX",-0.114778161966627,0.531627395515585
+"15","Complement system.NSB","Innate immune cell activation.PAX",-0.162804977159076,0.37331384005959
+"16","Coagulation.NSB","Innate immune cell activation.PAX",-0.191591191591548,0.293509537995674
+"17","Leukotriene/prostaglandin inflammation.NSB","Innate immune cell activation.PAX",-0.128968247964748,0.481759806943026
+"18","Adaptive immune response.NSB","Innate immune cell activation.PAX",-0.115816395366768,0.52789653550768
+"19","MHC class I presentation.NSB","Innate immune cell activation.PAX",0.0388707037723177,0.832717822922433
+"20","MHC class II presentation.NSB","Innate immune cell activation.PAX",-0.144149674289111,0.431214619751591
+"21","TCR signaling.NSB","Innate immune cell activation.PAX",-0.170321769264972,0.351343334875905
+"22","BCR signaling.NSB","Innate immune cell activation.PAX",-0.0957598086666637,0.602124371981299
+"23","NF-kappaB signaling.NSB","Innate immune cell activation.PAX",-0.156269834105999,0.393055076324458
+"24","JAK-STAT signaling.NSB","Innate immune cell activation.PAX",-0.0877555139469037,0.632940046455823
+"25","NK cell activity.NSB","Innate immune cell activation.PAX",-0.191007363361936,0.295010913268236
+"26","Mononuclear cell migration.NSB","Innate immune cell activation.PAX",-0.104690988823956,0.568521485856565
+"27","Lymphocyte trafficking.NSB","Innate immune cell activation.PAX",-0.19930850421726,0.27412157830484
+"28","Immune memory.NSB","Innate immune cell activation.PAX",-0.0207863380383947,0.910094733515344
+"29","Immune exhaustion.NSB","Innate immune cell activation.PAX",0.0302276543042954,0.869551974572095
+"30","Treg differentiation.NSB","Innate immune cell activation.PAX",-0.0708073388931642,0.700167292793917
+"31","Innate immune cell activation.NSB","Interferon response.PAX",0.149723554295865,0.413418592450948
+"32","Interferon response.NSB","Interferon response.PAX",0.354575474300132,0.0464580631284144
+"33","Type I interferon signaling.NSB","Interferon response.PAX",0.554406530099225,0.000992681308290999
+"34","Type II interferon signaling.NSB","Interferon response.PAX",0.390809380367322,0.026995140687639
+"35","Type III interferon signaling.NSB","Interferon response.PAX",0.328742651961821,0.0661953492323262
+"36","TNF signaling.NSB","Interferon response.PAX",0.200981790599475,0.270030083128669
+"37","Toll-like receptor signaling.NSB","Interferon response.PAX",0.1617583586714,0.37643561918777
+"38","Nod-like receptor signaling.NSB","Interferon response.PAX",0.264878966869851,0.142898383398909
+"39","Chemokine signaling.NSB","Interferon response.PAX",0.171560148033715,0.347799920314801
+"40","RNA sensing.NSB","Interferon response.PAX",0.462659788137684,0.00766970732217054
+"41","Phagocytosis.NSB","Interferon response.PAX",0.136294572917312,0.456994386177536
+"42","Myeloid inflammation.NSB","Interferon response.PAX",0.161420221545909,0.377447447686372
+"43","Myeloid activation.NSB","Interferon response.PAX",0.0819553908681568,0.655657912376407
+"44","Inflammasomes.NSB","Interferon response.PAX",0.141027812489802,0.441363106728237
+"45","Complement system.NSB","Interferon response.PAX",0.0635637809123607,0.729632088190333
+"46","Coagulation.NSB","Interferon response.PAX",0.0358526895553345,0.845544256450136
+"47","Leukotriene/prostaglandin inflammation.NSB","Interferon response.PAX",0.00262957499223452,0.988603964734895
+"48","Adaptive immune response.NSB","Interferon response.PAX",0.156997607527169,0.390827423632598
+"49","MHC class I presentation.NSB","Interferon response.PAX",0.334840572266499,0.0610313558829481
+"50","MHC class II presentation.NSB","Interferon response.PAX",0.133187837531521,0.467412372520085
+"51","TCR signaling.NSB","Interferon response.PAX",0.0193442960743204,0.916309297156102
+"52","BCR signaling.NSB","Interferon response.PAX",0.0906213634175695,0.621833626338679
+"53","NF-kappaB signaling.NSB","Interferon response.PAX",0.0743879046309319,0.685756139172029
+"54","JAK-STAT signaling.NSB","Interferon response.PAX",0.191984100731973,0.292501874646956
+"55","NK cell activity.NSB","Interferon response.PAX",0.0296186112556053,0.872158629250957
+"56","Mononuclear cell migration.NSB","Interferon response.PAX",0.208356182626272,0.252473845225453
+"57","Lymphocyte trafficking.NSB","Interferon response.PAX",0.044928929093184,0.807100940732387
+"58","Immune memory.NSB","Interferon response.PAX",0.145729322251288,0.426128889235376
+"59","Immune exhaustion.NSB","Interferon response.PAX",0.254629317349396,0.159605691167898
+"60","Treg differentiation.NSB","Interferon response.PAX",0.0896410734840467,0.625623650419427
+"61","Innate immune cell activation.NSB","Type I interferon signaling.PAX",0.216889582641281,0.233121529193783
+"62","Interferon response.NSB","Type I interferon signaling.PAX",0.423567703312606,0.01570563574482
+"63","Type I interferon signaling.NSB","Type I interferon signaling.PAX",0.641987727487706,7.47463964068107e-05
+"64","Type II interferon signaling.NSB","Type I interferon signaling.PAX",0.461673009017404,0.0078176632003002
+"65","Type III interferon signaling.NSB","Type I interferon signaling.PAX",0.28501019585097,0.113852968154298
+"66","TNF signaling.NSB","Type I interferon signaling.PAX",0.259083621057721,0.152180827647284
+"67","Toll-like receptor signaling.NSB","Type I interferon signaling.PAX",0.187656853186228,0.303721323383203
+"68","Nod-like receptor signaling.NSB","Type I interferon signaling.PAX",0.316935965266056,0.077158958222854
+"69","Chemokine signaling.NSB","Type I interferon signaling.PAX",0.25573969353412,0.157730952531733
+"70","RNA sensing.NSB","Type I interferon signaling.PAX",0.521276259150558,0.00221839721511108
+"71","Phagocytosis.NSB","Type I interferon signaling.PAX",0.201743019246981,0.268181962068427
+"72","Myeloid inflammation.NSB","Type I interferon signaling.PAX",0.231772696474356,0.2018121693724
+"73","Myeloid activation.NSB","Type I interferon signaling.PAX",0.136873316839153,0.455067431447902
+"74","Inflammasomes.NSB","Type I interferon signaling.PAX",0.19693187992663,0.280001591033648
+"75","Complement system.NSB","Type I interferon signaling.PAX",0.110600887364734,0.546765232238446
+"76","Coagulation.NSB","Type I interferon signaling.PAX",0.0831628973504205,0.650902512681078
+"77","Leukotriene/prostaglandin inflammation.NSB","Type I interferon signaling.PAX",0.0202904807467753,0.912231089008144
+"78","Adaptive immune response.NSB","Type I interferon signaling.PAX",0.2241367178384,0.217490938837499
+"79","MHC class I presentation.NSB","Type I interferon signaling.PAX",0.388856330601566,0.0278372401403482
+"80","MHC class II presentation.NSB","Type I interferon signaling.PAX",0.215770159734499,0.235601587714829
+"81","TCR signaling.NSB","Type I interferon signaling.PAX",0.0814633390438496,0.657599528684801
+"82","BCR signaling.NSB","Type I interferon signaling.PAX",0.131938411859941,0.471637077613024
+"83","NF-kappaB signaling.NSB","Type I interferon signaling.PAX",0.12823040818877,0.484291736585534
+"84","JAK-STAT signaling.NSB","Type I interferon signaling.PAX",0.261332246270994,0.148528850429062
+"85","NK cell activity.NSB","Type I interferon signaling.PAX",0.0986034330556174,0.591333509036901
+"86","Mononuclear cell migration.NSB","Type I interferon signaling.PAX",0.27968470969498,0.121066372344851
+"87","Lymphocyte trafficking.NSB","Type I interferon signaling.PAX",0.121004185044188,0.50944624480516
+"88","Immune memory.NSB","Type I interferon signaling.PAX",0.180737042502574,0.322218436515974
+"89","Immune exhaustion.NSB","Type I interferon signaling.PAX",0.330967395293341,0.064273181984785
+"90","Treg differentiation.NSB","Type I interferon signaling.PAX",0.127760011237043,0.485909490412698
+"91","Innate immune cell activation.NSB","Type II interferon signaling.PAX",0.20903922957265,0.250886853898121
+"92","Interferon response.NSB","Type II interferon signaling.PAX",0.402440117453434,0.0224016383465708
+"93","Type I interferon signaling.NSB","Type II interferon signaling.PAX",0.58287502909983,0.00046397518683472
+"94","Type II interferon signaling.NSB","Type II interferon signaling.PAX",0.43382890674815,0.0131133535235191
+"95","Type III interferon signaling.NSB","Type II interferon signaling.PAX",0.327441959160214,0.0673397793472565
+"96","TNF signaling.NSB","Type II interferon signaling.PAX",0.258137251415402,0.153737053459472
+"97","Toll-like receptor signaling.NSB","Type II interferon signaling.PAX",0.203913844162234,0.262956988152819
+"98","Nod-like receptor signaling.NSB","Type II interferon signaling.PAX",0.317668591048329,0.0764402384969549
+"99","Chemokine signaling.NSB","Type II interferon signaling.PAX",0.239824112428356,0.186146428441139
+"100","RNA sensing.NSB","Type II interferon signaling.PAX",0.497979118753488,0.00372755343573017
+"101","Phagocytosis.NSB","Type II interferon signaling.PAX",0.195977540594966,0.282385434914584
+"102","Myeloid inflammation.NSB","Type II interferon signaling.PAX",0.210224445036375,0.248148833080083
+"103","Myeloid activation.NSB","Type II interferon signaling.PAX",0.136415016830988,0.456593004537896
+"104","Inflammasomes.NSB","Type II interferon signaling.PAX",0.215348761583078,0.236539759164041
+"105","Complement system.NSB","Type II interferon signaling.PAX",0.107287548609729,0.558914455578126
+"106","Coagulation.NSB","Type II interferon signaling.PAX",0.095028330393381,0.604913708309602
+"107","Leukotriene/prostaglandin inflammation.NSB","Type II interferon signaling.PAX",0.0405098235416559,0.8257690847925
+"108","Adaptive immune response.NSB","Type II interferon signaling.PAX",0.218239866571739,0.230153457901728
+"109","MHC class I presentation.NSB","Type II interferon signaling.PAX",0.371042823385644,0.036553508633661
+"110","MHC class II presentation.NSB","Type II interferon signaling.PAX",0.188752831416683,0.300854420522018
+"111","TCR signaling.NSB","Type II interferon signaling.PAX",0.0866000475765398,0.637440474181014
+"112","BCR signaling.NSB","Type II interferon signaling.PAX",0.138991976338627,0.448050441814904
+"113","NF-kappaB signaling.NSB","Type II interferon signaling.PAX",0.152153689811535,0.40579097286103
+"114","JAK-STAT signaling.NSB","Type II interferon signaling.PAX",0.25512032356919,0.15877472305146
+"115","NK cell activity.NSB","Type II interferon signaling.PAX",0.093300046292035,0.611525877488843
+"116","Mononuclear cell migration.NSB","Type II interferon signaling.PAX",0.254581384743769,0.159686978143211
+"117","Lymphocyte trafficking.NSB","Type II interferon signaling.PAX",0.105422093997698,0.565808901401506
+"118","Immune memory.NSB","Type II interferon signaling.PAX",0.191038775352985,0.294930010002538
+"119","Immune exhaustion.NSB","Type II interferon signaling.PAX",0.305572328812222,0.0889885931692507
+"120","Treg differentiation.NSB","Type II interferon signaling.PAX",0.145099081211385,0.428153978238556
+"121","Innate immune cell activation.NSB","Type III interferon signaling.PAX",0.196034141441837,0.282243688563963
+"122","Interferon response.NSB","Type III interferon signaling.PAX",0.337943732199566,0.0585279275325763
+"123","Type I interferon signaling.NSB","Type III interferon signaling.PAX",0.476217634372879,0.00586565421738916
+"124","Type II interferon signaling.NSB","Type III interferon signaling.PAX",0.3690721303865,0.0376400951595026
+"125","Type III interferon signaling.NSB","Type III interferon signaling.PAX",0.304792344546001,0.0898487094746268
+"126","TNF signaling.NSB","Type III interferon signaling.PAX",0.164077419100236,0.369539050625992
+"127","Toll-like receptor signaling.NSB","Type III interferon signaling.PAX",0.158183654717434,0.387212670528201
+"128","Nod-like receptor signaling.NSB","Type III interferon signaling.PAX",0.240485978542245,0.184897705521406
+"129","Chemokine signaling.NSB","Type III interferon signaling.PAX",0.186536982314176,0.306668454211354
+"130","RNA sensing.NSB","Type III interferon signaling.PAX",0.412622759148537,0.0189284077321616
+"131","Phagocytosis.NSB","Type III interferon signaling.PAX",0.133434395209274,0.466581041472246
+"132","Myeloid inflammation.NSB","Type III interferon signaling.PAX",0.225770218521993,0.214069054928194
+"133","Myeloid activation.NSB","Type III interferon signaling.PAX",0.109371721295041,0.551257779055181
+"134","Inflammasomes.NSB","Type III interferon signaling.PAX",0.208902481225629,0.251204044823445
+"135","Complement system.NSB","Type III interferon signaling.PAX",0.100472361822137,0.584287671022191
+"136","Coagulation.NSB","Type III interferon signaling.PAX",0.0953976009782671,0.60350488629597
+"137","Leukotriene/prostaglandin inflammation.NSB","Type III interferon signaling.PAX",0.0302383554350944,0.869506186545542
+"138","Adaptive immune response.NSB","Type III interferon signaling.PAX",0.244953238847113,0.176623080612226
+"139","MHC class I presentation.NSB","Type III interferon signaling.PAX",0.299378725078328,0.0959945357469363
+"140","MHC class II presentation.NSB","Type III interferon signaling.PAX",0.245802779208915,0.175079619788761
+"141","TCR signaling.NSB","Type III interferon signaling.PAX",0.229711139799348,0.205965776449657
+"142","BCR signaling.NSB","Type III interferon signaling.PAX",0.252202351597456,0.163758899413933
+"143","NF-kappaB signaling.NSB","Type III interferon signaling.PAX",0.198079788916242,0.277151471753456
+"144","JAK-STAT signaling.NSB","Type III interferon signaling.PAX",0.275217089821955,0.127374978098175
+"145","NK cell activity.NSB","Type III interferon signaling.PAX",0.246327213242691,0.174131599450768
+"146","Mononuclear cell migration.NSB","Type III interferon signaling.PAX",0.190567330141101,0.296145725394249
+"147","Lymphocyte trafficking.NSB","Type III interferon signaling.PAX",0.20338295490516,0.264228584267145
+"148","Immune memory.NSB","Type III interferon signaling.PAX",0.320311655606122,0.0738903157051347
+"149","Immune exhaustion.NSB","Type III interferon signaling.PAX",0.354366990209334,0.046595958801648
+"150","Treg differentiation.NSB","Type III interferon signaling.PAX",0.275271490779084,0.127296729017368
+"151","Innate immune cell activation.NSB","TNF signaling.PAX",0.0670979850967832,0.715205555349003
+"152","Interferon response.NSB","TNF signaling.PAX",0.232480548628208,0.200399455356316
+"153","Type I interferon signaling.NSB","TNF signaling.PAX",0.383785662921279,0.0301242752206465
+"154","Type II interferon signaling.NSB","TNF signaling.PAX",0.252845853801503,0.162650239257082
+"155","Type III interferon signaling.NSB","TNF signaling.PAX",0.310447040506573,0.0837549057267792
+"156","TNF signaling.NSB","TNF signaling.PAX",0.139812425434677,0.445348875073636
+"157","Toll-like receptor signaling.NSB","TNF signaling.PAX",0.13869036639278,0.449045796170388
+"158","Nod-like receptor signaling.NSB","TNF signaling.PAX",0.173157465705437,0.343261441220777
+"159","Chemokine signaling.NSB","TNF signaling.PAX",0.054225385515469,0.768178873767916
+"160","RNA sensing.NSB","TNF signaling.PAX",0.334134385787765,0.0616126454915817
+"161","Phagocytosis.NSB","TNF signaling.PAX",0.0515055219470325,0.779513563134587
+"162","Myeloid inflammation.NSB","TNF signaling.PAX",0.0815383174193863,0.657303525068096
+"163","Myeloid activation.NSB","TNF signaling.PAX",0.031865086314717,0.862550639372416
+"164","Inflammasomes.NSB","TNF signaling.PAX",0.0842709818339831,0.64655048274796
+"165","Complement system.NSB","TNF signaling.PAX",0.0284504589610532,0.87716189183324
+"166","Coagulation.NSB","TNF signaling.PAX",0.00241086813734717,0.989551741353099
+"167","Leukotriene/prostaglandin inflammation.NSB","TNF signaling.PAX",0.0575941311365687,0.754205234481906
+"168","Adaptive immune response.NSB","TNF signaling.PAX",0.0618507848905831,0.736657662696282
+"169","MHC class I presentation.NSB","TNF signaling.PAX",0.241368374900134,0.183242078374697
+"170","MHC class II presentation.NSB","TNF signaling.PAX",0.000793491712916921,0.996561069833287
+"171","TCR signaling.NSB","TNF signaling.PAX",-0.0936640753728461,0.610130630223406
+"172","BCR signaling.NSB","TNF signaling.PAX",0.0393957534765579,0.830490597238189
+"173","NF-kappaB signaling.NSB","TNF signaling.PAX",0.0119994958778554,0.948029908337621
+"174","JAK-STAT signaling.NSB","TNF signaling.PAX",0.0988789688249152,0.590292416854481
+"175","NK cell activity.NSB","TNF signaling.PAX",-0.0801297237997677,0.662872924747348
+"176","Mononuclear cell migration.NSB","TNF signaling.PAX",0.115197612783665,0.530118586323758
+"177","Lymphocyte trafficking.NSB","TNF signaling.PAX",-0.0627880530468086,0.732810980639247
+"178","Immune memory.NSB","TNF signaling.PAX",0.0626018433843337,0.733574708207826
+"179","Immune exhaustion.NSB","TNF signaling.PAX",0.106705750593078,0.561060535439298
+"180","Treg differentiation.NSB","TNF signaling.PAX",0.0227739050908243,0.901537820564666
+"181","Innate immune cell activation.NSB","Toll-like receptor signaling.PAX",0.0877038028514321,0.633141182239598
+"182","Interferon response.NSB","Toll-like receptor signaling.PAX",0.193970168244108,0.287442140591299
+"183","Type I interferon signaling.NSB","Toll-like receptor signaling.PAX",0.256609225727703,0.156273941365291
+"184","Type II interferon signaling.NSB","Toll-like receptor signaling.PAX",0.190945540082142,0.29517018364315
+"185","Type III interferon signaling.NSB","Toll-like receptor signaling.PAX",0.3670407161184,0.0387872989106492
+"186","TNF signaling.NSB","Toll-like receptor signaling.PAX",0.111416117666786,0.543795124661644
+"187","Toll-like receptor signaling.NSB","Toll-like receptor signaling.PAX",0.175001568927394,0.338066655886001
+"188","Nod-like receptor signaling.NSB","Toll-like receptor signaling.PAX",0.158283373883356,0.386909637834989
+"189","Chemokine signaling.NSB","Toll-like receptor signaling.PAX",0.0436556184503225,0.812469726711938
+"190","RNA sensing.NSB","Toll-like receptor signaling.PAX",0.269256320170032,0.136165579037911
+"191","Phagocytosis.NSB","Toll-like receptor signaling.PAX",0.075536937198316,0.681154090393002
+"192","Myeloid inflammation.NSB","Toll-like receptor signaling.PAX",0.105767016235524,0.564531204186788
+"193","Myeloid activation.NSB","Toll-like receptor signaling.PAX",0.0814787837573852,0.657538551054455
+"194","Inflammasomes.NSB","Toll-like receptor signaling.PAX",0.0673283665855755,0.714268425150144
+"195","Complement system.NSB","Toll-like receptor signaling.PAX",0.0671187199251194,0.715121194912795
+"196","Coagulation.NSB","Toll-like receptor signaling.PAX",0.0534949114082397,0.771218521513586
+"197","Leukotriene/prostaglandin inflammation.NSB","Toll-like receptor signaling.PAX",0.0946800994566387,0.6062435413955
+"198","Adaptive immune response.NSB","Toll-like receptor signaling.PAX",0.077440346730253,0.673555437334942
+"199","MHC class I presentation.NSB","Toll-like receptor signaling.PAX",0.218017847984825,0.230639718864923
+"200","MHC class II presentation.NSB","Toll-like receptor signaling.PAX",0.0381744937242544,0.835673062819824
+"201","TCR signaling.NSB","Toll-like receptor signaling.PAX",-0.0492814429264491,0.788815426917478
+"202","BCR signaling.NSB","Toll-like receptor signaling.PAX",0.0890992455682337,0.627722524713767
+"203","NF-kappaB signaling.NSB","Toll-like receptor signaling.PAX",0.0299954846440954,0.870545484676045
+"204","JAK-STAT signaling.NSB","Toll-like receptor signaling.PAX",0.0938935276674365,0.609251877488403
+"205","NK cell activity.NSB","Toll-like receptor signaling.PAX",-0.0316567774155172,0.863440769661275
+"206","Mononuclear cell migration.NSB","Toll-like receptor signaling.PAX",0.104557464977625,0.56901752929595
+"207","Lymphocyte trafficking.NSB","Toll-like receptor signaling.PAX",-0.00349234750187004,0.98486525979909
+"208","Immune memory.NSB","Toll-like receptor signaling.PAX",0.0991811681174886,0.589151500379465
+"209","Immune exhaustion.NSB","Toll-like receptor signaling.PAX",0.0766313529374118,0.676781234306615
+"210","Treg differentiation.NSB","Toll-like receptor signaling.PAX",0.0578086887807126,0.753317774145547
+"211","Innate immune cell activation.NSB","Nod-like receptor signaling.PAX",0.0816176281904469,0.656990473301708
+"212","Interferon response.NSB","Nod-like receptor signaling.PAX",0.272869675047555,0.130785366271836
+"213","Type I interferon signaling.NSB","Nod-like receptor signaling.PAX",0.449834202528043,0.00979044599824164
+"214","Type II interferon signaling.NSB","Nod-like receptor signaling.PAX",0.304818031766241,0.0898202825348933
+"215","Type III interferon signaling.NSB","Nod-like receptor signaling.PAX",0.338542277726537,0.0580545046692658
+"216","TNF signaling.NSB","Nod-like receptor signaling.PAX",0.137546374799532,0.452831926336295
+"217","Toll-like receptor signaling.NSB","Nod-like receptor signaling.PAX",0.132504027115142,0.46972208241129
+"218","Nod-like receptor signaling.NSB","Nod-like receptor signaling.PAX",0.200850747092813,0.270349066455499
+"219","Chemokine signaling.NSB","Nod-like receptor signaling.PAX",0.0846644319775417,0.645007944413223
+"220","RNA sensing.NSB","Nod-like receptor signaling.PAX",0.387279742199814,0.0285325852583211
+"221","Phagocytosis.NSB","Nod-like receptor signaling.PAX",0.0651213235190833,0.72326270563572
+"222","Myeloid inflammation.NSB","Nod-like receptor signaling.PAX",0.092381332134398,0.615053061988283
+"223","Myeloid activation.NSB","Nod-like receptor signaling.PAX",0.0291987737269338,0.873956268777276
+"224","Inflammasomes.NSB","Nod-like receptor signaling.PAX",0.0806491558711246,0.660817077662057
+"225","Complement system.NSB","Nod-like receptor signaling.PAX",0.0253954228916165,0.890268345406309
+"226","Coagulation.NSB","Nod-like receptor signaling.PAX",-0.00472497796837763,0.979524393259507
+"227","Leukotriene/prostaglandin inflammation.NSB","Nod-like receptor signaling.PAX",0.00683691821318259,0.970375713867852
+"228","Adaptive immune response.NSB","Nod-like receptor signaling.PAX",0.0900617902943977,0.623995905750709
+"229","MHC class I presentation.NSB","Nod-like receptor signaling.PAX",0.266318799473103,0.14065756272553
+"230","MHC class II presentation.NSB","Nod-like receptor signaling.PAX",0.0620603392626012,0.735797074201485
+"231","TCR signaling.NSB","Nod-like receptor signaling.PAX",-0.0379927965792244,0.836444686473631
+"232","BCR signaling.NSB","Nod-like receptor signaling.PAX",0.0602438320290683,0.743267375941516
+"233","NF-kappaB signaling.NSB","Nod-like receptor signaling.PAX",0.0239023879034331,0.896684220442304
+"234","JAK-STAT signaling.NSB","Nod-like receptor signaling.PAX",0.122310916614555,0.504849966934423
+"235","NK cell activity.NSB","Nod-like receptor signaling.PAX",-0.0370005454355485,0.840661153363899
+"236","Mononuclear cell migration.NSB","Nod-like receptor signaling.PAX",0.126457236824861,0.490404334315359
+"237","Lymphocyte trafficking.NSB","Nod-like receptor signaling.PAX",-0.0166212141547565,0.928057534518309
+"238","Immune memory.NSB","Nod-like receptor signaling.PAX",0.108829081776071,0.553246566240357
+"239","Immune exhaustion.NSB","Nod-like receptor signaling.PAX",0.171788028211002,0.3471502368717
+"240","Treg differentiation.NSB","Nod-like receptor signaling.PAX",0.0451945879039459,0.80598189506708
+"241","Innate immune cell activation.NSB","Chemokine signaling.PAX",-0.0973967651562769,0.595902219203215
+"242","Interferon response.NSB","Chemokine signaling.PAX",0.00446310490059789,0.980658998316708
+"243","Type I interferon signaling.NSB","Chemokine signaling.PAX",0.105651462705801,0.564959102922192
+"244","Type II interferon signaling.NSB","Chemokine signaling.PAX",0.0077578110918377,0.966387603776592
+"245","Type III interferon signaling.NSB","Chemokine signaling.PAX",0.13737818943845,0.453389987526374
+"246","TNF signaling.NSB","Chemokine signaling.PAX",-0.0481589473924829,0.793521048237349
+"247","Toll-like receptor signaling.NSB","Chemokine signaling.PAX",-0.0539386984060092,0.76937143518549
+"248","Nod-like receptor signaling.NSB","Chemokine signaling.PAX",0.00234466165830642,0.989838653114469
+"249","Chemokine signaling.NSB","Chemokine signaling.PAX",-0.0946937584159413,0.606191356841718
+"250","RNA sensing.NSB","Chemokine signaling.PAX",0.0774757454201765,0.67341441745394
+"251","Phagocytosis.NSB","Chemokine signaling.PAX",-0.104354711905777,0.569771135413264
+"252","Myeloid inflammation.NSB","Chemokine signaling.PAX",-0.110357378608239,0.547653877433586
+"253","Myeloid activation.NSB","Chemokine signaling.PAX",-0.112780891020424,0.538839998098854
+"254","Inflammasomes.NSB","Chemokine signaling.PAX",-0.0129062244113045,0.944108733882727
+"255","Complement system.NSB","Chemokine signaling.PAX",-0.0688253611810585,0.708189064785013
+"256","Coagulation.NSB","Chemokine signaling.PAX",-0.112689739563123,0.539170273931642
+"257","Leukotriene/prostaglandin inflammation.NSB","Chemokine signaling.PAX",-0.00381554282879763,0.983464814728976
+"258","Adaptive immune response.NSB","Chemokine signaling.PAX",-0.0759193806649946,0.679624831382222
+"259","MHC class I presentation.NSB","Chemokine signaling.PAX",-0.0191944051980803,0.916955545447595
+"260","MHC class II presentation.NSB","Chemokine signaling.PAX",-0.154818586354617,0.397518952905858
+"261","TCR signaling.NSB","Chemokine signaling.PAX",-0.11144504700575,0.543689867268133
+"262","BCR signaling.NSB","Chemokine signaling.PAX",-0.071218539690003,0.698506951119734
+"263","NF-kappaB signaling.NSB","Chemokine signaling.PAX",-0.0848297729577021,0.644360149862091
+"264","JAK-STAT signaling.NSB","Chemokine signaling.PAX",-0.0391855916462374,0.831381935549818
+"265","NK cell activity.NSB","Chemokine signaling.PAX",-0.113304391716902,0.536945025113273
+"266","Mononuclear cell migration.NSB","Chemokine signaling.PAX",-0.0724157748744199,0.693680582897983
+"267","Lymphocyte trafficking.NSB","Chemokine signaling.PAX",-0.103661662954881,0.572350511484738
+"268","Immune memory.NSB","Chemokine signaling.PAX",-0.0142428760053571,0.938330713370895
+"269","Immune exhaustion.NSB","Chemokine signaling.PAX",-0.0798888550342567,0.66382707278985
+"270","Treg differentiation.NSB","Chemokine signaling.PAX",-0.0450870962406142,0.8064346413939
+"271","Innate immune cell activation.NSB","RNA sensing.PAX",0.214404661171359,0.238650726339981
+"272","Interferon response.NSB","RNA sensing.PAX",0.408841143999944,0.0201620816465828
+"273","Type I interferon signaling.NSB","RNA sensing.PAX",0.575852039627539,0.000563357016521326
+"274","Type II interferon signaling.NSB","RNA sensing.PAX",0.436039904142931,0.0126045867555726
+"275","Type III interferon signaling.NSB","RNA sensing.PAX",0.409148957778213,0.0200592377006061
+"276","TNF signaling.NSB","RNA sensing.PAX",0.261507536060393,0.148246855808578
+"277","Toll-like receptor signaling.NSB","RNA sensing.PAX",0.238510233857627,0.188642781431626
+"278","Nod-like receptor signaling.NSB","RNA sensing.PAX",0.330810845754948,0.06440699353052
+"279","Chemokine signaling.NSB","RNA sensing.PAX",0.225080423650938,0.215509525321953
+"280","RNA sensing.NSB","RNA sensing.PAX",0.504525705227166,0.00323346521527035
+"281","Phagocytosis.NSB","RNA sensing.PAX",0.210356770277975,0.247844378534176
+"282","Myeloid inflammation.NSB","RNA sensing.PAX",0.21522517603897,0.236815376033071
+"283","Myeloid activation.NSB","RNA sensing.PAX",0.15627003660655,0.393054455473923
+"284","Inflammasomes.NSB","RNA sensing.PAX",0.192537376140879,0.291086675019869
+"285","Complement system.NSB","RNA sensing.PAX",0.121667954622798,0.507108916514178
+"286","Coagulation.NSB","RNA sensing.PAX",0.106309576972561,0.562524064490169
+"287","Leukotriene/prostaglandin inflammation.NSB","RNA sensing.PAX",0.0508850774425117,0.782105523323948
+"288","Adaptive immune response.NSB","RNA sensing.PAX",0.215161178101034,0.236958186984875
+"289","MHC class I presentation.NSB","RNA sensing.PAX",0.395388377016256,0.0251023697423882
+"290","MHC class II presentation.NSB","RNA sensing.PAX",0.190073464493095,0.297422664231338
+"291","TCR signaling.NSB","RNA sensing.PAX",0.0658963815085052,0.720099934852102
+"292","BCR signaling.NSB","RNA sensing.PAX",0.145981393090615,0.425320422934527
+"293","NF-kappaB signaling.NSB","RNA sensing.PAX",0.129874081507298,0.478660769853729
+"294","JAK-STAT signaling.NSB","RNA sensing.PAX",0.241071214627983,0.183798467474598
+"295","NK cell activity.NSB","RNA sensing.PAX",0.0719274379312665,0.69564778582648
+"296","Mononuclear cell migration.NSB","RNA sensing.PAX",0.268058732843248,0.137984035813045
+"297","Lymphocyte trafficking.NSB","RNA sensing.PAX",0.100379869436649,0.584635492503494
+"298","Immune memory.NSB","RNA sensing.PAX",0.188106301002621,0.302543563819228
+"299","Immune exhaustion.NSB","RNA sensing.PAX",0.277841180642352,0.123640840292257
+"300","Treg differentiation.NSB","RNA sensing.PAX",0.135159164187962,0.460787386635946
+"301","Innate immune cell activation.NSB","Phagocytosis.PAX",-0.0466610967341537,0.799811298776092
+"302","Interferon response.NSB","Phagocytosis.PAX",0.185891373635056,0.308375624326105
+"303","Type I interferon signaling.NSB","Phagocytosis.PAX",0.400823138497813,0.0229987123844051
+"304","Type II interferon signaling.NSB","Phagocytosis.PAX",0.244033798344597,0.178304352053747
+"305","Type III interferon signaling.NSB","Phagocytosis.PAX",0.2683560200003,0.137530976911112
+"306","TNF signaling.NSB","Phagocytosis.PAX",0.0196927421562345,0.914807189842773
+"307","Toll-like receptor signaling.NSB","Phagocytosis.PAX",0.0249114650762699,0.892347283432335
+"308","Nod-like receptor signaling.NSB","Phagocytosis.PAX",0.101027410524374,0.582202309658261
+"309","Chemokine signaling.NSB","Phagocytosis.PAX",-0.024491273098962,0.894152872597585
+"310","RNA sensing.NSB","Phagocytosis.PAX",0.328601670900182,0.0663186534505036
+"311","Phagocytosis.NSB","Phagocytosis.PAX",-0.0647342017425423,0.724844114396889
+"312","Myeloid inflammation.NSB","Phagocytosis.PAX",-0.0251244257060168,0.891432380938004
+"313","Myeloid activation.NSB","Phagocytosis.PAX",-0.113811674423941,0.535111797023335
+"314","Inflammasomes.NSB","Phagocytosis.PAX",-0.072152172003212,0.69474223098678
+"315","Complement system.NSB","Phagocytosis.PAX",-0.154133946464737,0.39963485570507
+"316","Coagulation.NSB","Phagocytosis.PAX",-0.166346587658013,0.362863542828221
+"317","Leukotriene/prostaglandin inflammation.NSB","Phagocytosis.PAX",-0.270055088621657,0.13496250033214
+"318","Adaptive immune response.NSB","Phagocytosis.PAX",-0.0352108075857307,0.848277360564133
+"319","MHC class I presentation.NSB","Phagocytosis.PAX",0.186753093327994,0.306098326159791
+"320","MHC class II presentation.NSB","Phagocytosis.PAX",-0.0203309455065373,0.912056727553935
+"321","TCR signaling.NSB","Phagocytosis.PAX",-0.103175633700587,0.574162539281819
+"322","BCR signaling.NSB","Phagocytosis.PAX",-0.0681431532064084,0.710957379079764
+"323","NF-kappaB signaling.NSB","Phagocytosis.PAX",-0.119282417870405,0.515533943503824
+"324","JAK-STAT signaling.NSB","Phagocytosis.PAX",-0.0135819458251816,0.941187387144557
+"325","NK cell activity.NSB","Phagocytosis.PAX",-0.129051411746788,0.481474855971064
+"326","Mononuclear cell migration.NSB","Phagocytosis.PAX",0.0180807118120301,0.921758792282677
+"327","Lymphocyte trafficking.NSB","Phagocytosis.PAX",-0.167217608646482,0.360320301055061
+"328","Immune memory.NSB","Phagocytosis.PAX",-0.0171686389371504,0.925694496047972
+"329","Immune exhaustion.NSB","Phagocytosis.PAX",0.160574169202871,0.379986101724005
+"330","Treg differentiation.NSB","Phagocytosis.PAX",-0.0454792364241955,0.804783276593551
+"331","Innate immune cell activation.NSB","Myeloid inflammation.PAX",0.0223495890424828,0.903363715725387
+"332","Interferon response.NSB","Myeloid inflammation.PAX",0.217452296254869,0.231881508575267
+"333","Type I interferon signaling.NSB","Myeloid inflammation.PAX",0.361323258809163,0.0421680556022879
+"334","Type II interferon signaling.NSB","Myeloid inflammation.PAX",0.278229180779615,0.123095662655456
+"335","Type III interferon signaling.NSB","Myeloid inflammation.PAX",0.186193112016498,0.307577002593255
+"336","TNF signaling.NSB","Myeloid inflammation.PAX",0.164801377479996,0.367401464641724
+"337","Toll-like receptor signaling.NSB","Myeloid inflammation.PAX",0.122487932076011,0.504228934739002
+"338","Nod-like receptor signaling.NSB","Myeloid inflammation.PAX",0.168568568518157,0.35639678441333
+"339","Chemokine signaling.NSB","Myeloid inflammation.PAX",0.0180399202577745,0.921934774579795
+"340","RNA sensing.NSB","Myeloid inflammation.PAX",0.328254971835996,0.0666226453680434
+"341","Phagocytosis.NSB","Myeloid inflammation.PAX",0.00613596692552288,0.973411799430214
+"342","Myeloid inflammation.NSB","Myeloid inflammation.PAX",0.0298955083690055,0.870973367144913
+"343","Myeloid activation.NSB","Myeloid inflammation.PAX",-0.0316767190891131,0.863355549227919
+"344","Inflammasomes.NSB","Myeloid inflammation.PAX",0.0147436920733523,0.936166584747498
+"345","Complement system.NSB","Myeloid inflammation.PAX",-0.0287006669774928,0.876089837994622
+"346","Coagulation.NSB","Myeloid inflammation.PAX",-0.0446900571295278,0.808107471129702
+"347","Leukotriene/prostaglandin inflammation.NSB","Myeloid inflammation.PAX",-0.00382527703802428,0.983422635933725
+"348","Adaptive immune response.NSB","Myeloid inflammation.PAX",0.0225061848033019,0.902689803874356
+"349","MHC class I presentation.NSB","Myeloid inflammation.PAX",0.209403246610432,0.250043801348433
+"350","MHC class II presentation.NSB","Myeloid inflammation.PAX",0.00337638130529547,0.985367766583486
+"351","TCR signaling.NSB","Myeloid inflammation.PAX",-0.0913345603525784,0.619082205874804
+"352","BCR signaling.NSB","Myeloid inflammation.PAX",-0.00753939760895132,0.967333418244591
+"353","NF-kappaB signaling.NSB","Myeloid inflammation.PAX",-0.0407022541639893,0.824954149892683
+"354","JAK-STAT signaling.NSB","Myeloid inflammation.PAX",0.0489572777729862,0.790173619041629
+"355","NK cell activity.NSB","Myeloid inflammation.PAX",-0.117639227648022,0.521377035507831
+"356","Mononuclear cell migration.NSB","Myeloid inflammation.PAX",0.0788626086224418,0.667898103674788
+"357","Lymphocyte trafficking.NSB","Myeloid inflammation.PAX",-0.115572668859954,0.528771220333299
+"358","Immune memory.NSB","Myeloid inflammation.PAX",-0.0105099741983177,0.954473941003911
+"359","Immune exhaustion.NSB","Myeloid inflammation.PAX",0.0836418916535295,0.649019853863452
+"360","Treg differentiation.NSB","Myeloid inflammation.PAX",-0.00583169428158382,0.974729835782991
+"361","Innate immune cell activation.NSB","Myeloid activation.PAX",-0.252230529052184,0.163710240949862
+"362","Interferon response.NSB","Myeloid activation.PAX",-0.0947461062500286,0.605991377687034
+"363","Type I interferon signaling.NSB","Myeloid activation.PAX",0.0996197767376828,0.587497307282103
+"364","Type II interferon signaling.NSB","Myeloid activation.PAX",-0.0409110408820918,0.824070150165083
+"365","Type III interferon signaling.NSB","Myeloid activation.PAX",0.10821738765419,0.555492433156109
+"366","TNF signaling.NSB","Myeloid activation.PAX",-0.196937921713161,0.2799865407193
+"367","Toll-like receptor signaling.NSB","Myeloid activation.PAX",-0.1738472396573,0.341312731338926
+"368","Nod-like receptor signaling.NSB","Myeloid activation.PAX",-0.145160095708971,0.427957694561706
+"369","Chemokine signaling.NSB","Myeloid activation.PAX",-0.264409587625087,0.143634468910808
+"370","RNA sensing.NSB","Myeloid activation.PAX",0.0387902566144636,0.833059187437809
+"371","Phagocytosis.NSB","Myeloid activation.PAX",-0.280969645119527,0.119295653616979
+"372","Myeloid inflammation.NSB","Myeloid activation.PAX",-0.20696595871846,0.255724359089358
+"373","Myeloid activation.NSB","Myeloid activation.PAX",-0.285954913106608,0.112607619185558
+"374","Inflammasomes.NSB","Myeloid activation.PAX",-0.228411004485984,0.208615370479236
+"375","Complement system.NSB","Myeloid activation.PAX",-0.25570114460348,0.157795771396929
+"376","Coagulation.NSB","Myeloid activation.PAX",-0.287724642588714,0.110302180026824
+"377","Leukotriene/prostaglandin inflammation.NSB","Myeloid activation.PAX",-0.23437102659135,0.196660106143635
+"378","Adaptive immune response.NSB","Myeloid activation.PAX",-0.233902268911502,0.197582750256418
+"379","MHC class I presentation.NSB","Myeloid activation.PAX",-0.0732045685848762,0.69050716710021
+"380","MHC class II presentation.NSB","Myeloid activation.PAX",-0.224274144612625,0.217201625730965
+"381","TCR signaling.NSB","Myeloid activation.PAX",-0.267782529720862,0.138405940329037
+"382","BCR signaling.NSB","Myeloid activation.PAX",-0.206125563332577,0.257702628865397
+"383","NF-kappaB signaling.NSB","Myeloid activation.PAX",-0.267834276737709,0.138326824262861
+"384","JAK-STAT signaling.NSB","Myeloid activation.PAX",-0.207387210300843,0.254736521394872
+"385","NK cell activity.NSB","Myeloid activation.PAX",-0.283719453578998,0.115571050998819
+"386","Mononuclear cell migration.NSB","Myeloid activation.PAX",-0.226615359904225,0.212313181598879
+"387","Lymphocyte trafficking.NSB","Myeloid activation.PAX",-0.303930761754045,0.0908061721736466
+"388","Immune memory.NSB","Myeloid activation.PAX",-0.144410548310705,0.430372432403743
+"389","Immune exhaustion.NSB","Myeloid activation.PAX",-0.0724298773930477,0.693623801726554
+"390","Treg differentiation.NSB","Myeloid activation.PAX",-0.1931702763916,0.289473173457049
+"391","Innate immune cell activation.NSB","Inflammasomes.PAX",-0.0863041879186994,0.638594869709725
+"392","Interferon response.NSB","Inflammasomes.PAX",0.122783019808214,0.5031945144925
+"393","Type I interferon signaling.NSB","Inflammasomes.PAX",0.292165334245929,0.104673162622361
+"394","Type II interferon signaling.NSB","Inflammasomes.PAX",0.172025428473441,0.346474191758946
+"395","Type III interferon signaling.NSB","Inflammasomes.PAX",0.279047984774086,0.121951012852878
+"396","TNF signaling.NSB","Inflammasomes.PAX",0.0289316794928829,0.87510022164912
+"397","Toll-like receptor signaling.NSB","Inflammasomes.PAX",0.011607620583284,0.94972495976307
+"398","Nod-like receptor signaling.NSB","Inflammasomes.PAX",0.0871223663046979,0.635404510335888
+"399","Chemokine signaling.NSB","Inflammasomes.PAX",-0.0742079770567102,0.686477784113073
+"400","RNA sensing.NSB","Inflammasomes.PAX",0.2719529274746,0.132135326520518
+"401","Phagocytosis.NSB","Inflammasomes.PAX",-0.0890274069652292,0.628001020481818
+"402","Myeloid inflammation.NSB","Inflammasomes.PAX",-0.0981960774794969,0.592874138209396
+"403","Myeloid activation.NSB","Inflammasomes.PAX",-0.127166698722719,0.48795391546973
+"404","Inflammasomes.NSB","Inflammasomes.PAX",-0.0503981467492655,0.784141329038717
+"405","Complement system.NSB","Inflammasomes.PAX",-0.126048294518567,0.491819632055358
+"406","Coagulation.NSB","Inflammasomes.PAX",-0.157585455732659,0.389033395534818
+"407","Leukotriene/prostaglandin inflammation.NSB","Inflammasomes.PAX",-0.143737317949091,0.432547689702724
+"408","Adaptive immune response.NSB","Inflammasomes.PAX",-0.0694714967645929,0.705570496853275
+"409","MHC class I presentation.NSB","Inflammasomes.PAX",0.112433259913341,0.540100111803045
+"410","MHC class II presentation.NSB","Inflammasomes.PAX",-0.0975077051645737,0.595481539130766
+"411","TCR signaling.NSB","Inflammasomes.PAX",-0.159395191523515,0.383540286754886
+"412","BCR signaling.NSB","Inflammasomes.PAX",-0.0708949800268514,0.699813302113597
+"413","NF-kappaB signaling.NSB","Inflammasomes.PAX",-0.105989310129883,0.563708458656007
+"414","JAK-STAT signaling.NSB","Inflammasomes.PAX",-0.0422206964883931,0.81852996003887
+"415","NK cell activity.NSB","Inflammasomes.PAX",-0.209837401463088,0.249040769627044
+"416","Mononuclear cell migration.NSB","Inflammasomes.PAX",-0.0410210368405522,0.823604514082383
+"417","Lymphocyte trafficking.NSB","Inflammasomes.PAX",-0.181176962473485,0.321022172813834
+"418","Immune memory.NSB","Inflammasomes.PAX",0.0028661056079088,0.987578965213841
+"419","Immune exhaustion.NSB","Inflammasomes.PAX",0.0283157982768217,0.877738954412163
+"420","Treg differentiation.NSB","Inflammasomes.PAX",-0.0585058662416866,0.750436225974116
+"421","Innate immune cell activation.NSB","Complement system.PAX",-0.206393669243047,0.25707042325379
+"422","Interferon response.NSB","Complement system.PAX",-0.00486356427487202,0.978923962690686
+"423","Type I interferon signaling.NSB","Complement system.PAX",0.221674332883512,0.222719395876595
+"424","Type II interferon signaling.NSB","Complement system.PAX",0.0726081094106491,0.692906324403193
+"425","Type III interferon signaling.NSB","Complement system.PAX",0.0182559253476289,0.921002930182839
+"426","TNF signaling.NSB","Complement system.PAX",-0.115626914955642,0.528576481586131
+"427","Toll-like receptor signaling.NSB","Complement system.PAX",-0.157995155748335,0.387785867776473
+"428","Nod-like receptor signaling.NSB","Complement system.PAX",-0.0837065923518022,0.648765714323043
+"429","Chemokine signaling.NSB","Complement system.PAX",-0.208469502427013,0.2522100997327
+"430","RNA sensing.NSB","Complement system.PAX",0.14008065995315,0.444467550398217
+"431","Phagocytosis.NSB","Complement system.PAX",-0.264715504870702,0.143154413839427
+"432","Myeloid inflammation.NSB","Complement system.PAX",-0.185342753284744,0.309831008442457
+"433","Myeloid activation.NSB","Complement system.PAX",-0.281833277910069,0.118116382960717
+"434","Inflammasomes.NSB","Complement system.PAX",-0.158301513060529,0.386854530157381
+"435","Complement system.NSB","Complement system.PAX",-0.240148077836506,0.185534475741654
+"436","Coagulation.NSB","Complement system.PAX",-0.272657268437391,0.131097239227991
+"437","Leukotriene/prostaglandin inflammation.NSB","Complement system.PAX",-0.270685883580665,0.134017939963152
+"438","Adaptive immune response.NSB","Complement system.PAX",-0.160716734407145,0.379557626137165
+"439","MHC class I presentation.NSB","Complement system.PAX",-0.0272449642405291,0.882329979760624
+"440","MHC class II presentation.NSB","Complement system.PAX",-0.111575060129253,0.543216942337622
+"441","TCR signaling.NSB","Complement system.PAX",-0.154659644512123,0.398009595858469
+"442","BCR signaling.NSB","Complement system.PAX",-0.146925703095644,0.422299307169296
+"443","NF-kappaB signaling.NSB","Complement system.PAX",-0.211180740168663,0.245954167435829
+"444","JAK-STAT signaling.NSB","Complement system.PAX",-0.1181279937751,0.519635637745492
+"445","NK cell activity.NSB","Complement system.PAX",-0.190875079442196,0.295351772390129
+"446","Mononuclear cell migration.NSB","Complement system.PAX",-0.160626118828173,0.379829935969698
+"447","Lymphocyte trafficking.NSB","Complement system.PAX",-0.229144587182339,0.20711750863194
+"448","Immune memory.NSB","Complement system.PAX",-0.112778288222368,0.538849427674904
+"449","Immune exhaustion.NSB","Complement system.PAX",0.016861379010757,0.927020752768932
+"450","Treg differentiation.NSB","Complement system.PAX",-0.116575283157175,0.525177531875043
+"451","Innate immune cell activation.NSB","Coagulation.PAX",-0.36580001144427,0.0395017144465737
+"452","Interferon response.NSB","Coagulation.PAX",-0.317233490138867,0.0768664533151582
+"453","Type I interferon signaling.NSB","Coagulation.PAX",-0.204479900353805,0.261605582544833
+"454","Type II interferon signaling.NSB","Coagulation.PAX",-0.261301049523134,0.148579078408826
+"455","Type III interferon signaling.NSB","Coagulation.PAX",-0.19385346903688,0.287737885593243
+"456","TNF signaling.NSB","Coagulation.PAX",-0.368467148351943,0.0379788463093935
+"457","Toll-like receptor signaling.NSB","Coagulation.PAX",-0.315708635060616,0.078374686192404
+"458","Nod-like receptor signaling.NSB","Coagulation.PAX",-0.366145074577414,0.039301966875704
+"459","Chemokine signaling.NSB","Coagulation.PAX",-0.389331879204003,0.027630244395592
+"460","RNA sensing.NSB","Coagulation.PAX",-0.243873448334116,0.178598718293769
+"461","Phagocytosis.NSB","Coagulation.PAX",-0.421291722195594,0.0163350911404678
+"462","Myeloid inflammation.NSB","Coagulation.PAX",-0.322792480250694,0.0715574137975516
+"463","Myeloid activation.NSB","Coagulation.PAX",-0.39533500310839,0.025123787087117
+"464","Inflammasomes.NSB","Coagulation.PAX",-0.343964393313844,0.053902084037899
+"465","Complement system.NSB","Coagulation.PAX",-0.347452033006542,0.0513579220696494
+"466","Coagulation.NSB","Coagulation.PAX",-0.378618679459583,0.0326100278765749
+"467","Leukotriene/prostaglandin inflammation.NSB","Coagulation.PAX",-0.325548919178602,0.0690329258048619
+"468","Adaptive immune response.NSB","Coagulation.PAX",-0.323181151627822,0.0711971654774062
+"469","MHC class I presentation.NSB","Coagulation.PAX",-0.270953249683846,0.133619049901113
+"470","MHC class II presentation.NSB","Coagulation.PAX",-0.292225292153907,0.1045986703797
+"471","TCR signaling.NSB","Coagulation.PAX",-0.173874635995234,0.341235471807794
+"472","BCR signaling.NSB","Coagulation.PAX",-0.233784818803766,0.197814394482974
+"473","NF-kappaB signaling.NSB","Coagulation.PAX",-0.368641009973712,0.0378812440714884
+"474","JAK-STAT signaling.NSB","Coagulation.PAX",-0.311074039117472,0.0830992768116894
+"475","NK cell activity.NSB","Coagulation.PAX",-0.232453574579381,0.200453163629044
+"476","Mononuclear cell migration.NSB","Coagulation.PAX",-0.366890046056145,0.0388734972550797
+"477","Lymphocyte trafficking.NSB","Coagulation.PAX",-0.294978528063788,0.10122086930074
+"478","Immune memory.NSB","Coagulation.PAX",-0.173261669200076,0.342966619784405
+"479","Immune exhaustion.NSB","Coagulation.PAX",-0.144464258373068,0.430199151159312
+"480","Treg differentiation.NSB","Coagulation.PAX",-0.160487640717839,0.380246298104554
+"481","Innate immune cell activation.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.222551040529379,0.220848160800345
+"482","Interferon response.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.327593335629408,0.0672058001511431
+"483","Type I interferon signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.401436779931034,0.0227705983974338
+"484","Type II interferon signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.292592613968087,0.104143178032845
+"485","Type III interferon signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.232073539870482,0.201210914059956
+"486","TNF signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.229829148422447,0.205726436000909
+"487","Toll-like receptor signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.19595637957656,0.282438440530612
+"488","Nod-like receptor signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.293412781701908,0.103131537827156
+"489","Chemokine signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.262375661000647,0.146855991910556
+"490","RNA sensing.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.36546175099981,0.0396983168061915
+"491","Phagocytosis.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.236768752103313,0.191987547617023
+"492","Myeloid inflammation.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.209648075392629,0.249477842577533
+"493","Myeloid activation.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.193393540854482,0.288905354642219
+"494","Inflammasomes.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.205918364417467,0.258191913525306
+"495","Complement system.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.181057322146647,0.321347234933416
+"496","Coagulation.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.16542782230892,0.365557714092494
+"497","Leukotriene/prostaglandin inflammation.NSB","Leukotriene/prostaglandin inflammation.PAX",0.0674259431936162,0.713871632800091
+"498","Adaptive immune response.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.205747830644787,0.258595074430238
+"499","MHC class I presentation.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.258096157007981,0.153804888838769
+"500","MHC class II presentation.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.210551634897637,0.247396484911004
+"501","TCR signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.081886705143438,0.655928811205894
+"502","BCR signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.0883471591493726,0.630640615712798
+"503","NF-kappaB signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.142791403902021,0.435614187692651
+"504","JAK-STAT signaling.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.246564659863719,0.173703565396707
+"505","NK cell activity.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.117502653988258,0.521864135146742
+"506","Mononuclear cell migration.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.305129814085475,0.0894757939227298
+"507","Lymphocyte trafficking.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.130607231758249,0.476160105118913
+"508","Immune memory.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.0796441017992286,0.664797138407808
+"509","Immune exhaustion.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.234575665571374,0.196258260666028
+"510","Treg differentiation.NSB","Leukotriene/prostaglandin inflammation.PAX",-0.0675899647339945,0.713204809615838
+"511","Innate immune cell activation.NSB","Adaptive immune response.PAX",0.0977834162159107,0.594436611131636
+"512","Interferon response.NSB","Adaptive immune response.PAX",0.21951278909944,0.227378881657506
+"513","Type I interferon signaling.NSB","Adaptive immune response.PAX",0.338533178685604,0.0580616789370836
+"514","Type II interferon signaling.NSB","Adaptive immune response.PAX",0.208682041046755,0.251715919636647
+"515","Type III interferon signaling.NSB","Adaptive immune response.PAX",0.278236753415466,0.123085040122364
+"516","TNF signaling.NSB","Adaptive immune response.PAX",0.100923206352367,0.58259356125674
+"517","Toll-like receptor signaling.NSB","Adaptive immune response.PAX",0.117654448819291,0.521322761877581
+"518","Nod-like receptor signaling.NSB","Adaptive immune response.PAX",0.164976549472976,0.366885346104175
+"519","Chemokine signaling.NSB","Adaptive immune response.PAX",0.112620220961759,0.539422230517287
+"520","RNA sensing.NSB","Adaptive immune response.PAX",0.300788840501824,0.0943638052103981
+"521","Phagocytosis.NSB","Adaptive immune response.PAX",0.0915901128883467,0.618097546406488
+"522","Myeloid inflammation.NSB","Adaptive immune response.PAX",0.11351650096456,0.536178136221277
+"523","Myeloid activation.NSB","Adaptive immune response.PAX",0.0612113647481319,0.739285538800449
+"524","Inflammasomes.NSB","Adaptive immune response.PAX",0.116623191207473,0.52500611163924
+"525","Complement system.NSB","Adaptive immune response.PAX",0.0662902597636931,0.71849437674594
+"526","Coagulation.NSB","Adaptive immune response.PAX",0.0314111551423689,0.864490556023141
+"527","Leukotriene/prostaglandin inflammation.NSB","Adaptive immune response.PAX",0.0439578622832808,0.811194579015429
+"528","Adaptive immune response.NSB","Adaptive immune response.PAX",0.103159766828503,0.574221738021443
+"529","MHC class I presentation.NSB","Adaptive immune response.PAX",0.212013816745489,0.244052840080888
+"530","MHC class II presentation.NSB","Adaptive immune response.PAX",0.00429302259262576,0.981395925915727
+"531","TCR signaling.NSB","Adaptive immune response.PAX",0.000676091210711731,0.997069871941839
+"532","BCR signaling.NSB","Adaptive immune response.PAX",0.0850188439654288,0.643619696715072
+"533","NF-kappaB signaling.NSB","Adaptive immune response.PAX",0.0558618946234741,0.761381363420647
+"534","JAK-STAT signaling.NSB","Adaptive immune response.PAX",0.130391183664762,0.476896305577859
+"535","NK cell activity.NSB","Adaptive immune response.PAX",0.009629980727719,0.95828235991601
+"536","Mononuclear cell migration.NSB","Adaptive immune response.PAX",0.141807474165051,0.438816511905843
+"537","Lymphocyte trafficking.NSB","Adaptive immune response.PAX",0.026678082572676,0.884761921113576
+"538","Immune memory.NSB","Adaptive immune response.PAX",0.165205063356833,0.366212708594067
+"539","Immune exhaustion.NSB","Adaptive immune response.PAX",0.156814729142582,0.391386513070065
+"540","Treg differentiation.NSB","Adaptive immune response.PAX",0.115309849284968,0.529715210097033
+"541","Innate immune cell activation.NSB","MHC class I presentation.PAX",0.0973587251366473,0.596046495028786
+"542","Interferon response.NSB","MHC class I presentation.PAX",0.312956212903525,0.0811548401867443
+"543","Type I interferon signaling.NSB","MHC class I presentation.PAX",0.525191099466852,0.00202577790383174
+"544","Type II interferon signaling.NSB","MHC class I presentation.PAX",0.370695516846722,0.0367431412793389
+"545","Type III interferon signaling.NSB","MHC class I presentation.PAX",0.322746305972187,0.0716003054093595
+"546","TNF signaling.NSB","MHC class I presentation.PAX",0.156894355678547,0.391143024987147
+"547","Toll-like receptor signaling.NSB","MHC class I presentation.PAX",0.105337835745654,0.566121219823847
+"548","Nod-like receptor signaling.NSB","MHC class I presentation.PAX",0.226287330565765,0.212993522179837
+"549","Chemokine signaling.NSB","MHC class I presentation.PAX",0.128062723035335,0.484868108695729
+"550","RNA sensing.NSB","MHC class I presentation.PAX",0.435307383199054,0.0127712764903625
+"551","Phagocytosis.NSB","MHC class I presentation.PAX",0.072643183677911,0.69276516284071
+"552","Myeloid inflammation.NSB","MHC class I presentation.PAX",0.111039551679001,0.545166110807186
+"553","Myeloid activation.NSB","MHC class I presentation.PAX",0.0170499608533545,0.926206735084891
+"554","Inflammasomes.NSB","MHC class I presentation.PAX",0.101851412517199,0.579112569592359
+"555","Complement system.NSB","MHC class I presentation.PAX",0.00221574025989865,0.990397349194378
+"556","Coagulation.NSB","MHC class I presentation.PAX",-0.0182707557249371,0.920938955804143
+"557","Leukotriene/prostaglandin inflammation.NSB","MHC class I presentation.PAX",-0.0688983972800616,0.707892909465133
+"558","Adaptive immune response.NSB","MHC class I presentation.PAX",0.117553908665111,0.521681305677493
+"559","MHC class I presentation.NSB","MHC class I presentation.PAX",0.293537782117842,0.102978008754018
+"560","MHC class II presentation.NSB","MHC class I presentation.PAX",0.121389594506403,0.508088453139884
+"561","TCR signaling.NSB","MHC class I presentation.PAX",0.00979388818606153,0.95757293338616
+"562","BCR signaling.NSB","MHC class I presentation.PAX",0.0549504711337889,0.765164990483651
+"563","NF-kappaB signaling.NSB","MHC class I presentation.PAX",0.0484225039165086,0.792415543504043
+"564","JAK-STAT signaling.NSB","MHC class I presentation.PAX",0.154517851186856,0.398447594582428
+"565","NK cell activity.NSB","MHC class I presentation.PAX",0.00979053802286511,0.957587433291447
+"566","Mononuclear cell migration.NSB","MHC class I presentation.PAX",0.148158543100845,0.418373124287086
+"567","Lymphocyte trafficking.NSB","MHC class I presentation.PAX",0.000145988667553034,0.999367294894346
+"568","Immune memory.NSB","MHC class I presentation.PAX",0.123119455171329,0.502016450787973
+"569","Immune exhaustion.NSB","MHC class I presentation.PAX",0.24655538581967,0.173720269276669
+"570","Treg differentiation.NSB","MHC class I presentation.PAX",0.063491925721201,0.729926362702229
+"571","Innate immune cell activation.NSB","MHC class II presentation.PAX",0.110894174907383,0.54569582792537
+"572","Interferon response.NSB","MHC class II presentation.PAX",0.140750959319465,0.442269315917534
+"573","Type I interferon signaling.NSB","MHC class II presentation.PAX",0.111762166181416,0.542536682274812
+"574","Type II interferon signaling.NSB","MHC class II presentation.PAX",0.111667825110299,0.542879627024663
+"575","Type III interferon signaling.NSB","MHC class II presentation.PAX",0.29820239749225,0.0973711998607116
+"576","TNF signaling.NSB","MHC class II presentation.PAX",0.0937746162898281,0.60970721570581
+"577","Toll-like receptor signaling.NSB","MHC class II presentation.PAX",0.110721627272906,0.546324863214303
+"578","Nod-like receptor signaling.NSB","MHC class II presentation.PAX",0.174772059246161,0.338710553837001
+"579","Chemokine signaling.NSB","MHC class II presentation.PAX",0.143258675583272,0.43409788493455
+"580","RNA sensing.NSB","MHC class II presentation.PAX",0.17015527432317,0.351821381771332
+"581","Phagocytosis.NSB","MHC class II presentation.PAX",0.14523457589685,0.427718159139824
+"582","Myeloid inflammation.NSB","MHC class II presentation.PAX",0.0428543250936979,0.815852609493903
+"583","Myeloid activation.NSB","MHC class II presentation.PAX",0.10779848721976,0.557032881164119
+"584","Inflammasomes.NSB","MHC class II presentation.PAX",0.134362202828509,0.463459695753801
+"585","Complement system.NSB","MHC class II presentation.PAX",0.0803445050277985,0.662022554229482
+"586","Coagulation.NSB","MHC class II presentation.PAX",0.119695382046434,0.514070556008183
+"587","Leukotriene/prostaglandin inflammation.NSB","MHC class II presentation.PAX",-0.0660754469841296,0.719369868101831
+"588","Adaptive immune response.NSB","MHC class II presentation.PAX",0.130451648868216,0.476690206179609
+"589","MHC class I presentation.NSB","MHC class II presentation.PAX",0.0960446543681045,0.601039664099398
+"590","MHC class II presentation.NSB","MHC class II presentation.PAX",0.087355978369975,0.634494750686138
+"591","TCR signaling.NSB","MHC class II presentation.PAX",0.157771454970907,0.388466744822614
+"592","BCR signaling.NSB","MHC class II presentation.PAX",0.0873209242808272,0.634631229085832
+"593","NF-kappaB signaling.NSB","MHC class II presentation.PAX",0.174291926698772,0.340059997373867
+"594","JAK-STAT signaling.NSB","MHC class II presentation.PAX",0.120265252256493,0.512054526171659
+"595","NK cell activity.NSB","MHC class II presentation.PAX",0.134482720680934,0.463055059540746
+"596","Mononuclear cell migration.NSB","MHC class II presentation.PAX",0.0979049847368492,0.593976126683576
+"597","Lymphocyte trafficking.NSB","MHC class II presentation.PAX",0.124771185081926,0.496252901668991
+"598","Immune memory.NSB","MHC class II presentation.PAX",0.137427262778532,0.453227117674687
+"599","Immune exhaustion.NSB","MHC class II presentation.PAX",0.120284510884367,0.511986463365459
+"600","Treg differentiation.NSB","MHC class II presentation.PAX",0.138002895895958,0.451318986603104
+"601","Innate immune cell activation.NSB","TCR signaling.PAX",0.2382749164633,0.189092343238888
+"602","Interferon response.NSB","TCR signaling.PAX",0.047796228789976,0.795043138289002
+"603","Type I interferon signaling.NSB","TCR signaling.PAX",-0.158857220862902,0.385168466598118
+"604","Type II interferon signaling.NSB","TCR signaling.PAX",-0.074304834310164,0.6860892799023
+"605","Type III interferon signaling.NSB","TCR signaling.PAX",-0.0250721889167244,0.891656783330654
+"606","TNF signaling.NSB","TCR signaling.PAX",0.105760713468059,0.564554539737027
+"607","Toll-like receptor signaling.NSB","TCR signaling.PAX",0.18095256779833,0.321632019359009
+"608","Nod-like receptor signaling.NSB","TCR signaling.PAX",0.0992788277986563,0.588783004746528
+"609","Chemokine signaling.NSB","TCR signaling.PAX",0.250646788988199,0.166461203157114
+"610","RNA sensing.NSB","TCR signaling.PAX",-0.0847696545329474,0.644595660081702
+"611","Phagocytosis.NSB","TCR signaling.PAX",0.290831559583204,0.106340608788466
+"612","Myeloid inflammation.NSB","TCR signaling.PAX",0.198801969952985,0.275368030607016
+"613","Myeloid activation.NSB","TCR signaling.PAX",0.313153353039678,0.0809532234273782
+"614","Inflammasomes.NSB","TCR signaling.PAX",0.210890614977387,0.246618626024534
+"615","Complement system.NSB","TCR signaling.PAX",0.309355692368092,0.0849055561542746
+"616","Coagulation.NSB","TCR signaling.PAX",0.316416069555307,0.0776721468235952
+"617","Leukotriene/prostaglandin inflammation.NSB","TCR signaling.PAX",0.291646707003707,0.105319178675336
+"618","Adaptive immune response.NSB","TCR signaling.PAX",0.194116845950646,0.287070698731748
+"619","MHC class I presentation.NSB","TCR signaling.PAX",0.0409009144870729,0.824113020286873
+"620","MHC class II presentation.NSB","TCR signaling.PAX",0.0925424004013105,0.614434064939227
+"621","TCR signaling.NSB","TCR signaling.PAX",0.181303171525638,0.320679484526809
+"622","BCR signaling.NSB","TCR signaling.PAX",0.170048438251489,0.352128339524949
+"623","NF-kappaB signaling.NSB","TCR signaling.PAX",0.207408234176974,0.254687286344951
+"624","JAK-STAT signaling.NSB","TCR signaling.PAX",0.175101071496581,0.337787729715777
+"625","NK cell activity.NSB","TCR signaling.PAX",0.237310099644707,0.190943410772878
+"626","Mononuclear cell migration.NSB","TCR signaling.PAX",0.238419860439923,0.188815346656973
+"627","Lymphocyte trafficking.NSB","TCR signaling.PAX",0.27461223871248,0.128247375338059
+"628","Immune memory.NSB","TCR signaling.PAX",0.141656755654205,0.439308175372095
+"629","Immune exhaustion.NSB","TCR signaling.PAX",-0.0101516593978599,0.956024534576911
+"630","Treg differentiation.NSB","TCR signaling.PAX",0.155293964563401,0.396053558707471
+"631","Innate immune cell activation.NSB","BCR signaling.PAX",0.24450807717005,0.17743568932279
+"632","Interferon response.NSB","BCR signaling.PAX",0.0410686975071454,0.823402774720535
+"633","Type I interferon signaling.NSB","BCR signaling.PAX",-0.227143682663579,0.211220562109612
+"634","Type II interferon signaling.NSB","BCR signaling.PAX",-0.10441606665753,0.569543040315551
+"635","Type III interferon signaling.NSB","BCR signaling.PAX",-0.0158155359206354,0.931536451315702
+"636","TNF signaling.NSB","BCR signaling.PAX",0.138219919764433,0.450600708789606
+"637","Toll-like receptor signaling.NSB","BCR signaling.PAX",0.239475423765071,0.186806662175336
+"638","Nod-like receptor signaling.NSB","BCR signaling.PAX",0.119312242665922,0.515428187107835
+"639","Chemokine signaling.NSB","BCR signaling.PAX",0.220366475827152,0.225530836216198
+"640","RNA sensing.NSB","BCR signaling.PAX",-0.0918110170780253,0.617246913305807
+"641","Phagocytosis.NSB","BCR signaling.PAX",0.294312479340965,0.102030347002977
+"642","Myeloid inflammation.NSB","BCR signaling.PAX",0.204692007519442,0.261100372135764
+"643","Myeloid activation.NSB","BCR signaling.PAX",0.33414208477087,0.0616062848002565
+"644","Inflammasomes.NSB","BCR signaling.PAX",0.237680828039647,0.190230651638527
+"645","Complement system.NSB","BCR signaling.PAX",0.280318801250714,0.120190133475058
+"646","Coagulation.NSB","BCR signaling.PAX",0.332848450804896,0.062682308465277
+"647","Leukotriene/prostaglandin inflammation.NSB","BCR signaling.PAX",0.36566349019275,0.0395809681962871
+"648","Adaptive immune response.NSB","BCR signaling.PAX",0.202339196712136,0.266740326275769
+"649","MHC class I presentation.NSB","BCR signaling.PAX",0.0225312430915199,0.902581971375163
+"650","MHC class II presentation.NSB","BCR signaling.PAX",0.0813858430626327,0.657905525000528
+"651","TCR signaling.NSB","BCR signaling.PAX",0.199853068557891,0.272785630362772
+"652","BCR signaling.NSB","BCR signaling.PAX",0.237091024012148,0.191365479280463
+"653","NF-kappaB signaling.NSB","BCR signaling.PAX",0.254393218649523,0.160006368669715
+"654","JAK-STAT signaling.NSB","BCR signaling.PAX",0.180664830385749,0.322415064551124
+"655","NK cell activity.NSB","BCR signaling.PAX",0.246391460455639,0.174015710280135
+"656","Mononuclear cell migration.NSB","BCR signaling.PAX",0.187644241717122,0.303754412854912
+"657","Lymphocyte trafficking.NSB","BCR signaling.PAX",0.29408492325043,0.102308023117025
+"658","Immune memory.NSB","BCR signaling.PAX",0.163617871704687,0.370899725003118
+"659","Immune exhaustion.NSB","BCR signaling.PAX",-0.0425600510451745,0.817095790810593
+"660","Treg differentiation.NSB","BCR signaling.PAX",0.215066690159991,0.237169141734026
+"661","Innate immune cell activation.NSB","NF-kappaB signaling.PAX",-0.0386940125232125,0.833467622930665
+"662","Interferon response.NSB","NF-kappaB signaling.PAX",0.0802127707944189,0.662544072762676
+"663","Type I interferon signaling.NSB","NF-kappaB signaling.PAX",0.229477228875661,0.206440752482322
+"664","Type II interferon signaling.NSB","NF-kappaB signaling.PAX",0.0944654287176443,0.607063949148109
+"665","Type III interferon signaling.NSB","NF-kappaB signaling.PAX",0.0636018277812127,0.72947628699657
+"666","TNF signaling.NSB","NF-kappaB signaling.PAX",-0.000590941555418646,0.99743890280392
+"667","Toll-like receptor signaling.NSB","NF-kappaB signaling.PAX",-0.035823758753818,0.845667404774179
+"668","Nod-like receptor signaling.NSB","NF-kappaB signaling.PAX",0.0289828351155294,0.87488110511426
+"669","Chemokine signaling.NSB","NF-kappaB signaling.PAX",-0.0121442146507827,0.947403985238032
+"670","RNA sensing.NSB","NF-kappaB signaling.PAX",0.181473936203754,0.320216178145377
+"671","Phagocytosis.NSB","NF-kappaB signaling.PAX",-0.0613352407916204,0.73877620877726
+"672","Myeloid inflammation.NSB","NF-kappaB signaling.PAX",0.00534885751878012,0.976821502254723
+"673","Myeloid activation.NSB","NF-kappaB signaling.PAX",-0.0928004780201307,0.61344279718537
+"674","Inflammasomes.NSB","NF-kappaB signaling.PAX",0.000582143004909921,0.997477034952553
+"675","Complement system.NSB","NF-kappaB signaling.PAX",-0.0616146856154496,0.737627640231196
+"676","Coagulation.NSB","NF-kappaB signaling.PAX",-0.100058300176273,0.58584547766751
+"677","Leukotriene/prostaglandin inflammation.NSB","NF-kappaB signaling.PAX",0.0043976784479766,0.980942474296484
+"678","Adaptive immune response.NSB","NF-kappaB signaling.PAX",-0.0164728491683035,0.928698078059217
+"679","MHC class I presentation.NSB","NF-kappaB signaling.PAX",0.0758084556697129,0.680068253576534
+"680","MHC class II presentation.NSB","NF-kappaB signaling.PAX",-0.0769532515547008,0.675497011634159
+"681","TCR signaling.NSB","NF-kappaB signaling.PAX",-0.0750309039963411,0.683179453957499
+"682","BCR signaling.NSB","NF-kappaB signaling.PAX",-0.015508566005873,0.932862276815289
+"683","NF-kappaB signaling.NSB","NF-kappaB signaling.PAX",-0.0347515672019159,0.850233849983163
+"684","JAK-STAT signaling.NSB","NF-kappaB signaling.PAX",0.0205777986896564,0.910993131796099
+"685","NK cell activity.NSB","NF-kappaB signaling.PAX",-0.102664168166861,0.57607217817242
+"686","Mononuclear cell migration.NSB","NF-kappaB signaling.PAX",-0.0169982484158395,0.926429945701843
+"687","Lymphocyte trafficking.NSB","NF-kappaB signaling.PAX",-0.0704125339550828,0.701762712203339
+"688","Immune memory.NSB","NF-kappaB signaling.PAX",0.0767043391572201,0.676489975579452
+"689","Immune exhaustion.NSB","NF-kappaB signaling.PAX",0.0734727382938813,0.689429458444016
+"690","Treg differentiation.NSB","NF-kappaB signaling.PAX",0.0101076286559828,0.956215086935187
+"691","Innate immune cell activation.NSB","JAK-STAT signaling.PAX",0.183012053162989,0.316061802335244
+"692","Interferon response.NSB","JAK-STAT signaling.PAX",0.226045863117403,0.213495284668152
+"693","Type I interferon signaling.NSB","JAK-STAT signaling.PAX",0.204784428795148,0.260880437619342
+"694","Type II interferon signaling.NSB","JAK-STAT signaling.PAX",0.1853963492504,0.309688639249567
+"695","Type III interferon signaling.NSB","JAK-STAT signaling.PAX",0.210176714359264,0.248258712959655
+"696","TNF signaling.NSB","JAK-STAT signaling.PAX",0.125814297055437,0.492630402353504
+"697","Toll-like receptor signaling.NSB","JAK-STAT signaling.PAX",0.153231997096297,0.402432149636156
+"698","Nod-like receptor signaling.NSB","JAK-STAT signaling.PAX",0.200105796272336,0.272167066598363
+"699","Chemokine signaling.NSB","JAK-STAT signaling.PAX",0.205834327500892,0.258390534480776
+"700","RNA sensing.NSB","JAK-STAT signaling.PAX",0.234380119289565,0.196642238864852
+"701","Phagocytosis.NSB","JAK-STAT signaling.PAX",0.157760819046246,0.38849913453364
+"702","Myeloid inflammation.NSB","JAK-STAT signaling.PAX",0.195006280851517,0.284824910306592
+"703","Myeloid activation.NSB","JAK-STAT signaling.PAX",0.135485134570398,0.45969672865371
+"704","Inflammasomes.NSB","JAK-STAT signaling.PAX",0.203543904309762,0.263842650962762
+"705","Complement system.NSB","JAK-STAT signaling.PAX",0.1622462580648,0.374978450393313
+"706","Coagulation.NSB","JAK-STAT signaling.PAX",0.109090141048465,0.55228936113472
+"707","Leukotriene/prostaglandin inflammation.NSB","JAK-STAT signaling.PAX",0.060781735371315,0.74105284726345
+"708","Adaptive immune response.NSB","JAK-STAT signaling.PAX",0.205545156623584,0.259074756611178
+"709","MHC class I presentation.NSB","JAK-STAT signaling.PAX",0.198079758755454,0.277151546391727
+"710","MHC class II presentation.NSB","JAK-STAT signaling.PAX",0.10355375651981,0.572752588562604
+"711","TCR signaling.NSB","JAK-STAT signaling.PAX",0.182117013504941,0.318475156418763
+"712","BCR signaling.NSB","JAK-STAT signaling.PAX",0.190795659495813,0.295556535848401
+"713","NF-kappaB signaling.NSB","JAK-STAT signaling.PAX",0.166641084227095,0.362002469448123
+"714","JAK-STAT signaling.NSB","JAK-STAT signaling.PAX",0.238448589916153,0.188760476646644
+"715","NK cell activity.NSB","JAK-STAT signaling.PAX",0.200491790844989,0.271224085183183
+"716","Mononuclear cell migration.NSB","JAK-STAT signaling.PAX",0.234959136444555,0.195506784325855
+"717","Lymphocyte trafficking.NSB","JAK-STAT signaling.PAX",0.162308643003802,0.374792369303221
+"718","Immune memory.NSB","JAK-STAT signaling.PAX",0.279075426717032,0.121912787511442
+"719","Immune exhaustion.NSB","JAK-STAT signaling.PAX",0.23390394738465,0.197579441206983
+"720","Treg differentiation.NSB","JAK-STAT signaling.PAX",0.269719504489451,0.135466993036207
+"721","Innate immune cell activation.NSB","NK cell activity.PAX",-0.0245179843581273,0.894038077186189
+"722","Interferon response.NSB","NK cell activity.PAX",-0.161028921069835,0.378620343457137
+"723","Type I interferon signaling.NSB","NK cell activity.PAX",-0.239815544324083,0.186162632305232
+"724","Type II interferon signaling.NSB","NK cell activity.PAX",-0.205993438983069,0.258014560027601
+"725","Type III interferon signaling.NSB","NK cell activity.PAX",-0.418272086034355,0.0172025384852301
+"726","TNF signaling.NSB","NK cell activity.PAX",-0.0977931050921772,0.594399905353834
+"727","Toll-like receptor signaling.NSB","NK cell activity.PAX",-0.094601002649733,0.606545771124963
+"728","Nod-like receptor signaling.NSB","NK cell activity.PAX",-0.154789414274831,0.397608979248075
+"729","Chemokine signaling.NSB","NK cell activity.PAX",-0.0067104989276558,0.970923254785488
+"730","RNA sensing.NSB","NK cell activity.PAX",-0.247429973797533,0.172150016913782
+"731","Phagocytosis.NSB","NK cell activity.PAX",-0.0300237253340242,0.870424625547775
+"732","Myeloid inflammation.NSB","NK cell activity.PAX",0.0341495055830025,0.852800121396308
+"733","Myeloid activation.NSB","NK cell activity.PAX",-0.0228846932194159,0.90106116374366
+"734","Inflammasomes.NSB","NK cell activity.PAX",-0.067107020610342,0.715168793613194
+"735","Complement system.NSB","NK cell activity.PAX",-0.0185943192288195,0.919543308790497
+"736","Coagulation.NSB","NK cell activity.PAX",0.011257961303575,0.95123758888496
+"737","Leukotriene/prostaglandin inflammation.NSB","NK cell activity.PAX",0.0387805667681156,0.833100306752057
+"738","Adaptive immune response.NSB","NK cell activity.PAX",-0.0289440880900955,0.875047070667434
+"739","MHC class I presentation.NSB","NK cell activity.PAX",-0.15525802825894,0.396164227161617
+"740","MHC class II presentation.NSB","NK cell activity.PAX",-0.0107452275681761,0.953455979630627
+"741","TCR signaling.NSB","NK cell activity.PAX",0.0876924932800079,0.633185175446676
+"742","BCR signaling.NSB","NK cell activity.PAX",-0.00511773552195245,0.977822785549357
+"743","NF-kappaB signaling.NSB","NK cell activity.PAX",0.00239688094191575,0.989612356023163
+"744","JAK-STAT signaling.NSB","NK cell activity.PAX",-0.0379815618221309,0.836492402669652
+"745","NK cell activity.NSB","NK cell activity.PAX",0.0657379333432012,0.720746144972084
+"746","Mononuclear cell migration.NSB","NK cell activity.PAX",-0.0692196322604093,0.706590826509484
+"747","Lymphocyte trafficking.NSB","NK cell activity.PAX",0.0547953697957716,0.765809401084123
+"748","Immune memory.NSB","NK cell activity.PAX",-0.0302378034863154,0.869508548215272
+"749","Immune exhaustion.NSB","NK cell activity.PAX",-0.00948328736541396,0.958917306763349
+"750","Treg differentiation.NSB","NK cell activity.PAX",-0.0039493159514316,0.982885173264164
+"751","Innate immune cell activation.NSB","Mononuclear cell migration.PAX",0.00340044249930115,0.985263503730699
+"752","Interferon response.NSB","Mononuclear cell migration.PAX",0.2150539754665,0.237197538299161
+"753","Type I interferon signaling.NSB","Mononuclear cell migration.PAX",0.407450529142994,0.0206321562962828
+"754","Type II interferon signaling.NSB","Mononuclear cell migration.PAX",0.276962226342211,0.124882466780893
+"755","Type III interferon signaling.NSB","Mononuclear cell migration.PAX",0.317037507630052,0.0770590325553218
+"756","TNF signaling.NSB","Mononuclear cell migration.PAX",0.0873556530971371,0.634496017038161
+"757","Toll-like receptor signaling.NSB","Mononuclear cell migration.PAX",0.0693092573946576,0.706227688187249
+"758","Nod-like receptor signaling.NSB","Mononuclear cell migration.PAX",0.143652353347558,0.432822645187306
+"759","Chemokine signaling.NSB","Mononuclear cell migration.PAX",0.00947538126842087,0.95895152818163
+"760","RNA sensing.NSB","Mononuclear cell migration.PAX",0.339700395474376,0.0571470602582644
+"761","Phagocytosis.NSB","Mononuclear cell migration.PAX",-0.00800373834733226,0.965322697853787
+"762","Myeloid inflammation.NSB","Mononuclear cell migration.PAX",-0.0153333817354173,0.933618989940115
+"763","Myeloid activation.NSB","Mononuclear cell migration.PAX",-0.0600355540620633,0.744125391575428
+"764","Inflammasomes.NSB","Mononuclear cell migration.PAX",0.0215548341033649,0.906784962823055
+"765","Complement system.NSB","Mononuclear cell migration.PAX",-0.0702163138381323,0.702556108825237
+"766","Coagulation.NSB","Mononuclear cell migration.PAX",-0.0902075184270185,0.623432492045228
+"767","Leukotriene/prostaglandin inflammation.NSB","Mononuclear cell migration.PAX",-0.117220511229032,0.522871120108416
+"768","Adaptive immune response.NSB","Mononuclear cell migration.PAX",0.0308274999813558,0.866985998016798
+"769","MHC class I presentation.NSB","Mononuclear cell migration.PAX",0.211810098777322,0.244516877388466
+"770","MHC class II presentation.NSB","Mononuclear cell migration.PAX",0.016308506953368,0.929407652051431
+"771","TCR signaling.NSB","Mononuclear cell migration.PAX",-0.0284854793167959,0.877011828942783
+"772","BCR signaling.NSB","Mononuclear cell migration.PAX",0.00989323762719846,0.957142943248669
+"773","NF-kappaB signaling.NSB","Mononuclear cell migration.PAX",-0.0396183677534822,0.82954667132241
+"774","JAK-STAT signaling.NSB","Mononuclear cell migration.PAX",0.059212040529675,0.747520857166367
+"775","NK cell activity.NSB","Mononuclear cell migration.PAX",-0.0727757956360236,0.692231537987
+"776","Mononuclear cell migration.NSB","Mononuclear cell migration.PAX",0.0566659898629211,0.758047778898014
+"777","Lymphocyte trafficking.NSB","Mononuclear cell migration.PAX",-0.0773264775671968,0.67400913857487
+"778","Immune memory.NSB","Mononuclear cell migration.PAX",0.0721372087790561,0.694802511731639
+"779","Immune exhaustion.NSB","Mononuclear cell migration.PAX",0.148167179758886,0.41834569156644
+"780","Treg differentiation.NSB","Mononuclear cell migration.PAX",0.0440697973120936,0.810722452594558
+"781","Innate immune cell activation.NSB","Lymphocyte trafficking.PAX",0.146319744092784,0.424236567829802
+"782","Interferon response.NSB","Lymphocyte trafficking.PAX",0.0905267051591896,0.622199183913969
+"783","Type I interferon signaling.NSB","Lymphocyte trafficking.PAX",0.0438714817006015,0.811558964891668
+"784","Type II interferon signaling.NSB","Lymphocyte trafficking.PAX",0.0435165683900499,0.813056528901598
+"785","Type III interferon signaling.NSB","Lymphocyte trafficking.PAX",-0.0881038900904435,0.631585672326898
+"786","TNF signaling.NSB","Lymphocyte trafficking.PAX",0.101499170531332,0.58043246850819
+"787","Toll-like receptor signaling.NSB","Lymphocyte trafficking.PAX",0.0927703340263528,0.613558544741345
+"788","Nod-like receptor signaling.NSB","Lymphocyte trafficking.PAX",0.0739891037118354,0.687355996631708
+"789","Chemokine signaling.NSB","Lymphocyte trafficking.PAX",0.170018407046465,0.352214653118388
+"790","RNA sensing.NSB","Lymphocyte trafficking.PAX",0.0297318919947112,0.871673696333706
+"791","Phagocytosis.NSB","Lymphocyte trafficking.PAX",0.162035986783832,0.375606044151289
+"792","Myeloid inflammation.NSB","Lymphocyte trafficking.PAX",0.146936002139299,0.422266423541246
+"793","Myeloid activation.NSB","Lymphocyte trafficking.PAX",0.141748935695267,0.439007436394562
+"794","Inflammasomes.NSB","Lymphocyte trafficking.PAX",0.166086228204407,0.363625815701913
+"795","Complement system.NSB","Lymphocyte trafficking.PAX",0.110526724894272,0.547035804216088
+"796","Coagulation.NSB","Lymphocyte trafficking.PAX",0.136234755551214,0.457193798576452
+"797","Leukotriene/prostaglandin inflammation.NSB","Lymphocyte trafficking.PAX",0.137243058072587,0.453838637907341
+"798","Adaptive immune response.NSB","Lymphocyte trafficking.PAX",0.125434401220389,0.493948137727725
+"799","MHC class I presentation.NSB","Lymphocyte trafficking.PAX",0.090299090263573,0.62307856419616
+"800","MHC class II presentation.NSB","Lymphocyte trafficking.PAX",0.100273288930178,0.585036406233089
+"801","TCR signaling.NSB","Lymphocyte trafficking.PAX",0.101721442546108,0.579599429141469
+"802","BCR signaling.NSB","Lymphocyte trafficking.PAX",0.0966061923856974,0.598903753971255
+"803","NF-kappaB signaling.NSB","Lymphocyte trafficking.PAX",0.142925456533521,0.435178888865657
+"804","JAK-STAT signaling.NSB","Lymphocyte trafficking.PAX",0.150252356940636,0.411751986236335
+"805","NK cell activity.NSB","Lymphocyte trafficking.PAX",0.102475233655662,0.576778314353001
+"806","Mononuclear cell migration.NSB","Lymphocyte trafficking.PAX",0.139872587836893,0.445151120305415
+"807","Lymphocyte trafficking.NSB","Lymphocyte trafficking.PAX",0.119358361221525,0.515264675354743
+"808","Immune memory.NSB","Lymphocyte trafficking.PAX",0.102102273579469,0.578173375117984
+"809","Immune exhaustion.NSB","Lymphocyte trafficking.PAX",0.112445248370189,0.540056632056374
+"810","Treg differentiation.NSB","Lymphocyte trafficking.PAX",0.112691555479428,0.53916369324788
+"811","Innate immune cell activation.NSB","Immune memory.PAX",0.221958352130991,0.222112013025493
+"812","Interferon response.NSB","Immune memory.PAX",0.181982292257177,0.318839403084291
+"813","Type I interferon signaling.NSB","Immune memory.PAX",0.0647723328193275,0.724688297754591
+"814","Type II interferon signaling.NSB","Immune memory.PAX",0.14101391896207,0.441408559626458
+"815","Type III interferon signaling.NSB","Immune memory.PAX",0.164633817990147,0.367895555512766
+"816","TNF signaling.NSB","Immune memory.PAX",0.152109902554019,0.405927700759966
+"817","Toll-like receptor signaling.NSB","Immune memory.PAX",0.143317149498741,0.433908340297279
+"818","Nod-like receptor signaling.NSB","Immune memory.PAX",0.218849737161389,0.228821292381
+"819","Chemokine signaling.NSB","Immune memory.PAX",0.270703279478313,0.1339919600475
+"820","RNA sensing.NSB","Immune memory.PAX",0.138257235241067,0.450477268730341
+"821","Phagocytosis.NSB","Immune memory.PAX",0.225156236609001,0.215350884980288
+"822","Myeloid inflammation.NSB","Immune memory.PAX",0.147812534872313,0.419472980735423
+"823","Myeloid activation.NSB","Immune memory.PAX",0.232654238615289,0.200053858377267
+"824","Inflammasomes.NSB","Immune memory.PAX",0.277727685032681,0.123800650104722
+"825","Complement system.NSB","Immune memory.PAX",0.235765961714323,0.19393221471561
+"826","Coagulation.NSB","Immune memory.PAX",0.232847042851155,0.199670712976054
+"827","Leukotriene/prostaglandin inflammation.NSB","Immune memory.PAX",0.118529204418143,0.518208318178351
+"828","Adaptive immune response.NSB","Immune memory.PAX",0.226817306605874,0.211895080990583
+"829","MHC class I presentation.NSB","Immune memory.PAX",0.130226310085868,0.477458522564806
+"830","MHC class II presentation.NSB","Immune memory.PAX",0.214542183780488,0.238342449481078
+"831","TCR signaling.NSB","Immune memory.PAX",0.178673687546865,0.327866035434494
+"832","BCR signaling.NSB","Immune memory.PAX",0.194361016049809,0.286453052513781
+"833","NF-kappaB signaling.NSB","Immune memory.PAX",0.230143132937307,0.205090558981148
+"834","JAK-STAT signaling.NSB","Immune memory.PAX",0.235560198277545,0.194332933015386
+"835","NK cell activity.NSB","Immune memory.PAX",0.238928863567712,0.187844860776734
+"836","Mononuclear cell migration.NSB","Immune memory.PAX",0.253455723236765,0.161604491643213
+"837","Lymphocyte trafficking.NSB","Immune memory.PAX",0.255863969887776,0.157522115903977
+"838","Immune memory.NSB","Immune memory.PAX",0.219104794886554,0.228265707176027
+"839","Immune exhaustion.NSB","Immune memory.PAX",0.101981749287332,0.578624519122852
+"840","Treg differentiation.NSB","Immune memory.PAX",0.186695381548765,0.306250511804455
+"841","Innate immune cell activation.NSB","Immune exhaustion.PAX",0.0337806194735807,0.85437322106299
+"842","Interferon response.NSB","Immune exhaustion.PAX",-0.0786167015963819,0.668874979699948
+"843","Type I interferon signaling.NSB","Immune exhaustion.PAX",-0.110062491388036,0.548730926336317
+"844","Type II interferon signaling.NSB","Immune exhaustion.PAX",-0.150955864023469,0.409540645449471
+"845","Type III interferon signaling.NSB","Immune exhaustion.PAX",-0.118783312989683,0.517305315011154
+"846","TNF signaling.NSB","Immune exhaustion.PAX",-0.0500924843849692,0.785419988583521
+"847","Toll-like receptor signaling.NSB","Immune exhaustion.PAX",-0.0739887791784163,0.687357299094785
+"848","Nod-like receptor signaling.NSB","Immune exhaustion.PAX",-0.0544551431740474,0.767223503168712
+"849","Chemokine signaling.NSB","Immune exhaustion.PAX",0.0569897146663174,0.756706894882796
+"850","RNA sensing.NSB","Immune exhaustion.PAX",-0.132914963729061,0.46833334259263
+"851","Phagocytosis.NSB","Immune exhaustion.PAX",0.0485413584475889,0.791917129957959
+"852","Myeloid inflammation.NSB","Immune exhaustion.PAX",0.105524646215349,0.565428879069135
+"853","Myeloid activation.NSB","Immune exhaustion.PAX",0.0629466160849024,0.732160841830399
+"854","Inflammasomes.NSB","Immune exhaustion.PAX",0.00903399093446182,0.960862191549623
+"855","Complement system.NSB","Immune exhaustion.PAX",0.0660847849319572,0.719331803070338
+"856","Coagulation.NSB","Immune exhaustion.PAX",0.0527872951104526,0.774166235982073
+"857","Leukotriene/prostaglandin inflammation.NSB","Immune exhaustion.PAX",0.0760893643451887,0.678945526425227
+"858","Adaptive immune response.NSB","Immune exhaustion.PAX",0.0188494696926491,0.918442917729885
+"859","MHC class I presentation.NSB","Immune exhaustion.PAX",-0.0949631047600064,0.605162699115159
+"860","MHC class II presentation.NSB","Immune exhaustion.PAX",-0.0669342006241004,0.715872034647684
+"861","TCR signaling.NSB","Immune exhaustion.PAX",-0.0077060164520595,0.96661189049533
+"862","BCR signaling.NSB","Immune exhaustion.PAX",0.0201200401524058,0.912965556419129
+"863","NF-kappaB signaling.NSB","Immune exhaustion.PAX",0.0687355789984538,0.708553181471102
+"864","JAK-STAT signaling.NSB","Immune exhaustion.PAX",0.00191241446879027,0.991711864435603
+"865","NK cell activity.NSB","Immune exhaustion.PAX",0.0302864580931019,0.869300369896612
+"866","Mononuclear cell migration.NSB","Immune exhaustion.PAX",0.0443922940444022,0.809362571952462
+"867","Lymphocyte trafficking.NSB","Immune exhaustion.PAX",0.0808194175578294,0.660143730484039
+"868","Immune memory.NSB","Immune exhaustion.PAX",0.0692140407831709,0.706613483859141
+"869","Immune exhaustion.NSB","Immune exhaustion.PAX",-0.00442459773119054,0.980825839692335
+"870","Treg differentiation.NSB","Immune exhaustion.PAX",0.0385148301404797,0.834228141032317
+"871","Innate immune cell activation.NSB","Treg differentiation.PAX",0.19712943326092,0.279509748672656
+"872","Interferon response.NSB","Treg differentiation.PAX",0.0791393998287764,0.666799177365823
+"873","Type I interferon signaling.NSB","Treg differentiation.PAX",-0.102642824882888,0.576151928551173
+"874","Type II interferon signaling.NSB","Treg differentiation.PAX",-0.0603378553510847,0.742880139341244
+"875","Type III interferon signaling.NSB","Treg differentiation.PAX",0.0401332849488687,0.827364223255023
+"876","TNF signaling.NSB","Treg differentiation.PAX",0.197665523428685,0.278177871685248
+"877","Toll-like receptor signaling.NSB","Treg differentiation.PAX",0.218993560639537,0.228507893453594
+"878","Nod-like receptor signaling.NSB","Treg differentiation.PAX",0.168466294411943,0.356692916011299
+"879","Chemokine signaling.NSB","Treg differentiation.PAX",0.221604664915609,0.222868554839109
+"880","RNA sensing.NSB","Treg differentiation.PAX",0.0309200620615252,0.866590160401959
+"881","Phagocytosis.NSB","Treg differentiation.PAX",0.247945661223826,0.171228877661478
+"882","Myeloid inflammation.NSB","Treg differentiation.PAX",0.119155463560888,0.515984233119628
+"883","Myeloid activation.NSB","Treg differentiation.PAX",0.28531735907186,0.113446934619325
+"884","Inflammasomes.NSB","Treg differentiation.PAX",0.273558079806881,0.129778345930443
+"885","Complement system.NSB","Treg differentiation.PAX",0.348357855681762,0.0507129972699709
+"886","Coagulation.NSB","Treg differentiation.PAX",0.295484587557902,0.100609085242561
+"887","Leukotriene/prostaglandin inflammation.NSB","Treg differentiation.PAX",0.304040462318334,0.090683833055214
+"888","Adaptive immune response.NSB","Treg differentiation.PAX",0.147901860276385,0.419188887683888
+"889","MHC class I presentation.NSB","Treg differentiation.PAX",0.00402290229034986,0.982566325906072
+"890","MHC class II presentation.NSB","Treg differentiation.PAX",-0.0669591835327671,0.715770359752797
+"891","TCR signaling.NSB","Treg differentiation.PAX",0.039231776212529,0.831186039889936
+"892","BCR signaling.NSB","Treg differentiation.PAX",0.11960078026773,0.514405607465418
+"893","NF-kappaB signaling.NSB","Treg differentiation.PAX",0.187050885522076,0.305313805957171
+"894","JAK-STAT signaling.NSB","Treg differentiation.PAX",0.167841599186595,0.358504894130876
+"895","NK cell activity.NSB","Treg differentiation.PAX",0.0914556122469588,0.618615704555816
+"896","Mononuclear cell migration.NSB","Treg differentiation.PAX",0.238545364600553,0.188575730172113
+"897","Lymphocyte trafficking.NSB","Treg differentiation.PAX",0.173480549058188,0.342347846406286
+"898","Immune memory.NSB","Treg differentiation.PAX",0.0964903841312015,0.599343983973676
+"899","Immune exhaustion.NSB","Treg differentiation.PAX",-0.130477567024696,0.476601876711297
+"900","Treg differentiation.NSB","Treg differentiation.PAX",0.104187853349842,0.570391665117083
