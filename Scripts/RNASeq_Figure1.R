@@ -1,10 +1,10 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure 1
-# Last update: Sept. 18, 2023
+# Last update: Oct. 6, 2023
 
 remove(list=ls())
-setwd("_________________________") 
+setwd("______________________________") 
 set.seed(1234)
 version
 
@@ -94,7 +94,7 @@ fgsea_pax_Neg_14to20_Adult <- data.frame(read_excel("Statistical_Analyses/1_COVI
 # ***, p<0.001
 # ****, p<0.0001
 
-# UPPER RESPIRATORY SAMPLES (COVID-NEGATIVE)
+# UPPER RESPIRATORY SAMPLES (COVID-NEGATIVE BY AGE)
 # Adjust comparisons for multiple testing using BH (n=10)
 # B cells: 0.74
 # Plasma cells: >0.99
@@ -116,7 +116,7 @@ cibersort_np_neg <- ggplot(metadata_np_neg_pops, aes(x=cell_type2, y=value, fill
         plot.title = element_text(size=14, hjust = 0.5, face="bold")) + scale_fill_brewer(palette="Paired") +
   ggtitle("Upper respiratory") # No significant differences in cell populations
 
-# PERIPHERAL BLOOD SAMPLES (COVID-NEGATIVE)
+# PERIPHERAL BLOOD SAMPLES (COVID-NEGATIVE BY AGE)
 # Adjust comparisons for multiple testing using BH (n=8)
 # B cells: 9.03E-14
 # Plasma cells: 0.005
