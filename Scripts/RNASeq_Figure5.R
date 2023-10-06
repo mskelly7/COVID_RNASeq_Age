@@ -4,8 +4,7 @@
 # Last update: Oct. 6, 2023
 
 remove(list=ls())
-setwd("____________________________________") 
-options(rstudio.help.showDataPreview = FALSE)
+setwd("G:/My Drive/Research/BRAVE_Kids/RNA_Sequencing/") 
 set.seed(1234)
 version
 
