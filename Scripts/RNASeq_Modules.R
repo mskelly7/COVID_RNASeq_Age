@@ -4,8 +4,7 @@
 # Last update: Oct. 5, 2023
 
 remove(list=ls())
-setwd("__________________________________") 
-options(rstudio.help.showDataPreview = FALSE)
+setwd("________________________________") 
 set.seed(1234)
 version
 
