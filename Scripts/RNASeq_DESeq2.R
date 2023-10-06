@@ -6,7 +6,6 @@
 
 remove(list=ls())
 setwd("____________________________") 
-options(rstudio.help.showDataPreview = FALSE)
 set.seed(1234)
 version
 
