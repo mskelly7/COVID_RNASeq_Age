@@ -1,7 +1,7 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate) / Matthew Kelly, MD, MPH 
 # Figure 3
-# Last update: Sept. 18, 2023
+# Last update: Oct. 6, 2023
 
 remove(list=ls())
 setwd("G:/My Drive/Research/BRAVE_Kids/RNA_Sequencing/") 
@@ -47,6 +47,7 @@ metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="Eosinophils"] <
 metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="Neutrophils"] <- "Neutrophils"
 tapply(metadata_np_pos_pops$value, metadata_np_pos_pops$cell_type2, summary) 
 # Exclude cell types identified in <25% of samples from figure
+metadata_np_pos_pops <- subset(metadata_np_pos_pops, cell_type2!="Eosinophils")
 metadata_np_pos_pops <- subset(metadata_np_pos_pops, cell_type2!="Gamma delta T cells")
 
 phy.rnaseq.pax <- readRDS("phy.rnaseq.pax.rds")
@@ -89,17 +90,16 @@ fsgea_pax_adult_Pos_Neg <- data.frame(read_excel("Statistical_Analyses/3_COVID_P
 # ***, p<0.001
 # ****, p<0.0001
 
-# UPPER RESPIRATORY SAMPLES (COVID-POSITIVE VS. COVID-NEGATIVE AMONG CHILDREN AND ADOLESCENTS)
-# Adjust comparisons for multiple testing using BH (n=10)
-# B cells: 0.74
+# UPPER RESPIRATORY SAMPLES (COVID-POSITIVE BY AGE)
+# Adjust comparisons for multiple testing using BH (n=9)
+# B cells: 0.003
 # Plasma cells: >0.99
-# CD8+ T cells: >0.99
+# CD8+ T cells: 0.11
 # CD4+ T cells: >0.99
 # NK cells: >0.99
-# Mono/macrophages: >0.99 
-# Dendritic cells: 0.27
+# Mono/macrophages: 0.34
+# Dendritic cells: >0.99
 # Mast cells: >0.99
-# Eosinophils: >0.99
 # Neutrophils: >0.99
 
 cibersort_np_pos <- ggplot(metadata_np_pos_pops, aes(x=cell_type2, y=value, fill=age_cat)) + geom_boxplot() + ylab("Imputed immune cell proportions") + 
@@ -110,9 +110,10 @@ cibersort_np_pos <- ggplot(metadata_np_pos_pops, aes(x=cell_type2, y=value, fill
         axis.title.x = element_blank(), axis.text.y = element_text(size=11.5), axis.text.x = element_text(size=11.5, color = "black", angle=35, hjust=1), 
         plot.title = element_text(size=14, hjust = 0.5, face="bold")) + scale_fill_brewer(palette="Paired") +
   scale_y_continuous(limits=c(0,0.61), breaks=c(0,0.1,0.2,0.3,0.4,0.5,0.6)) +
-  ggtitle("Upper respiratory") # No significant differences in cell populations
+  ggtitle("Upper respiratory") + 
+  annotate("text", x=1, y=0.61, size=6, label= "**") # B cells (beta regression, p=0.003) 
 
-# PERIPHERAL BLOOD SAMPLES (COVID-POSITIVE)
+# PERIPHERAL BLOOD SAMPLES (COVID-POSITIVE BY AGE)
 # Adjust comparisons for multiple testing using BH (n=9)
 # B cells: 6.66E-19
 # Plasma cells: 0.0011
