@@ -4,7 +4,7 @@
 # Last update: Oct. 6, 2023
 
 remove(list=ls())
-setwd("G:/My Drive/Research/BRAVE_Kids/RNA_Sequencing/") 
+setwd("__________________________") 
 set.seed(1234)
 version
 

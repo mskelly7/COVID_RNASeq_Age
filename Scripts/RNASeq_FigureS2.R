@@ -1,10 +1,10 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure S2 - CIBERSORT plots by COVID status
-# Last update: Sept. 18, 2023
+# Last update: Oct. 6, 2023
 
 remove(list=ls())
-setwd("__________________________") 
+setwd("__________________________________") 
 set.seed(1234)
 version
 
@@ -65,7 +65,7 @@ tapply(metadata_pax_pops$value, metadata_pax_pops$cell_type2, summary)
 # Exclude cell types identified in <25% of samples from figure
 metadata_pax_pops <- subset(metadata_pax_pops, cell_type2!="Dendritic cells" & cell_type2!="Eosinophils" & cell_type2!="Gamma delta T cells")
 
-# UPPER RESPIRATORY SAMPLES (COVID-NEGATIVE VS. COVID-POSITIVE)
+# UPPER RESPIRATORY SAMPLES (COVID-POSITIVE VS. COVID-NEGATIVE)
 # Adjust comparisons for multiple testing using BH (n=11)
 # B cells: 0.52
 # Plasma cells: 0.29
@@ -92,7 +92,7 @@ cibersort_np <- ggplot(metadata_np_pops, aes(x=cell_type2, y=value, fill=corona2
   annotate("text", x=7, y=0.61, size=5, label= "*") + # Mono/macrophages (age-adjusted beta regression, p=0.03)
   annotate("text", x=4, y=0.61, size=5, label= "*") # Dendritic cells (age-adjusted beta regression, p=0.02)
 
-# PERIPHERAL BLOOD SAMPLES
+# PERIPHERAL BLOOD SAMPLES (COVID-POSITIVE VS. COVID-NEGATIVE)
 # Adjust comparisons for multiple testing using BH (n=9)
 # B cells: 0.94 
 # Plasma cells: 0.03
