@@ -4,7 +4,7 @@
 # Last update: Oct. 6, 2023
 
 remove(list=ls())
-setwd("___________________________") 
+setwd("_________________________________") 
 set.seed(1234)
 version
 
@@ -198,7 +198,7 @@ Immune.Exhaustion.NSB.plot
 
 fig6_plot <- plot_grid(Interferon.Response.Genes.NSB.plot, RNA.Sensing.NSB.plot, DNA.Sensing.NSB.plot, MHC.Class.I.Antigen.Presentation.NSB.plot, T.cell.Costimulation.NSB.plot, Immune.Exhaustion.NSB.plot,
                                  labels=NULL, ncol=3, align="vh") 
-fig6_title <- ggdraw() + draw_label("Figure 6. Correlations between upper respiratory immune modules and convalescent neutralizing antibody responses", 
+fig6_title <- ggdraw() + draw_label("Figure 6. Correlations between expression of immune modules within the upper respiratory tract and convalescent neutralizing antibody responses", 
                                     size=13.5, fontface='bold')
 
 png(file="Statistical_Analyses/Figures/Figure_6.png", width = 16, height = 10.5, units = 'in', res = 1200)
