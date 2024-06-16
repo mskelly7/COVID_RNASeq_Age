@@ -36,7 +36,6 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
   - [`RNASeq_Figure3.R`](Scripts/RNASeq_Figure3.R): Figure 3; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), FGSEA ("modules") output files in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
   - [`RNASeq_Figure4.R`](Scripts/RNASeq_Figure4.R): Figure 4; inputs: FGSEA ("modules") output files in [`4_Symptoms`](Output_Files/4_Symptoms/)
   - [`RNASeq_Figure5.R`](Scripts/RNASeq_Figure5.R): Figure 5; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
-  - [`RNASeq_Figure6.R`](Scripts/RNASeq_Figure6.R): Figure 6; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`modules_61.xlsx`](Data_Files/nCounter_Host_Response/modules_61.xlsx)
   - [`RNASeq_FigureS1.R`](Scripts/RNASeq_FigureS1.R): Supplemental Figure 1; inputs: DESeq2 ("genes") output files in [`1_COVID_Neg_by_Age`](Output_Files/1_COVID_Neg_by_Age/)
   - [`RNASeq_FigureS2.R`](Scripts/RNASeq_FigureS2.R): Supplemental Figure 2; inputs: [`phy.rnaseq.np.rds`](Data_Files/phy.rnaseq.np.rds), [`phy.rnaseq.pax.rds`](Data_Files/phy.rnaseq.pax.rds)
   - [`RNASeq_FigureS3.R`](Scripts/RNASeq_FigureS3.R): Supplemental Figure 3; inputs: DESeq2 ("genes") output files in [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/)
@@ -49,4 +48,3 @@ This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts 
   - [`3_COVID_Pos_by_Age`](Output_Files/3_COVID_Pos_by_Age/): output files from analyses of SARS-CoV-2-infected subjects by age
   - [`4_Symptoms`](Output_Files/4_Symptoms/): output files from analyses of comorbidities and symptoms among SARS-CoV-2-infected subjects
   - [`5_NP_vs_PAX_Correlations`](Output_Files/5_NP_vs_PAX_Correlations/): output files from analyses evaluating correlations between upper respiratory and peripheral blood gene set expression
-  - [`6_Neutralizing_Antibodies`](Output_Files/6_Neutralizing_Antibodies/): output files from analyses evaluating correlations between upper respiratory gene set expression and serum titers of virus-specific neutralizing antibodies in convalescence 
