@@ -1,7 +1,7 @@
 # BRAVE-MESSI RNA Sequencing Analysis
 
 Author: Aditya Mohan, Matthew Kelly <a href="https://orcid.org/0000-0001-8819-2315" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"></a>  
-Last update: July 27, 2023
+Last update: June 16, 2024
 
 This repository contains the files and code necessary to replicate the analyses presented in the manuscript '_Age-associated differences in mucosal and systemic host responses to SARS-CoV-2 infection_', which has been submitted to medRxiv as a preprint (https://www.medrxiv.org/content/10.1101/2023.07.31.23293337v1). The overall objective of this manuscript was to evaluate associations between age and both local and systemic host responses to SARS-CoV-2. 
 
