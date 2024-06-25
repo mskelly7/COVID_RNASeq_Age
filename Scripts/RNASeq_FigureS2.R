@@ -1,7 +1,7 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure S2 - CIBERSORT plots by COVID status
-# Last update: June 8, 2024
+# Last update: June 25, 2024
 
 remove(list=ls())
 setwd("____________________________")  
@@ -117,5 +117,5 @@ cibersort_pax <- ggplot(metadata_pax_pops, aes(x=cell_type2, y=value, fill=coron
   annotate("text", x=8, y=0.51, size=5, label= "*") # Plasma cells (age-adjusted beta regression, p=0.03)
 
 png(file="Statistical_Analyses/Figures/Figure_S2.png", width = 6, height = 8, units = 'in', res = 1200)
-plot_grid(cibersort_np, cibersort_pax, ncol=1) 
+plot_grid(cibersort_np, cibersort_pax, labels=c("a","b"), label_size=12, ncol=1) 
 dev.off()
