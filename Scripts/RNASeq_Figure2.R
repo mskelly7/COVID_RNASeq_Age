@@ -2,15 +2,15 @@
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure 2 - gene and gene module expression in SARS-CoV-2-infected vs. uninfected in upper respiratory and peripheral blood samples
 # Analyses of gene and gene module expression in peripheral blood samples adjusted for imputed cell proportions 
-# Last update: June 8, 2024
+# Last update: June 25, 2024
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("______________________________") 
 set.seed(1234)
 version
 
 if(any(grepl("package:plyr", search()))) detach("package:plyr") else message("plyr not loaded")
-library(readr)
+library(readr)data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAWElEQVR42mNgGPTAxsZmJsVqQApgmGw1yApwKcQiT7phRBuCzzCSDSHGMKINIeDNmWQlA2IigKJwIssQkHdINgxfmBBtGDEBS3KCxBc7pMQgMYE5c/AXPwAwSX4lV3pTWwAAAABJRU5ErkJggg==
 library(dplyr)
 library(readxl)
 library(writexl)
@@ -148,5 +148,5 @@ title_pax <- ggdraw() + draw_label("Peripheral blood", size=14, fontface='bold')
 plot_pax <- plot_grid(volcano_pax_Pos_Neg, module_pax_Pos_Neg, labels=c("c","d"), nrow=1, align="h", rel_widths=c(1,1))
 
 png(file="Statistical_Analyses/Figures/Figure_2.png", width = 16, height = 10, units = 'in', res = 1200)
-plot_grid(title_np, plot_np, title_pax, plot_pax, labels=c("a","","b",""), rel_heights=c(0.1,1,0.1,1), nrow=4, align="v") 
+plot_grid(title_np, plot_np, title_pax, plot_pax, labels=NULL, rel_heights=c(0.1,1,0.1,1), nrow=4, align="v") 
 dev.off()
