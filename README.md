@@ -7,7 +7,7 @@ This repository contains the files and code necessary to replicate the analyses 
 
 ## Overview
 
-This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts ([`Scripts/`](Scripts/)), and outputs ([`Outputs/`](Outputs/)) for each of the RNA sequencing analyses presented in this manuscript. The raw RNA sequencing files are publicly available in the Gene Expression Omnibus ([GSE231409](https://www.ncbi.nlm.nih.gov/bioproject/?term=GSE231409)). 
+This repository contains the data files ([`Data_Files/`](Data_Files/)), scripts ([`Scripts/`](Scripts/)), and outputs ([`Outputs/`](Outputs/)) for each of the RNA sequencing analyses presented in this manuscript. The raw RNA sequencing files are publicly available in the Gene Expression Omnibus ([GSE231409](https://www.ncbi.nlm.nih.gov/bioproject/?term=GSE231409)). The sequencing dataset used for SARS-CoV-2 lineage assignment is available in the Sequence Read Archive ([PRJNA1024980](https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA1024980)). 
 
 ## File Description
 
