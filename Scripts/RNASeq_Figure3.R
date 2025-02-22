@@ -2,10 +2,10 @@
 # Aditya Mohan (MD/PhD candidate) / Matthew Kelly, MD, MPH 
 # Figure 3 - cell populations and gene module expression among SARS-CoV-2-infected children, adolescents, and adults
 # Analyses of gene module expression in peripheral blood samples adjusted for imputed cell proportions
-# Last update: February 21, 2025
+# Last update: February 22, 2025
 
 remove(list=ls())
-setwd("____________________") 
+setwd("___________________") 
 set.seed(1234)
 getRversion()
 
@@ -105,7 +105,7 @@ fsgea_pax_adult_pos_neg_cibersort <- data.frame(read_excel("Statistical_Analyses
 # Neutrophils: >0.99
 
 cibersort_np_pos <- ggplot(metadata_np_pos_pops, aes(x=cell_type2, y=value, fill=age_cat)) + geom_boxplot() + ylab("Imputed immune cell proportions") + 
-  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(fill="white"),
+  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(colour="white"),
         panel.background = element_rect(colour = "black", fill = NA, linewidth=0.5), panel.grid.major.y = element_line(linewidth = 0.3, colour = "grey70"),
         panel.grid.minor.y = element_line(linewidth = 0.2, colour = "grey70"),
         axis.title.y = element_text(size=13, face="bold", margin = ggplot2::margin(t = 0, r = 5, b = 0, l = 0)),
@@ -128,7 +128,7 @@ cibersort_np_pos <- ggplot(metadata_np_pos_pops, aes(x=cell_type2, y=value, fill
 # Neutrophils: 2.08E-05
 
 cibersort_pax_pos <- ggplot(metadata_pax_pos_pops, aes(x=cell_type2, y=value, fill=age_cat)) + geom_boxplot() + ylab("Imputed immune cell proportions") + 
-  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(fill="white"),
+  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(colour="white"),
         panel.background = element_rect(colour = "black", fill = NA, linewidth=0.5), panel.grid.major.y = element_line(linewidth = 0.3, colour = "grey70"),
         panel.grid.minor.y = element_line(linewidth = 0.2, colour = "grey70"),
         axis.title.y = element_text(size=13, face="bold", margin = ggplot2::margin(t = 0, r = 5, b = 0, l = 0)),
