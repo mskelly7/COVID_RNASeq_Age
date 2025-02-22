@@ -1,12 +1,12 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure S3 - comparison of upper respiratory gene expression among SARS-CoV-2-infected vs. uninfected children and adolescents by age
-# Last update: June 8, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("___________________") 
 set.seed(123456)
-version
+getRversion()
 
 library(readr)
 library(dplyr)
@@ -97,3 +97,7 @@ set.seed(1234)
 png(file="Statistical_Analyses/Figures/Figure_S3.png", width = 21, height = 4.5, units = 'in', res = 1200)
 plot_grid(volcano_np) 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('FigS3_URT_0to5'=dds_np_0to5_pos_neg_nocibersort, 'FigS3_URT_6to13'=dds_np_6to13_pos_neg_nocibersort, 'FigS3_URT_14to20'=dds_np_14to20_pos_neg_nocibersort)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_S3.xlsx")

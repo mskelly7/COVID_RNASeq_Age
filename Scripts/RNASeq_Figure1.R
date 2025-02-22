@@ -2,12 +2,12 @@
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure 1 - comparison of cell populations and gene module expression in upper respiratory & peripheral blood samples in healthy individuals by age
 # Analyses of gene module expression in peripheral blood samples adjusted for imputed cell proportions
-# Last update: June 8, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("______________________________") 
+setwd("_________________") 
 set.seed(1234)
-version
+getRversion()
 
 if(any(grepl("package:plyr", search()))) detach("package:plyr") else message("plyr not loaded")
 library(readr)
@@ -27,6 +27,7 @@ library(data.table)
 library(stringr)
 library(RColorBrewer)
 library(phyloseq)
+library(openxlsx)
 
 # Specify expressions for figures
 label_log2FC <- expression(bold(log[2] ~ fold ~ change))
@@ -42,8 +43,8 @@ metadata_np_neg_pops$age_cat <- factor(metadata_np_neg_pops$age_cat, levels=c("0
 metadata_np_neg_pops <- gather(metadata_np_neg_pops, cell_type, value, B_cells:Neutrophils, factor_key=TRUE)
 metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="B_cells"] <- "B cells"
 metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="Plasma_cells"] <- "Plasma cells"
-metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="T_cells_CD8"] <- "CD4+ T cells"
-metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="T_cells_CD4"] <- "CD8+ T cells"
+metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="T_cells_CD4"] <- "CD4+ T cells"
+metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="T_cells_CD8"] <- "CD8+ T cells"
 metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="T_cells_gamma_delta"] <- "Gamma delta T cells"
 metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="NK_cells"] <- "NK cells"
 metadata_np_neg_pops$cell_type2[metadata_np_neg_pops$cell_type=="Mono_Macrophages"] <- "Mono/macrophages"
@@ -64,8 +65,8 @@ metadata_pax_neg_pops$age_cat <- factor(metadata_pax_neg_pops$age_cat, levels=c(
 metadata_pax_neg_pops <- gather(metadata_pax_neg_pops, cell_type, value, B_cells:Neutrophils, factor_key=TRUE)
 metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="B_cells"] <- "B cells"
 metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="Plasma_cells"] <- "Plasma cells"
-metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="T_cells_CD8"] <- "CD4+ T cells"
-metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="T_cells_CD4"] <- "CD8+ T cells"
+metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="T_cells_CD4"] <- "CD4+ T cells"
+metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="T_cells_CD8"] <- "CD8+ T cells"
 metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="T_cells_gamma_delta"] <- "Gamma delta T cells"
 metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="NK_cells"] <- "NK cells"
 metadata_pax_neg_pops$cell_type2[metadata_pax_neg_pops$cell_type=="Mono_Macrophages"] <- "Mono/macrophages"
@@ -109,7 +110,7 @@ fgsea_pax_neg_14to20_vs_adult_cibersort <- data.frame(read_excel("Statistical_An
 # Neutrophils: >0.99
 
 cibersort_np_neg <- ggplot(metadata_np_neg_pops, aes(x=cell_type2, y=value, fill=age_cat)) + geom_boxplot() + ylab("Imputed immune cell proportions") + ylim(0,0.51) +
-  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(fill="white"),
+  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(colour="white"),
         panel.background = element_rect(colour = "black", fill = NA, linewidth=0.5), panel.grid.major.y = element_line(linewidth = 0.3, colour = "grey70"),
         panel.grid.minor.y = element_line(linewidth = 0.2, colour = "grey70"),
         axis.title.y = element_text(size=13, face="bold", margin = ggplot2::margin(t = 0, r = 5, b = 0, l = 0)),
@@ -129,7 +130,7 @@ cibersort_np_neg <- ggplot(metadata_np_neg_pops, aes(x=cell_type2, y=value, fill
 # Neutrophils: 0.00094
 
 cibersort_pax_neg <- ggplot(metadata_pax_neg_pops, aes(x=cell_type2, y=value, fill=age_cat)) + geom_boxplot() + ylab("Imputed immune cell proportions") + ylim(0,0.41) +
-  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(fill="white"),
+  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=12), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(colour="white"),
         panel.background = element_rect(colour = "black", fill = NA, linewidth=0.5), panel.grid.major.y = element_line(linewidth = 0.3, colour = "grey70"),
         panel.grid.minor.y = element_line(linewidth = 0.2, colour = "grey70"),
         axis.title.y = element_text(size=13, face="bold", margin = ggplot2::margin(t = 0, r = 5, b = 0, l = 0)),
@@ -346,3 +347,11 @@ fig1_modules_adult_title <- plot_grid(title_adult, fig1_modules_adult, labels=NU
 png(file="Statistical_Analyses/Figures/Figure_1.png", width = 15, height = 11, units = 'in', res = 1200)
 plot_grid(fig1_cibersort, NULL, fig1_modules_peds_title, NULL, fig1_modules_adult_title, labels=c("","","c","d",""), ncol=5, rel_widths=c(8,0.1,7.8,0.15,2.5), align="h") 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('Fig1a'=metadata_np_neg_pops, 'Fig1b'=metadata_pax_neg_pops, 'Fig1c_URT_0to5_vs_6to13'=fgsea_np_neg_0to5_vs_6to13_nocibersort,
+                    'Fig1c_URT_0to5_vs_14to20'=fgsea_np_neg_0to5_vs_14to20_nocibersort, 'Fig1c_URT_6to13_vs_14to20'=fgsea_np_neg_6to13_vs_14to20_nocibersort,
+                    'Fig1c_BLD_0to5_vs_6to13'=fgsea_pax_neg_0to5_vs_6to13_cibersort, 'Fig1c_BLD_0to5_vs_14to20'=fgsea_pax_neg_0to5_vs_14to20_cibersort, 
+                    'Fig1c_BLD_6to13_vs_14to20'=fgsea_pax_neg_6to13_vs_14to20_cibersort, 'Fig1d_BLD_0to5_vs_adult'=fgsea_pax_neg_0to5_vs_adult_cibersort,                  
+                    'Fig1d_BLD_6to13_vs_adult'=fgsea_pax_neg_6to13_vs_adult_cibersort, 'Fig1d_BLD_14to20_vs_adult'=fgsea_pax_neg_14to20_vs_adult_cibersort)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_1.xlsx")

@@ -2,12 +2,12 @@
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure S4 - comparison of peripheral blood gene expression among SARS-CoV-2-infected vs. uninfected children, adolescents, and adults by age
 # Analyses of gene expression in peripheral blood samples adjusted for imputed cell proportions
-# Last update: June 8, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("_______________") 
 set.seed(1234)
-version
+getRversion()
 
 library(readr)
 library(dplyr)
@@ -116,3 +116,8 @@ volcano_pax_2 <- plot_grid(volcano_pax_14to20_pos_neg_cibersort, volcano_pax_adu
 png(file="Statistical_Analyses/Figures/Figure_S4.png", width = 15, height = 10, units = 'in', res = 1200)
 plot_grid(volcano_pax_1, volcano_pax_2, rel_heights=c(0.99,1), nrow=2, align="vh") 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('FigS4_BLD_0to5'=dds_pax_0to5_pos_neg_cibersort, 'FigS3_BLD_6to13'=dds_pax_6to13_pos_neg_cibersort, 
+                    'FigS4_BLD_14to20'=dds_pax_14to20_pos_neg_cibersort, 'FigS4_BLD_adult'=dds_pax_adult_pos_neg_cibersort)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_S4.xlsx")

@@ -2,12 +2,12 @@
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure 5
 # Correlations between URT and peripheral blood immune module expression within individuals
-# Last update: June 8, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("____________________") 
 set.seed(1234)
-version
+getRversion()
 
 library(readr)
 library(circlize)
@@ -157,7 +157,7 @@ flattenCorrMatrix <- function(cormat, pmat) {
   )
 }
 
-# Generate data for Table S9
+# Generate data for Supplementary Data 9
 
 ssgsea_np <- gsva(data_np_Pos_log2, modules, method="ssgsea")
 ssgsea_np <- as.data.frame(t(ssgsea_np))

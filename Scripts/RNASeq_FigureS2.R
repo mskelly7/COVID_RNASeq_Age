@@ -1,12 +1,12 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure S2 - CIBERSORT plots by COVID status
-# Last update: June 25, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________")  
+setwd("__________________") 
 set.seed(1234)
-version
+getRversion()
 
 library(readr)
 library(dplyr)
@@ -32,8 +32,8 @@ metadata_np_pops <- metadata_np[,c("corona","B_cells","Plasma_cells", "T_cells_C
 metadata_np_pops <- gather(metadata_np_pops, cell_type, value, B_cells:Neutrophils, factor_key=TRUE)
 metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="B_cells"] <- "B cells"
 metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="Plasma_cells"] <- "Plasma cells"
-metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="T_cells_CD8"] <- "CD4+ T cells"
-metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="T_cells_CD4"] <- "CD8+ T cells"
+metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="T_cells_CD4"] <- "CD4+ T cells"
+metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="T_cells_CD8"] <- "CD8+ T cells"
 metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="T_cells_gamma_delta"] <- "Gamma delta T cells"
 metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="NK_cells"] <- "NK cells"
 metadata_np_pops$cell_type2[metadata_np_pops$cell_type=="Mono_Macrophages"] <- "Mono/macrophages"
@@ -52,8 +52,8 @@ metadata_pax_pops <- metadata_pax[,c("corona","B_cells","Plasma_cells", "T_cells
 metadata_pax_pops <- gather(metadata_pax_pops, cell_type, value, B_cells:Neutrophils, factor_key=TRUE)
 metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="B_cells"] <- "B cells"
 metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="Plasma_cells"] <- "Plasma cells"
-metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="T_cells_CD8"] <- "CD4+ T cells"
-metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="T_cells_CD4"] <- "CD8+ T cells"
+metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="T_cells_CD4"] <- "CD4+ T cells"
+metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="T_cells_CD8"] <- "CD8+ T cells"
 metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="T_cells_gamma_delta"] <- "Gamma delta T cells"
 metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="NK_cells"] <- "NK cells"
 metadata_pax_pops$cell_type2[metadata_pax_pops$cell_type=="Mono_Macrophages"] <- "Mono/macrophages"
@@ -82,7 +82,7 @@ metadata_pax_pops <- subset(metadata_pax_pops, cell_type2!="Dendritic cells" & c
 metadata_np_pops$corona2[metadata_np_pops$corona=="Negative"] <- "Uninfected"
 metadata_np_pops$corona2[metadata_np_pops$corona=="Positive"] <- "Infected"
 cibersort_np <- ggplot(metadata_np_pops, aes(x=cell_type2, y=value, fill=corona2)) + geom_boxplot() + ylab("Imputed immune cell proportions") + ylim(0,0.61) +
-  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=9), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(fill="white"),
+  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=9), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(colour="white"),
         panel.background = element_rect(colour = "black", fill = NA, linewidth=0.5), panel.grid.major.y = element_line(linewidth = 0.3, colour = "grey70"),
         panel.grid.minor.y = element_line(linewidth = 0.2, colour = "grey70"),
         axis.title.y = element_text(size=10, face="bold", margin = ggplot2::margin(t = 0, r = 5, b = 0, l = 0)),
@@ -107,7 +107,7 @@ cibersort_np <- ggplot(metadata_np_pops, aes(x=cell_type2, y=value, fill=corona2
 metadata_pax_pops$corona2[metadata_pax_pops$corona=="Negative"] <- "Uninfected"
 metadata_pax_pops$corona2[metadata_pax_pops$corona=="Positive"] <- "Infected"
 cibersort_pax <- ggplot(metadata_pax_pops, aes(x=cell_type2, y=value, fill=corona2)) + geom_boxplot() + ylab("Imputed immune cell proportions") + ylim(0,0.51) +
-  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=9), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(fill="white"),
+  theme(legend.title = element_blank(), legend.position = "right", legend.text = element_text(size=9), legend.box.spacing = unit(3, "pt"), legend.key=element_rect(colour="white"),
         panel.background = element_rect(colour = "black", fill = NA, linewidth=0.5), panel.grid.major.y = element_line(linewidth = 0.3, colour = "grey70"),
         panel.grid.minor.y = element_line(linewidth = 0.2, colour = "grey70"),
         axis.title.y = element_text(size=10, face="bold", margin = ggplot2::margin(t = 0, r = 5, b = 0, l = 0)),
@@ -119,3 +119,7 @@ cibersort_pax <- ggplot(metadata_pax_pops, aes(x=cell_type2, y=value, fill=coron
 png(file="Statistical_Analyses/Figures/Figure_S2.png", width = 6, height = 8, units = 'in', res = 1200)
 plot_grid(cibersort_np, cibersort_pax, labels=c("a","b"), label_size=12, ncol=1) 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('FigS2a'=metadata_np_pops, 'FigS2b'=metadata_pax_pops)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_S2.xlsx")

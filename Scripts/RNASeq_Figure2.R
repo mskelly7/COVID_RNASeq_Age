@@ -2,15 +2,15 @@
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure 2 - gene and gene module expression in SARS-CoV-2-infected vs. uninfected in upper respiratory and peripheral blood samples
 # Analyses of gene and gene module expression in peripheral blood samples adjusted for imputed cell proportions 
-# Last update: June 25, 2024
+# Last update: February 22, 2025
 
 remove(list=ls())
-setwd("______________________________") 
+setwd("__________________") 
 set.seed(1234)
-version
+getRversion()
 
 if(any(grepl("package:plyr", search()))) detach("package:plyr") else message("plyr not loaded")
-library(readr)data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAWElEQVR42mNgGPTAxsZmJsVqQApgmGw1yApwKcQiT7phRBuCzzCSDSHGMKINIeDNmWQlA2IigKJwIssQkHdINgxfmBBtGDEBS3KCxBc7pMQgMYE5c/AXPwAwSX4lV3pTWwAAAABJRU5ErkJggg==
+library(readr)
 library(dplyr)
 library(readxl)
 library(writexl)
@@ -38,7 +38,7 @@ label_adjp <- expression(bold(-log[10] ~ p[adj]))
 
 # Upload DESeq2 output files
 dds_np_pos_neg_nocibersort <- read.csv("Statistical_Analyses/2_COVID_Pos_vs_Neg/genes_np_pos_neg_nocibersort.csv")
-dds_pax_pos_neg_nocibersort <- read.csv("Statistical_Analyses/2_COVID_Pos_vs_Neg/genes_pax_pos_neg_cibersort.csv")
+dds_pax_pos_neg_cibersort <- read.csv("Statistical_Analyses/2_COVID_Pos_vs_Neg/genes_pax_pos_neg_cibersort.csv")
 # Upload FGSEA output files
 fgsea_np_pos_neg_nocibersort <- data.frame(read_excel("Statistical_Analyses/2_COVID_Pos_vs_Neg/modules_np_pos_neg_nocibersort.xlsx"))
 fgsea_np_pos_neg_nocibersort$pathway <- as.character(str_to_sentence(fgsea_np_pos_neg_nocibersort$pathway))
@@ -81,10 +81,10 @@ volcano_np_Pos_Neg <- ggplot(dds_np_pos_neg_nocibersort, aes(x=log2FoldChange, y
   scale_y_continuous(limits=c(0,50), breaks=c(0,10,20,30,40,50))
 volcano_np_Pos_Neg
 
-dds_pax_pos_neg_nocibersort <- dds_pax_pos_neg_nocibersort[order(dds_pax_pos_neg_nocibersort$padj),]
-top_genes <- bind_rows(dds_pax_pos_neg_nocibersort %>% filter(Expression == 'Up-regulated') %>% arrange(desc(abs(log2FoldChange))) %>% head(10),
-                       dds_pax_pos_neg_nocibersort %>% filter(Expression == 'Down-regulated') %>% arrange(desc(abs(log2FoldChange))) %>% head(5))
-volcano_pax_Pos_Neg <- ggplot(dds_pax_pos_neg_nocibersort, aes(x=log2FoldChange, y=-log10(padj))) +
+dds_pax_pos_neg_cibersort <- dds_pax_pos_neg_cibersort[order(dds_pax_pos_neg_cibersort$padj),]
+top_genes <- bind_rows(dds_pax_pos_neg_cibersort %>% filter(Expression == 'Up-regulated') %>% arrange(desc(abs(log2FoldChange))) %>% head(10),
+                       dds_pax_pos_neg_cibersort %>% filter(Expression == 'Down-regulated') %>% arrange(desc(abs(log2FoldChange))) %>% head(5))
+volcano_pax_Pos_Neg <- ggplot(dds_pax_pos_neg_cibersort, aes(x=log2FoldChange, y=-log10(padj))) +
   geom_point(aes(color = Expression), size = 1, alpha=0.8) + theme_bw() +
   xlab(label_log2FC) + ylab(label_adjp) + 
   guides(colour = guide_legend(override.aes = list(size=1.5))) +
@@ -150,3 +150,8 @@ plot_pax <- plot_grid(volcano_pax_Pos_Neg, module_pax_Pos_Neg, labels=c("c","d")
 png(file="Statistical_Analyses/Figures/Figure_2.png", width = 16, height = 10, units = 'in', res = 1200)
 plot_grid(title_np, plot_np, title_pax, plot_pax, labels=NULL, rel_heights=c(0.1,1,0.1,1), nrow=4, align="v") 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('Fig2a'=dds_np_pos_neg_nocibersort, 'Fig2b'=fgsea_np_pos_neg_nocibersort, 
+                    'Fig2c'=dds_pax_pos_neg_cibersort, 'Fig2d'=fgsea_pax_pos_neg_cibersort)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_2.xlsx")

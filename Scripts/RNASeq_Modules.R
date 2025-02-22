@@ -1,12 +1,12 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Gene Set Enrichment Analysis using FGSEA
-# Last update: May 10, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("___________________") 
 set.seed(1234)
-version
+getRversion()
 options(rstudio.help.showDataPreview = FALSE)
 
 if(any(grepl("package:plyr", search()))) detach("package:plyr") else message("plyr not loaded")
@@ -19,6 +19,7 @@ library(ggpubr)
 library(data.table)
 library(tibble)
 library(fgsea)
+packageVersion("fgsea")
 
 # Upload module information 
 modules_61 <- gmtPathways("Statistical_Analyses/modules_61.gmt")
@@ -34,16 +35,9 @@ dds_pax_neg_6to13_vs_14to20_cibersort <- read.csv("Statistical_Analyses/1_COVID_
 dds_pax_neg_0to5_vs_adult_cibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_0to5_vs_adult_cibersort.csv")
 dds_pax_neg_6to13_vs_adult_cibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_6to13_vs_adult_cibersort.csv")
 dds_pax_neg_14to20_vs_adult_cibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_14to20_vs_adult_cibersort.csv")
-dds_pax_neg_0to5_vs_6to13_nocibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_0to5_vs_6to13_nocibersort.csv")
-dds_pax_neg_0to5_vs_14to20_nocibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_0to5_vs_14to20_nocibersort.csv")
-dds_pax_neg_6to13_vs_14to20_nocibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_6to13_vs_14to20_nocibersort.csv")
-dds_pax_neg_0to5_vs_adult_nocibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_0to5_vs_adult_nocibersort.csv")
-dds_pax_neg_6to13_vs_adult_nocibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_6to13_vs_adult_nocibersort.csv")
-dds_pax_neg_14to20_vs_adult_nocibersort <- read.csv("Statistical_Analyses/1_COVID_Neg_by_Age/genes_pax_neg_14to20_vs_adult_nocibersort.csv")
 
 dds_np_pos_neg_nocibersort <- read.csv("Statistical_Analyses/2_COVID_Pos_vs_Neg/genes_np_pos_neg_nocibersort.csv")
 dds_pax_pos_neg_cibersort <- read.csv("Statistical_Analyses/2_COVID_Pos_vs_Neg/genes_pax_pos_neg_cibersort.csv")
-dds_pax_pos_neg_nocibersort <- read.csv("Statistical_Analyses/2_COVID_Pos_vs_Neg/genes_pax_pos_neg_nocibersort.csv")
 
 dds_np_0to5_pos_neg_nocibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_np_0to5_pos_neg_nocibersort.csv")
 dds_np_6to13_pos_neg_nocibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_np_6to13_pos_neg_nocibersort.csv")
@@ -52,10 +46,6 @@ dds_pax_0to5_pos_neg_cibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_
 dds_pax_6to13_pos_neg_cibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_pax_6to13_pos_neg_cibersort.csv")
 dds_pax_14to20_pos_neg_cibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_pax_14to20_pos_neg_cibersort.csv")
 dds_pax_adult_pos_neg_cibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_pax_adult_pos_neg_cibersort.csv")
-dds_pax_0to5_pos_neg_nocibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_pax_0to5_pos_neg_nocibersort.csv")
-dds_pax_6to13_pos_neg_nocibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_pax_6to13_pos_neg_nocibersort.csv")
-dds_pax_14to20_pos_neg_nocibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_pax_14to20_pos_neg_nocibersort.csv")
-dds_pax_adult_pos_neg_nocibersort <- read.csv("Statistical_Analyses/3_COVID_Pos_by_Age/genes_pax_adult_pos_neg_nocibersort.csv")
 
 dds_np_fever_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_np_fever_nocibersort.csv")
 dds_np_cough_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_np_cough_nocibersort.csv")
@@ -75,15 +65,6 @@ dds_pax_abd_pain_cibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pa
 dds_pax_anosmia_cibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_anosmia_cibersort.csv")
 dds_pax_dysgeusia_cibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_dysgeusia_cibersort.csv")
 dds_pax_myalgias_cibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_myalgias_cibersort.csv")
-dds_pax_fever_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_fever_nocibersort.csv")
-dds_pax_cough_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_cough_nocibersort.csv")
-dds_pax_rhinorrhea_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_rhinorrhea_nocibersort.csv")
-dds_pax_congestion_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_congestion_nocibersort.csv")
-dds_pax_headache_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_headache_nocibersort.csv")
-dds_pax_abd_pain_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_abd_pain_nocibersort.csv")
-dds_pax_anosmia_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_anosmia_nocibersort.csv")
-dds_pax_dysgeusia_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_dysgeusia_nocibersort.csv")
-dds_pax_myalgias_nocibersort <- read.csv("Statistical_Analyses/4_Symptoms/genes_pax_myalgias_nocibersort.csv")
 
 #####################################################################
 ###  DIFFERENCES IN NP MODULE EXPRESSION BY AGE IN COVID-NEGATIVE ###
@@ -202,83 +183,6 @@ fgsea_pax_neg_14to20_vs_adult_cibersort$leadingEdge <- NULL
 fgsea_pax_neg_14to20_vs_adult_cibersort$Sample <- "14-20 yr vs. Adult"
 write_xlsx(fgsea_pax_neg_14to20_vs_adult_cibersort, "Statistical_Analyses/1_COVID_Neg_by_Age/modules_pax_neg_14to20_vs_adult_cibersort.xlsx")
 
-########################################################################
-#### DIFFERENCES IN PAX MODULE EXPRESSION BY AGE IN COVID-NEGATIVE #####
-####### ANALYSES WITHOUT ADJUSTMENT FOR IMPUTED CELL PROPORTIONS #######
-########################################################################
-
-res_pax_neg_0to5_vs_6to13_nocibersort <- as_tibble(dds_pax_neg_0to5_vs_6to13_nocibersort)
-res2_pax_neg_0to5_vs_6to13_nocibersort <- res_pax_neg_0to5_vs_6to13_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_neg_0to5_vs_6to13_nocibersort <- deframe(res2_pax_neg_0to5_vs_6to13_nocibersort)
-fgsea_pax_neg_0to5_vs_6to13_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_neg_0to5_vs_6to13_nocibersort)
-fgsea_pax_neg_0to5_vs_6to13_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_neg_0to5_vs_6to13_nocibersort))) {fgsea_pax_neg_0to5_vs_6to13_nocibersort[i,9]<-(length(unlist(fgsea_pax_neg_0to5_vs_6to13_nocibersort[i,8])))/fgsea_pax_neg_0to5_vs_6to13_nocibersort[i,7]}
-fgsea_pax_neg_0to5_vs_6to13_nocibersort <- data.frame(fgsea_pax_neg_0to5_vs_6to13_nocibersort %>% 
-                                                   mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_neg_0to5_vs_6to13_nocibersort$leadingEdge <- NULL
-fgsea_pax_neg_0to5_vs_6to13_nocibersort$Sample <- "0-5 vs. 6-13 yr"
-write_xlsx(fgsea_pax_neg_0to5_vs_6to13_nocibersort, "Statistical_Analyses/1_COVID_Neg_by_Age/modules_pax_neg_0to5_vs_6to13_nocibersort.xlsx")
-
-res_pax_neg_0to5_vs_14to20_nocibersort <- as_tibble(dds_pax_neg_0to5_vs_14to20_nocibersort)
-res2_pax_neg_0to5_vs_14to20_nocibersort <- res_pax_neg_0to5_vs_14to20_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_neg_0to5_vs_14to20_nocibersort <- deframe(res2_pax_neg_0to5_vs_14to20_nocibersort)
-fgsea_pax_neg_0to5_vs_14to20_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_neg_0to5_vs_14to20_nocibersort)
-fgsea_pax_neg_0to5_vs_14to20_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_neg_0to5_vs_14to20_nocibersort))) {fgsea_pax_neg_0to5_vs_14to20_nocibersort[i,9]<-(length(unlist(fgsea_pax_neg_0to5_vs_14to20_nocibersort[i,8])))/fgsea_pax_neg_0to5_vs_14to20_nocibersort[i,7]}
-fgsea_pax_neg_0to5_vs_14to20_nocibersort <- data.frame(fgsea_pax_neg_0to5_vs_14to20_nocibersort %>% 
-                                                    mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_neg_0to5_vs_14to20_nocibersort$leadingEdge <- NULL
-fgsea_pax_neg_0to5_vs_14to20_nocibersort$Sample <- "0-5 vs. 14-20 yr"
-write_xlsx(fgsea_pax_neg_0to5_vs_14to20_nocibersort, "Statistical_Analyses/1_COVID_Neg_by_Age/modules_pax_neg_0to5_vs_14to20_nocibersort.xlsx")
-
-res_pax_neg_6to13_vs_14to20_nocibersort <- as_tibble(dds_pax_neg_6to13_vs_14to20_nocibersort)
-res2_pax_neg_6to13_vs_14to20_nocibersort <- res_pax_neg_6to13_vs_14to20_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_neg_6to13_vs_14to20_nocibersort <- deframe(res2_pax_neg_6to13_vs_14to20_nocibersort)
-fgsea_pax_neg_6to13_vs_14to20_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_neg_6to13_vs_14to20_nocibersort)
-fgsea_pax_neg_6to13_vs_14to20_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_neg_6to13_vs_14to20_nocibersort))) {fgsea_pax_neg_6to13_vs_14to20_nocibersort[i,9]<-(length(unlist(fgsea_pax_neg_6to13_vs_14to20_nocibersort[i,8])))/fgsea_pax_neg_6to13_vs_14to20_nocibersort[i,7]}
-fgsea_pax_neg_6to13_vs_14to20_nocibersort <- data.frame(fgsea_pax_neg_6to13_vs_14to20_nocibersort %>% 
-                                                     mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_neg_6to13_vs_14to20_nocibersort$leadingEdge <- NULL
-fgsea_pax_neg_6to13_vs_14to20_nocibersort$Sample <- "6-13 vs. 14-20 yr"
-write_xlsx(fgsea_pax_neg_6to13_vs_14to20_nocibersort, "Statistical_Analyses/1_COVID_Neg_by_Age/modules_pax_neg_6to13_vs_14to20_nocibersort.xlsx")
-
-res_pax_neg_0to5_vs_adult_nocibersort <- as_tibble(dds_pax_neg_0to5_vs_adult_nocibersort)
-res2_pax_neg_0to5_vs_adult_nocibersort <- res_pax_neg_0to5_vs_adult_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_neg_0to5_vs_adult_nocibersort <- deframe(res2_pax_neg_0to5_vs_adult_nocibersort)
-fgsea_pax_neg_0to5_vs_adult_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_neg_0to5_vs_adult_nocibersort)
-fgsea_pax_neg_0to5_vs_adult_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_neg_0to5_vs_adult_nocibersort))) {fgsea_pax_neg_0to5_vs_adult_nocibersort[i,9]<-(length(unlist(fgsea_pax_neg_0to5_vs_adult_nocibersort[i,8])))/fgsea_pax_neg_0to5_vs_adult_nocibersort[i,7]}
-fgsea_pax_neg_0to5_vs_adult_nocibersort <- data.frame(fgsea_pax_neg_0to5_vs_adult_nocibersort %>% 
-                                                   mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_neg_0to5_vs_adult_nocibersort$leadingEdge <- NULL
-fgsea_pax_neg_0to5_vs_adult_nocibersort$Sample <- "0-5 yr vs. Adult"
-write_xlsx(fgsea_pax_neg_0to5_vs_adult_nocibersort, "Statistical_Analyses/1_COVID_Neg_by_Age/modules_pax_neg_0to5_vs_adult_nocibersort.xlsx")
-
-res_pax_neg_6to13_vs_adult_nocibersort <- as_tibble(dds_pax_neg_6to13_vs_adult_nocibersort)
-res2_pax_neg_6to13_vs_adult_nocibersort <- res_pax_neg_6to13_vs_adult_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_neg_6to13_vs_adult_nocibersort <- deframe(res2_pax_neg_6to13_vs_adult_nocibersort)
-fgsea_pax_neg_6to13_vs_adult_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_neg_6to13_vs_adult_nocibersort)
-fgsea_pax_neg_6to13_vs_adult_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_neg_6to13_vs_adult_nocibersort))) {fgsea_pax_neg_6to13_vs_adult_nocibersort[i,9]<-(length(unlist(fgsea_pax_neg_6to13_vs_adult_nocibersort[i,8])))/fgsea_pax_neg_6to13_vs_adult_nocibersort[i,7]}
-fgsea_pax_neg_6to13_vs_adult_nocibersort <- data.frame(fgsea_pax_neg_6to13_vs_adult_nocibersort %>% 
-                                                    mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_neg_6to13_vs_adult_nocibersort$leadingEdge <- NULL
-fgsea_pax_neg_6to13_vs_adult_nocibersort$Sample <- "6-13 yr vs. Adult"
-write_xlsx(fgsea_pax_neg_6to13_vs_adult_nocibersort, "Statistical_Analyses/1_COVID_Neg_by_Age/modules_pax_neg_6to13_vs_adult_nocibersort.xlsx")
-
-res_pax_neg_14to20_vs_adult_nocibersort <- as_tibble(dds_pax_neg_14to20_vs_adult_nocibersort)
-res2_pax_neg_14to20_vs_adult_nocibersort <- res_pax_neg_14to20_vs_adult_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_neg_14to20_vs_adult_nocibersort <- deframe(res2_pax_neg_14to20_vs_adult_nocibersort)
-fgsea_pax_neg_14to20_vs_adult_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_neg_14to20_vs_adult_nocibersort)
-fgsea_pax_neg_14to20_vs_adult_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_neg_14to20_vs_adult_nocibersort))) {fgsea_pax_neg_14to20_vs_adult_nocibersort[i,9]<-(length(unlist(fgsea_pax_neg_14to20_vs_adult_nocibersort[i,8])))/fgsea_pax_neg_14to20_vs_adult_nocibersort[i,7]}
-fgsea_pax_neg_14to20_vs_adult_nocibersort <- data.frame(fgsea_pax_neg_14to20_vs_adult_nocibersort %>% 
-                                                     mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_neg_14to20_vs_adult_nocibersort$leadingEdge <- NULL
-fgsea_pax_neg_14to20_vs_adult_nocibersort$Sample <- "14-20 yr vs. Adult"
-write_xlsx(fgsea_pax_neg_14to20_vs_adult_nocibersort, "Statistical_Analyses/1_COVID_Neg_by_Age/modules_pax_neg_14to20_vs_adult_nocibersort.xlsx")
-
 ####################################################
 ### DIFFERENCES IN NP EXPRESSION BY COVID STATUS ###
 ####################################################
@@ -309,22 +213,6 @@ fgsea_pax_pos_neg_cibersort <- data.frame(fgsea_pax_pos_neg_cibersort %>%
                                  mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
 fgsea_pax_pos_neg_cibersort$leadingEdge <- NULL
 write_xlsx(fgsea_pax_pos_neg_cibersort, "Statistical_Analyses/2_COVID_Pos_vs_Neg/modules_pax_pos_neg_cibersort.xlsx")
-
-#############################################################
-#### DIFFERENCES IN PAX GENE EXPRESSION BY COVID STATUS #####
-# ANALYSES WITHOUT ADJUSTMENT FOR IMPUTED CELL PROPORTIONS ##
-#############################################################
-
-res_pax_pos_neg_nocibersort <- as_tibble(dds_pax_pos_neg_nocibersort)
-res2_pax_pos_neg_nocibersort <- res_pax_pos_neg_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_pos_neg_nocibersort <- deframe(res2_pax_pos_neg_nocibersort)
-fgsea_pax_pos_neg_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_pos_neg_nocibersort)
-fgsea_pax_pos_neg_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_pos_neg_nocibersort))) {fgsea_pax_pos_neg_nocibersort[i,9]<-(length(unlist(fgsea_pax_pos_neg_nocibersort[i,8])))/fgsea_pax_pos_neg_nocibersort[i,7]}
-fgsea_pax_pos_neg_nocibersort <- data.frame(fgsea_pax_pos_neg_nocibersort %>% 
-                                            mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_pos_neg_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_pos_neg_nocibersort, "Statistical_Analyses/2_COVID_Pos_vs_Neg/modules_pax_pos_neg_nocibersort.xlsx")
 
 ##############################################################
 ### COMPARING NP SAMPLES BY COVID STATUS IN AGE CATEGORIES ###
@@ -418,59 +306,6 @@ fgsea_pax_adult_pos_neg_cibersort <- data.frame(fgsea_pax_adult_pos_neg_cibersor
 fgsea_pax_adult_pos_neg_cibersort$leadingEdge <- NULL
 fgsea_pax_adult_pos_neg_cibersort$Sample <- "Adult"
 write_xlsx(fgsea_pax_adult_pos_neg_cibersort, "Statistical_Analyses/3_COVID_Pos_by_Age/modules_pax_adult_pos_neg_cibersort.xlsx")
-
-###############################################################
-### COMPARING PAX SAMPLES BY COVID STATUS IN AGE CATEGORIES ###
-## ANALYSES WITHOUT ADJUSTMENT FOR IMPUTED CELL PROPORTIONS ###
-###############################################################
-
-res_pax_0to5_pos_neg_nocibersort <- as_tibble(dds_pax_0to5_pos_neg_nocibersort)
-res2_pax_0to5_pos_neg_nocibersort <- res_pax_0to5_pos_neg_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_0to5_pos_neg_nocibersort <- deframe(res2_pax_0to5_pos_neg_nocibersort)
-fgsea_pax_0to5_pos_neg_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_0to5_pos_neg_nocibersort)
-fgsea_pax_0to5_pos_neg_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_0to5_pos_neg_nocibersort))) {fgsea_pax_0to5_pos_neg_nocibersort[i,9]<-(length(unlist(fgsea_pax_0to5_pos_neg_nocibersort[i,8])))/fgsea_pax_0to5_pos_neg_nocibersort[i,7]}
-fgsea_pax_0to5_pos_neg_nocibersort <- data.frame(fgsea_pax_0to5_pos_neg_nocibersort %>% 
-                                                 mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_0to5_pos_neg_nocibersort$leadingEdge <- NULL
-fgsea_pax_0to5_pos_neg_nocibersort$Sample <- "0-5 yr"
-write_xlsx(fgsea_pax_0to5_pos_neg_nocibersort, "Statistical_Analyses/3_COVID_Pos_by_Age/modules_pax_0to5_pos_neg_nocibersort.xlsx")
-
-res_pax_6to13_pos_neg_nocibersort <- as_tibble(dds_pax_6to13_pos_neg_nocibersort)
-res2_pax_6to13_pos_neg_nocibersort <- res_pax_6to13_pos_neg_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_6to13_pos_neg_nocibersort <- deframe(res2_pax_6to13_pos_neg_nocibersort)
-fgsea_pax_6to13_pos_neg_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_6to13_pos_neg_nocibersort)
-fgsea_pax_6to13_pos_neg_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_6to13_pos_neg_nocibersort))) {fgsea_pax_6to13_pos_neg_nocibersort[i,9]<-(length(unlist(fgsea_pax_6to13_pos_neg_nocibersort[i,8])))/fgsea_pax_6to13_pos_neg_nocibersort[i,7]}
-fgsea_pax_6to13_pos_neg_nocibersort <- data.frame(fgsea_pax_6to13_pos_neg_nocibersort %>% 
-                                                  mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_6to13_pos_neg_nocibersort$leadingEdge <- NULL
-fgsea_pax_6to13_pos_neg_nocibersort$Sample <- "6-13 yr"
-write_xlsx(fgsea_pax_6to13_pos_neg_nocibersort, "Statistical_Analyses/3_COVID_Pos_by_Age/modules_pax_6to13_pos_neg_nocibersort.xlsx")
-
-res_pax_14to20_pos_neg_nocibersort <- as_tibble(dds_pax_14to20_pos_neg_nocibersort)
-res2_pax_14to20_pos_neg_nocibersort <- res_pax_14to20_pos_neg_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_14to20_pos_neg_nocibersort <- deframe(res2_pax_14to20_pos_neg_nocibersort)
-fgsea_pax_14to20_pos_neg_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_14to20_pos_neg_nocibersort)
-fgsea_pax_14to20_pos_neg_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_14to20_pos_neg_nocibersort))) {fgsea_pax_14to20_pos_neg_nocibersort[i,9]<-(length(unlist(fgsea_pax_14to20_pos_neg_nocibersort[i,8])))/fgsea_pax_14to20_pos_neg_nocibersort[i,7]}
-fgsea_pax_14to20_pos_neg_nocibersort <- data.frame(fgsea_pax_14to20_pos_neg_nocibersort %>% 
-                                                   mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_14to20_pos_neg_nocibersort$leadingEdge <- NULL
-fgsea_pax_14to20_pos_neg_nocibersort$Sample <- "14-20 yr"
-write_xlsx(fgsea_pax_14to20_pos_neg_nocibersort, "Statistical_Analyses/3_COVID_Pos_by_Age/modules_pax_14to20_pos_neg_nocibersort.xlsx")
-
-res_pax_adult_pos_neg_nocibersort <- as_tibble(dds_pax_adult_pos_neg_nocibersort)
-res2_pax_adult_pos_neg_nocibersort <- res_pax_adult_pos_neg_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_adult_pos_neg_nocibersort <- deframe(res2_pax_adult_pos_neg_nocibersort)
-fgsea_pax_adult_pos_neg_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_adult_pos_neg_nocibersort)
-fgsea_pax_adult_pos_neg_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_adult_pos_neg_nocibersort))) {fgsea_pax_adult_pos_neg_nocibersort[i,9]<-(length(unlist(fgsea_pax_adult_pos_neg_nocibersort[i,8])))/fgsea_pax_adult_pos_neg_nocibersort[i,7]}
-fgsea_pax_adult_pos_neg_nocibersort <- data.frame(fgsea_pax_adult_pos_neg_nocibersort %>% 
-                                                  mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_adult_pos_neg_nocibersort$leadingEdge <- NULL
-fgsea_pax_adult_pos_neg_nocibersort$Sample <- "Adult"
-write_xlsx(fgsea_pax_adult_pos_neg_nocibersort, "Statistical_Analyses/3_COVID_Pos_by_Age/modules_pax_adult_pos_neg_nocibersort.xlsx")
 
 ###############################################################################
 ### MODELS FOR PATIENT CHARACTERISTICS & SYMPTOMS AMONG COVID+ - NP SAMPLES ###
@@ -696,116 +531,3 @@ fgsea_pax_myalgias_cibersort <- data.frame(fgsea_pax_myalgias_cibersort %>%
                                                mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
 fgsea_pax_myalgias_cibersort$leadingEdge <- NULL
 write_xlsx(fgsea_pax_myalgias_cibersort, "Statistical_Analyses/4_Symptoms/modules_pax_myalgias_cibersort.xlsx")
-
-################################################################################
-### MODELS FOR PATIENT CHARACTERISTICS & SYMPTOMS AMONG COVID+ - PAX SAMPLES ###
-########## ANALYSES WITHOUT ADJUSTMENT FOR IMPUTED CELL PROPORTIONS ############
-################################################################################
-
-# Fever
-res_pax_fever_nocibersort <- as_tibble(dds_pax_fever_nocibersort)
-res2_pax_fever_nocibersort <- res_pax_fever_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_fever_nocibersort <- deframe(res2_pax_fever_nocibersort)
-fgsea_pax_fever_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_fever_nocibersort)
-fgsea_pax_fever_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_fever_nocibersort))) {fgsea_pax_fever_nocibersort[i,9]<-(length(unlist(fgsea_pax_fever_nocibersort[i,8])))/fgsea_pax_fever_nocibersort[i,7]}
-fgsea_pax_fever_nocibersort <- data.frame(fgsea_pax_fever_nocibersort %>% 
-                               mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_fever_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_fever_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_fever_nocibersort.xlsx")
-
-# Cough
-res_pax_cough_nocibersort <- as_tibble(dds_pax_cough_nocibersort)
-res2_pax_cough_nocibersort <- res_pax_cough_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_cough_nocibersort <- deframe(res2_pax_cough_nocibersort)
-fgsea_pax_cough_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_cough_nocibersort)
-fgsea_pax_cough_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_cough_nocibersort))) {fgsea_pax_cough_nocibersort[i,9]<-(length(unlist(fgsea_pax_cough_nocibersort[i,8])))/fgsea_pax_cough_nocibersort[i,7]}
-fgsea_pax_cough_nocibersort <- data.frame(fgsea_pax_cough_nocibersort %>% 
-                               mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_cough_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_cough_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_cough_nocibersort.xlsx")
-
-# Rhinorrhea
-res_pax_rhinorrhea_nocibersort <- as_tibble(dds_pax_rhinorrhea_nocibersort)
-res2_pax_rhinorrhea_nocibersort <- res_pax_rhinorrhea_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_rhinorrhea_nocibersort <- deframe(res2_pax_rhinorrhea_nocibersort)
-fgsea_pax_rhinorrhea_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_rhinorrhea_nocibersort)
-fgsea_pax_rhinorrhea_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_rhinorrhea_nocibersort))) {fgsea_pax_rhinorrhea_nocibersort[i,9]<-(length(unlist(fgsea_pax_rhinorrhea_nocibersort[i,8])))/fgsea_pax_rhinorrhea_nocibersort[i,7]}
-fgsea_pax_rhinorrhea_nocibersort <- data.frame(fgsea_pax_rhinorrhea_nocibersort %>% 
-                                    mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_rhinorrhea_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_rhinorrhea_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_rhinorrhea_nocibersort.xlsx")
-
-# Nasal congestion
-res_pax_congestion_nocibersort <- as_tibble(dds_pax_congestion_nocibersort)
-res2_pax_congestion_nocibersort <- res_pax_congestion_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_congestion_nocibersort <- deframe(res2_pax_congestion_nocibersort)
-fgsea_pax_congestion_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_congestion_nocibersort)
-fgsea_pax_congestion_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_congestion_nocibersort))) {fgsea_pax_congestion_nocibersort[i,9]<-(length(unlist(fgsea_pax_congestion_nocibersort[i,8])))/fgsea_pax_congestion_nocibersort[i,7]}
-fgsea_pax_congestion_nocibersort <- data.frame(fgsea_pax_congestion_nocibersort %>% 
-                                    mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_congestion_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_congestion_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_congestion_nocibersort.xlsx")
-
-# Headache
-res_pax_headache_nocibersort <- as_tibble(dds_pax_headache_nocibersort)
-res2_pax_headache_nocibersort <- res_pax_headache_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_headache_nocibersort <- deframe(res2_pax_headache_nocibersort)
-fgsea_pax_headache_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_headache_nocibersort)
-fgsea_pax_headache_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_headache_nocibersort))) {fgsea_pax_headache_nocibersort[i,9]<-(length(unlist(fgsea_pax_headache_nocibersort[i,8])))/fgsea_pax_headache_nocibersort[i,7]}
-fgsea_pax_headache_nocibersort <- data.frame(fgsea_pax_headache_nocibersort %>% 
-                                  mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_headache_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_headache_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_headache_nocibersort.xlsx")
-
-# Abdominal pain
-res_pax_abd_pain_nocibersort <- as_tibble(dds_pax_abd_pain_nocibersort)
-res2_pax_abd_pain_nocibersort <- res_pax_abd_pain_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_abd_pain_nocibersort <- deframe(res2_pax_abd_pain_nocibersort)
-fgsea_pax_abd_pain_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_abd_pain_nocibersort)
-fgsea_pax_abd_pain_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_abd_pain_nocibersort))) {fgsea_pax_abd_pain_nocibersort[i,9]<-(length(unlist(fgsea_pax_abd_pain_nocibersort[i,8])))/fgsea_pax_abd_pain_nocibersort[i,7]}
-fgsea_pax_abd_pain_nocibersort <- data.frame(fgsea_pax_abd_pain_nocibersort %>% 
-                                  mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_abd_pain_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_abd_pain_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_abd_pain_nocibersort.xlsx")
-
-# Anosmia
-res_pax_anosmia_nocibersort <- as_tibble(dds_pax_anosmia_nocibersort)
-res2_pax_anosmia_nocibersort <- res_pax_anosmia_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_anosmia_nocibersort <- deframe(res2_pax_anosmia_nocibersort)
-fgsea_pax_anosmia_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_anosmia_nocibersort)
-fgsea_pax_anosmia_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_anosmia_nocibersort))) {fgsea_pax_anosmia_nocibersort[i,9]<-(length(unlist(fgsea_pax_anosmia_nocibersort[i,8])))/fgsea_pax_anosmia_nocibersort[i,7]}
-fgsea_pax_anosmia_nocibersort <- data.frame(fgsea_pax_anosmia_nocibersort %>% 
-                                 mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_anosmia_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_anosmia_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_anosmia_nocibersort.xlsx")
-
-# Dysgeusia
-res_pax_dysgeusia_nocibersort <- as_tibble(dds_pax_dysgeusia_nocibersort)
-res2_pax_dysgeusia_nocibersort <- res_pax_dysgeusia_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_dysgeusia_nocibersort <- deframe(res2_pax_dysgeusia_nocibersort)
-fgsea_pax_dysgeusia_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_dysgeusia_nocibersort)
-fgsea_pax_dysgeusia_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_dysgeusia_nocibersort))) {fgsea_pax_dysgeusia_nocibersort[i,9]<-(length(unlist(fgsea_pax_dysgeusia_nocibersort[i,8])))/fgsea_pax_dysgeusia_nocibersort[i,7]}
-fgsea_pax_dysgeusia_nocibersort <- data.frame(fgsea_pax_dysgeusia_nocibersort %>% 
-                                   mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_dysgeusia_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_dysgeusia_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_dysgeusia_nocibersort.xlsx")
-
-# Myalgias
-res_pax_myalgias_nocibersort <- as_tibble(dds_pax_myalgias_nocibersort)
-res2_pax_myalgias_nocibersort <- res_pax_myalgias_nocibersort %>% dplyr::select(Gene, stat) %>% na.omit() %>% distinct() %>% group_by(Gene) %>% dplyr::summarize(stat=mean(stat))
-ranks_pax_myalgias_nocibersort <- deframe(res2_pax_myalgias_nocibersort)
-fgsea_pax_myalgias_nocibersort <- fgsea(pathways=modules_61, stats=ranks_pax_myalgias_nocibersort)
-fgsea_pax_myalgias_nocibersort$GeneRatio <- 1
-for(i in 1:(nrow(fgsea_pax_myalgias_nocibersort))) {fgsea_pax_myalgias_nocibersort[i,9]<-(length(unlist(fgsea_pax_myalgias_nocibersort[i,8])))/fgsea_pax_myalgias_nocibersort[i,7]}
-fgsea_pax_myalgias_nocibersort <- data.frame(fgsea_pax_myalgias_nocibersort %>% 
-                                  mutate(Expression = case_when(NES >= 1 & padj <= 0.05 ~ "Up-regulated", NES <= -1 & padj <= 0.05 ~ "Down-regulated", TRUE ~ "Unchanged")))
-fgsea_pax_myalgias_nocibersort$leadingEdge <- NULL
-write_xlsx(fgsea_pax_myalgias_nocibersort, "Statistical_Analyses/4_Symptoms/modules_pax_myalgias_nocibersort.xlsx")

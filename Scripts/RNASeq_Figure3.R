@@ -2,12 +2,12 @@
 # Aditya Mohan (MD/PhD candidate) / Matthew Kelly, MD, MPH 
 # Figure 3 - cell populations and gene module expression among SARS-CoV-2-infected children, adolescents, and adults
 # Analyses of gene module expression in peripheral blood samples adjusted for imputed cell proportions
-# Last update: June 8, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("____________________") 
 set.seed(1234)
-version
+getRversion()
 
 library(readr)
 library(dplyr)
@@ -38,8 +38,8 @@ metadata_np_pos_pops$age_cat <- factor(metadata_np_pos_pops$age_cat, levels=c("0
 metadata_np_pos_pops <- gather(metadata_np_pos_pops, cell_type, value, B_cells:Neutrophils, factor_key=TRUE)
 metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="B_cells"] <- "B cells"
 metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="Plasma_cells"] <- "Plasma cells"
-metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="T_cells_CD8"] <- "CD4+ T cells"
-metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="T_cells_CD4"] <- "CD8+ T cells"
+metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="T_cells_CD4"] <- "CD4+ T cells"
+metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="T_cells_CD8"] <- "CD8+ T cells"
 metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="T_cells_gamma_delta"] <- "Gamma delta T cells"
 metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="NK_cells"] <- "NK cells"
 metadata_np_pos_pops$cell_type2[metadata_np_pos_pops$cell_type=="Mono_Macrophages"] <- "Mono/macrophages"
@@ -61,8 +61,8 @@ metadata_pax_pos_pops$age_cat <- factor(metadata_pax_pos_pops$age_cat, levels=c(
 metadata_pax_pos_pops <- gather(metadata_pax_pos_pops, cell_type, value, B_cells:Neutrophils, factor_key=TRUE)
 metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="B_cells"] <- "B cells"
 metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="Plasma_cells"] <- "Plasma cells"
-metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="T_cells_CD8"] <- "CD4+ T cells"
-metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="T_cells_CD4"] <- "CD8+ T cells"
+metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="T_cells_CD4"] <- "CD4+ T cells"
+metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="T_cells_CD8"] <- "CD8+ T cells"
 metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="T_cells_gamma_delta"] <- "Gamma delta T cells"
 metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="NK_cells"] <- "NK cells"
 metadata_pax_pos_pops$cell_type2[metadata_pax_pos_pops$cell_type=="Mono_Macrophages"] <- "Mono/macrophages"
@@ -279,3 +279,10 @@ fig3_modules <- plot_grid(module_plot_np, NULL, module_plot_pax, labels=NULL, nc
 png(file="Statistical_Analyses/Figures/Figure_3.png", width = 13.5, height = 11, units = 'in', res = 1200)
 plot_grid(fig3_cibersort, fig3_modules, labels=c("","c"), ncol=2, rel_widths=c(0.95,1), align="h") 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('Fig3a'=metadata_np_pos_pops, 'Fig3b'=metadata_pax_pos_pops, 'Fig3c_URT_0to5'=fsgea_np_0to5_pos_neg_nocibersort,
+                    'Fig3c_URT_6to13'=fsgea_np_6to13_pos_neg_nocibersort, 'Fig3c_URT_14to20'=fsgea_np_14to20_pos_neg_nocibersort, 
+                    'Fig3c_BLD_0to5'=fsgea_pax_0to5_pos_neg_cibersort, 'Fig3c_BLD_6to13'=fsgea_pax_6to13_pos_neg_cibersort,
+                    'Fig3c_BLD_14to20'=fsgea_pax_14to20_pos_neg_cibersort, 'Fig3c_BLD_adult'=fsgea_pax_adult_pos_neg_cibersort)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_3.xlsx")

@@ -2,12 +2,12 @@
 # Aditya Mohan (MD/PhD candidate)  / Matthew Kelly, MD, MPH 
 # Figure S1 - comparison of gene expression in upper respiratory & peripheral blood samples in healthy individuals by age
 # Analyses of gene expression in peripheral blood samples adjusted for imputed cell proportions
-# Last update: June 8, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("_____________________") 
 set.seed(2222)
-version
+getRversion()
 
 library(readr)
 library(dplyr)
@@ -210,3 +210,11 @@ set.seed(4321)
 png(file="Statistical_Analyses/Figures/Figure_S1.png", width = 18, height = 12, units = 'in', res = 1200)
 plot_grid(title_np, volcano_np, title_pax, volcano_pax_peds, volcano_pax_adult, rel_heights=c(0.15,1,0.15,1,1), nrow=5, align="v", labels=c("a","","b","","")) 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('FigS1a_URT_0to5_vs_6to13'=dds_np_neg_0to5_vs_6to13_nocibersort, 'FigS1a_URT_0to5_vs_14to20'=dds_np_neg_0to5_vs_14to20_nocibersort,
+                    'FigS1a_URT_6to13_vs_14to20'=dds_np_neg_6to13_vs_14to20_nocibersort, 
+                    'FigS1b_BLD_0to5_vs_6to13'=dds_pax_neg_0to5_vs_6to13_cibersort, 'FigS1b_BLD_0to5_vs_14to20'=dds_pax_neg_0to5_vs_14to20_cibersort, 
+                    'FigS1b_BLD_6to13_vs_14to20'=dds_pax_neg_6to13_vs_14to20_cibersort, 'FigS1b_BLD_0to5_vs_adult'=dds_pax_neg_0to5_vs_adult_cibersort, 
+                    'FigS1b_BLD_6to13_vs_adult'=dds_pax_neg_6to13_vs_adult_cibersort, 'FigS1b_BLD_14to20_vs_adult'=dds_pax_neg_14to20_vs_adult_cibersort)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_S1.xlsx")

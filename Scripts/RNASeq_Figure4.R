@@ -2,12 +2,12 @@
 # Aditya Mohan (MD/PhD candidate) / Matthew Kelly, MD, MPH 
 # Figure 4 - heatmap of gene module expression by symptom presence in SARS-CoV-2-infected individuals
 # Analyses of gene module expression in peripheral blood samples adjusted for imputed cell proportions
-# Last update: June 13, 2024
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("___________________") 
 set.seed(1234)
-version
+getRversion()
 
 library(readr)
 library(circlize)
@@ -215,3 +215,8 @@ legend <- get_legend(legend_plot)
 png(file="Statistical_Analyses/Figures/Figure_4.png", width = 18, height = 8, units = 'in', res = 1200)
 plot_grid(heatmaps, legend, labels=NULL, ncol=2, rel_widths = c(1,0.1)) 
 dev.off()
+
+# Save files as a Source Data file
+source_data <- list('Fig4_URT_innate'=fgsea_np_innate, 'Fig4_URT_adaptive'=fgsea_np_adaptive, 
+                    'Fig4_BLD_innate'=fgsea_pax_innate, 'Fig4_BLD_adaptive'=fgsea_pax_adaptive)
+openxlsx::write.xlsx(source_data, file="Statistical_Analyses/Source_Data/Figure_4.xlsx")

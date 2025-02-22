@@ -1,11 +1,12 @@
 # BRAVE Kids RNA Sequencing Analysis
 # Aditya Mohan (MD/PhD candidate) / Matthew Kelly, MD, MPH 
-# Results presented in manuscript text and Tables 1, S1, and S2
-# Last update: June 18, 2024
+# Results presented in manuscript text and Tables 1, Supplementary Data 1 and 2
+# Last update: February 21, 2025
 
 remove(list=ls())
-setwd("____________________________") 
+setwd("G:/My Drive/Research/BRAVE_Kids/RNA_Sequencing/") 
 set.seed(1234)
+getRversion()
 
 library(readxl)
 library(openxlsx)
