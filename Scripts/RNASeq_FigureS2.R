@@ -4,7 +4,7 @@
 # Last update: February 21, 2025
 
 remove(list=ls())
-setwd("__________________") 
+setwd("____________________") 
 set.seed(1234)
 getRversion()
 
@@ -23,6 +23,7 @@ library(tibble)
 library(msigdbr)
 library(reshape2)
 library(data.table)
+library(phyloseq)
 
 # Upload files with CIBERSORTx data
 phy.rnaseq.np <- readRDS("phy.rnaseq.np.rds")
@@ -116,8 +117,8 @@ cibersort_pax <- ggplot(metadata_pax_pops, aes(x=cell_type2, y=value, fill=coron
   ggtitle("Peripheral blood") + 
   annotate("text", x=8, y=0.51, size=5, label= "*") # Plasma cells (age-adjusted beta regression, p=0.03)
 
-png(file="Statistical_Analyses/Figures/Figure_S2.png", width = 6, height = 8, units = 'in', res = 1200)
-plot_grid(cibersort_np, cibersort_pax, labels=c("a","b"), label_size=12, ncol=1) 
+png(file="Statistical_Analyses/Figures/Figure_S2.png", width = 12, height = 4, units = 'in', res = 1200)
+plot_grid(cibersort_np, cibersort_pax, labels=c("a","b"), label_size=12, nrow=1) 
 dev.off()
 
 # Save files as a Source Data file
